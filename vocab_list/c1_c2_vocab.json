@@ -1,0 +1,8752 @@
+[
+    {
+        "rank": 3751,
+        "word": "montaje",
+        "lemma": "montaje",
+        "freq_abs": 3772,
+        "freq_norm": 24.72
+    },
+    {
+        "rank": 3752,
+        "word": "supongo",
+        "lemma": "suponer",
+        "freq_abs": 3772,
+        "freq_norm": 24.72
+    },
+    {
+        "rank": 3753,
+        "word": "tve",
+        "lemma": "tve",
+        "freq_abs": 3770,
+        "freq_norm": 24.71
+    },
+    {
+        "rank": 3754,
+        "word": "abandono",
+        "lemma": "abandono",
+        "freq_abs": 3765,
+        "freq_norm": 24.67
+    },
+    {
+        "rank": 3755,
+        "word": "irene",
+        "lemma": "irenir",
+        "freq_abs": 3764,
+        "freq_norm": 24.67
+    },
+    {
+        "rank": 3756,
+        "word": "modificaci\u00f3n",
+        "lemma": "modificaci\u00f3n",
+        "freq_abs": 3764,
+        "freq_norm": 24.67
+    },
+    {
+        "rank": 3757,
+        "word": "eco",
+        "lemma": "eco",
+        "freq_abs": 3763,
+        "freq_norm": 24.66
+    },
+    {
+        "rank": 3758,
+        "word": "new",
+        "lemma": "new",
+        "freq_abs": 3763,
+        "freq_norm": 24.66
+    },
+    {
+        "rank": 3759,
+        "word": "exilio",
+        "lemma": "exilio",
+        "freq_abs": 3762,
+        "freq_norm": 24.65
+    },
+    {
+        "rank": 3760,
+        "word": "provocado",
+        "lemma": "provocado",
+        "freq_abs": 3762,
+        "freq_norm": 24.65
+    },
+    {
+        "rank": 3761,
+        "word": "sesiones",
+        "lemma": "sesi\u00f3n",
+        "freq_abs": 3762,
+        "freq_norm": 24.65
+    },
+    {
+        "rank": 3762,
+        "word": "nubes",
+        "lemma": "nube",
+        "freq_abs": 3761,
+        "freq_norm": 24.65
+    },
+    {
+        "rank": 3763,
+        "word": "paul",
+        "lemma": "paul",
+        "freq_abs": 3758,
+        "freq_norm": 24.63
+    },
+    {
+        "rank": 3764,
+        "word": "entrenamiento",
+        "lemma": "entrenamiento",
+        "freq_abs": 3757,
+        "freq_norm": 24.62
+    },
+    {
+        "rank": 3765,
+        "word": "espectacular",
+        "lemma": "espectacular",
+        "freq_abs": 3757,
+        "freq_norm": 24.62
+    },
+    {
+        "rank": 3766,
+        "word": "perfecta",
+        "lemma": "perfecto",
+        "freq_abs": 3757,
+        "freq_norm": 24.62
+    },
+    {
+        "rank": 3767,
+        "word": "extraordinario",
+        "lemma": "extraordinario",
+        "freq_abs": 3756,
+        "freq_norm": 24.62
+    },
+    {
+        "rank": 3768,
+        "word": "dices",
+        "lemma": "diz",
+        "freq_abs": 3755,
+        "freq_norm": 24.61
+    },
+    {
+        "rank": 3769,
+        "word": "esposo",
+        "lemma": "esposo",
+        "freq_abs": 3755,
+        "freq_norm": 24.61
+    },
+    {
+        "rank": 3770,
+        "word": "capitales",
+        "lemma": "capital",
+        "freq_abs": 3754,
+        "freq_norm": 24.6
+    },
+    {
+        "rank": 3771,
+        "word": "colombiano",
+        "lemma": "colombiano",
+        "freq_abs": 3754,
+        "freq_norm": 24.6
+    },
+    {
+        "rank": 3772,
+        "word": "modificar",
+        "lemma": "modificar",
+        "freq_abs": 3751,
+        "freq_norm": 24.58
+    },
+    {
+        "rank": 3773,
+        "word": "muerta",
+        "lemma": "muerto",
+        "freq_abs": 3750,
+        "freq_norm": 24.58
+    },
+    {
+        "rank": 3774,
+        "word": "extraordinaria",
+        "lemma": "extraordinario",
+        "freq_abs": 3749,
+        "freq_norm": 24.57
+    },
+    {
+        "rank": 3775,
+        "word": "viviendo",
+        "lemma": "vivir",
+        "freq_abs": 3749,
+        "freq_norm": 24.57
+    },
+    {
+        "rank": 3776,
+        "word": "distinguir",
+        "lemma": "distinguir",
+        "freq_abs": 3748,
+        "freq_norm": 24.56
+    },
+    {
+        "rank": 3777,
+        "word": "ocurrir",
+        "lemma": "ocurrir",
+        "freq_abs": 3748,
+        "freq_norm": 24.56
+    },
+    {
+        "rank": 3778,
+        "word": "lanz\u00f3",
+        "lemma": "lanzar",
+        "freq_abs": 3745,
+        "freq_norm": 24.54
+    },
+    {
+        "rank": 3779,
+        "word": "decide",
+        "lemma": "decidir",
+        "freq_abs": 3744,
+        "freq_norm": 24.54
+    },
+    {
+        "rank": 3780,
+        "word": "dibujo",
+        "lemma": "dibujo",
+        "freq_abs": 3744,
+        "freq_norm": 24.54
+    },
+    {
+        "rank": 3781,
+        "word": "\u00e9pocas",
+        "lemma": "\u00e9poca",
+        "freq_abs": 3744,
+        "freq_norm": 24.54
+    },
+    {
+        "rank": 3782,
+        "word": "entreg\u00f3",
+        "lemma": "entregar",
+        "freq_abs": 3743,
+        "freq_norm": 24.53
+    },
+    {
+        "rank": 3783,
+        "word": "f\u00edsicas",
+        "lemma": "f\u00edsico",
+        "freq_abs": 3741,
+        "freq_norm": 24.52
+    },
+    {
+        "rank": 3784,
+        "word": "locura",
+        "lemma": "locura",
+        "freq_abs": 3739,
+        "freq_norm": 24.5
+    },
+    {
+        "rank": 3785,
+        "word": "george",
+        "lemma": "george",
+        "freq_abs": 3738,
+        "freq_norm": 24.5
+    },
+    {
+        "rank": 3786,
+        "word": "piloto",
+        "lemma": "piloto",
+        "freq_abs": 3737,
+        "freq_norm": 24.49
+    },
+    {
+        "rank": 3787,
+        "word": "cerrada",
+        "lemma": "cerrado",
+        "freq_abs": 3735,
+        "freq_norm": 24.48
+    },
+    {
+        "rank": 3788,
+        "word": "comenzado",
+        "lemma": "comenzado",
+        "freq_abs": 3734,
+        "freq_norm": 24.47
+    },
+    {
+        "rank": 3789,
+        "word": "psicolog\u00eda",
+        "lemma": "psicolog\u00eda",
+        "freq_abs": 3734,
+        "freq_norm": 24.47
+    },
+    {
+        "rank": 3790,
+        "word": "convertir",
+        "lemma": "convertir",
+        "freq_abs": 3732,
+        "freq_norm": 24.46
+    },
+    {
+        "rank": 3791,
+        "word": "escritos",
+        "lemma": "escrito",
+        "freq_abs": 3732,
+        "freq_norm": 24.46
+    },
+    {
+        "rank": 3792,
+        "word": "arag\u00f3n",
+        "lemma": "arag\u00f3n",
+        "freq_abs": 3731,
+        "freq_norm": 24.45
+    },
+    {
+        "rank": 3793,
+        "word": "evento",
+        "lemma": "eventir",
+        "freq_abs": 3731,
+        "freq_norm": 24.45
+    },
+    {
+        "rank": 3794,
+        "word": "m\u00fasculos",
+        "lemma": "m\u00fasculo",
+        "freq_abs": 3731,
+        "freq_norm": 24.45
+    },
+    {
+        "rank": 3795,
+        "word": "circuito",
+        "lemma": "circuito",
+        "freq_abs": 3730,
+        "freq_norm": 24.44
+    },
+    {
+        "rank": 3796,
+        "word": "incapaz",
+        "lemma": "incapaz",
+        "freq_abs": 3729,
+        "freq_norm": 24.44
+    },
+    {
+        "rank": 3797,
+        "word": "combatir",
+        "lemma": "combatir",
+        "freq_abs": 3728,
+        "freq_norm": 24.43
+    },
+    {
+        "rank": 3798,
+        "word": "est\u00f3mago",
+        "lemma": "est\u00f3mago",
+        "freq_abs": 3728,
+        "freq_norm": 24.43
+    },
+    {
+        "rank": 3799,
+        "word": "estudiante",
+        "lemma": "estudiante",
+        "freq_abs": 3728,
+        "freq_norm": 24.43
+    },
+    {
+        "rank": 3800,
+        "word": "subida",
+        "lemma": "subida",
+        "freq_abs": 3725,
+        "freq_norm": 24.41
+    },
+    {
+        "rank": 3801,
+        "word": "toledo",
+        "lemma": "toledo",
+        "freq_abs": 3725,
+        "freq_norm": 24.41
+    },
+    {
+        "rank": 3802,
+        "word": "ahorro",
+        "lemma": "ahorro",
+        "freq_abs": 3724,
+        "freq_norm": 24.41
+    },
+    {
+        "rank": 3803,
+        "word": "retorno",
+        "lemma": "retorno",
+        "freq_abs": 3720,
+        "freq_norm": 24.38
+    },
+    {
+        "rank": 3804,
+        "word": "promover",
+        "lemma": "promover",
+        "freq_abs": 3718,
+        "freq_norm": 24.37
+    },
+    {
+        "rank": 3805,
+        "word": "reciben",
+        "lemma": "recibir",
+        "freq_abs": 3718,
+        "freq_norm": 24.37
+    },
+    {
+        "rank": 3806,
+        "word": "m\u00e1quinas",
+        "lemma": "m\u00e1quina",
+        "freq_abs": 3717,
+        "freq_norm": 24.36
+    },
+    {
+        "rank": 3807,
+        "word": "sitios",
+        "lemma": "sitio",
+        "freq_abs": 3717,
+        "freq_norm": 24.36
+    },
+    {
+        "rank": 3808,
+        "word": "corriendo",
+        "lemma": "correr",
+        "freq_abs": 3716,
+        "freq_norm": 24.35
+    },
+    {
+        "rank": 3809,
+        "word": "escapar",
+        "lemma": "escapar",
+        "freq_abs": 3716,
+        "freq_norm": 24.35
+    },
+    {
+        "rank": 3810,
+        "word": "pensamientos",
+        "lemma": "pensamiento",
+        "freq_abs": 3716,
+        "freq_norm": 24.35
+    },
+    {
+        "rank": 3811,
+        "word": "ir\u00e1n",
+        "lemma": "ir",
+        "freq_abs": 3715,
+        "freq_norm": 24.35
+    },
+    {
+        "rank": 3812,
+        "word": "muro",
+        "lemma": "muro",
+        "freq_abs": 3714,
+        "freq_norm": 24.34
+    },
+    {
+        "rank": 3813,
+        "word": "ocupaci\u00f3n",
+        "lemma": "ocupaci\u00f3n",
+        "freq_abs": 3713,
+        "freq_norm": 24.33
+    },
+    {
+        "rank": 3814,
+        "word": "permanece",
+        "lemma": "permanecer",
+        "freq_abs": 3713,
+        "freq_norm": 24.33
+    },
+    {
+        "rank": 3815,
+        "word": "gallego",
+        "lemma": "gallego",
+        "freq_abs": 3712,
+        "freq_norm": 24.33
+    },
+    {
+        "rank": 3816,
+        "word": "pusieron",
+        "lemma": "poner",
+        "freq_abs": 3712,
+        "freq_norm": 24.33
+    },
+    {
+        "rank": 3817,
+        "word": "visual",
+        "lemma": "visual",
+        "freq_abs": 3711,
+        "freq_norm": 24.32
+    },
+    {
+        "rank": 3818,
+        "word": "iniciado",
+        "lemma": "iniciado",
+        "freq_abs": 3710,
+        "freq_norm": 24.31
+    },
+    {
+        "rank": 3819,
+        "word": "fiebre",
+        "lemma": "fiebre",
+        "freq_abs": 3709,
+        "freq_norm": 24.31
+    },
+    {
+        "rank": 3820,
+        "word": "rock",
+        "lemma": "rock",
+        "freq_abs": 3708,
+        "freq_norm": 24.3
+    },
+    {
+        "rank": 3821,
+        "word": "vargas",
+        "lemma": "varga",
+        "freq_abs": 3708,
+        "freq_norm": 24.3
+    },
+    {
+        "rank": 3822,
+        "word": "territorial",
+        "lemma": "territorial",
+        "freq_abs": 3706,
+        "freq_norm": 24.29
+    },
+    {
+        "rank": 3823,
+        "word": "nacionalista",
+        "lemma": "nacionalista",
+        "freq_abs": 3705,
+        "freq_norm": 24.28
+    },
+    {
+        "rank": 3824,
+        "word": "bruselas",
+        "lemma": "brusela",
+        "freq_abs": 3700,
+        "freq_norm": 24.25
+    },
+    {
+        "rank": 3825,
+        "word": "contraste",
+        "lemma": "contraste",
+        "freq_abs": 3700,
+        "freq_norm": 24.25
+    },
+    {
+        "rank": 3826,
+        "word": "enfrentar",
+        "lemma": "enfrentar",
+        "freq_abs": 3700,
+        "freq_norm": 24.25
+    },
+    {
+        "rank": 3827,
+        "word": "pesca",
+        "lemma": "pesca",
+        "freq_abs": 3697,
+        "freq_norm": 24.23
+    },
+    {
+        "rank": 3828,
+        "word": "internos",
+        "lemma": "interno",
+        "freq_abs": 3696,
+        "freq_norm": 24.22
+    },
+    {
+        "rank": 3829,
+        "word": "solos",
+        "lemma": "solo",
+        "freq_abs": 3695,
+        "freq_norm": 24.22
+    },
+    {
+        "rank": 3830,
+        "word": "fiscal\u00eda",
+        "lemma": "fiscal\u00eda",
+        "freq_abs": 3694,
+        "freq_norm": 24.21
+    },
+    {
+        "rank": 3831,
+        "word": "selva",
+        "lemma": "selir",
+        "freq_abs": 3694,
+        "freq_norm": 24.21
+    },
+    {
+        "rank": 3832,
+        "word": "activos",
+        "lemma": "activo",
+        "freq_abs": 3693,
+        "freq_norm": 24.2
+    },
+    {
+        "rank": 3833,
+        "word": "votaci\u00f3n",
+        "lemma": "votaci\u00f3n",
+        "freq_abs": 3692,
+        "freq_norm": 24.2
+    },
+    {
+        "rank": 3834,
+        "word": "acept\u00f3",
+        "lemma": "aceptar",
+        "freq_abs": 3691,
+        "freq_norm": 24.19
+    },
+    {
+        "rank": 3835,
+        "word": "introducir",
+        "lemma": "introducir",
+        "freq_abs": 3691,
+        "freq_norm": 24.19
+    },
+    {
+        "rank": 3836,
+        "word": "condenado",
+        "lemma": "condenado",
+        "freq_abs": 3689,
+        "freq_norm": 24.18
+    },
+    {
+        "rank": 3837,
+        "word": "novelas",
+        "lemma": "novela",
+        "freq_abs": 3686,
+        "freq_norm": 24.16
+    },
+    {
+        "rank": 3838,
+        "word": "secuestro",
+        "lemma": "secuestro",
+        "freq_abs": 3686,
+        "freq_norm": 24.16
+    },
+    {
+        "rank": 3839,
+        "word": "cantar",
+        "lemma": "cantar",
+        "freq_abs": 3685,
+        "freq_norm": 24.15
+    },
+    {
+        "rank": 3840,
+        "word": "deterioro",
+        "lemma": "deterioro",
+        "freq_abs": 3683,
+        "freq_norm": 24.14
+    },
+    {
+        "rank": 3841,
+        "word": "platos",
+        "lemma": "plato",
+        "freq_abs": 3680,
+        "freq_norm": 24.12
+    },
+    {
+        "rank": 3842,
+        "word": "ruso",
+        "lemma": "ruso",
+        "freq_abs": 3678,
+        "freq_norm": 24.1
+    },
+    {
+        "rank": 3843,
+        "word": "falso",
+        "lemma": "falso",
+        "freq_abs": 3677,
+        "freq_norm": 24.1
+    },
+    {
+        "rank": 3844,
+        "word": "listas",
+        "lemma": "lista",
+        "freq_abs": 3677,
+        "freq_norm": 24.1
+    },
+    {
+        "rank": 3845,
+        "word": "magnitud",
+        "lemma": "magnitud",
+        "freq_abs": 3677,
+        "freq_norm": 24.1
+    },
+    {
+        "rank": 3846,
+        "word": "v\u00e1zquez",
+        "lemma": "v\u00e1zquez",
+        "freq_abs": 3676,
+        "freq_norm": 24.09
+    },
+    {
+        "rank": 3847,
+        "word": "conductor",
+        "lemma": "conductor",
+        "freq_abs": 3673,
+        "freq_norm": 24.07
+    },
+    {
+        "rank": 3848,
+        "word": "culturas",
+        "lemma": "cultura",
+        "freq_abs": 3673,
+        "freq_norm": 24.07
+    },
+    {
+        "rank": 3849,
+        "word": "identificar",
+        "lemma": "identificar",
+        "freq_abs": 3673,
+        "freq_norm": 24.07
+    },
+    {
+        "rank": 3850,
+        "word": "instrucci\u00f3n",
+        "lemma": "instrucci\u00f3n",
+        "freq_abs": 3673,
+        "freq_norm": 24.07
+    },
+    {
+        "rank": 3851,
+        "word": "reparto",
+        "lemma": "reparto",
+        "freq_abs": 3673,
+        "freq_norm": 24.07
+    },
+    {
+        "rank": 3852,
+        "word": "sonidos",
+        "lemma": "sonido",
+        "freq_abs": 3673,
+        "freq_norm": 24.07
+    },
+    {
+        "rank": 3853,
+        "word": "abc",
+        "lemma": "abc",
+        "freq_abs": 3671,
+        "freq_norm": 24.06
+    },
+    {
+        "rank": 3854,
+        "word": "enfoque",
+        "lemma": "enfocar",
+        "freq_abs": 3669,
+        "freq_norm": 24.04
+    },
+    {
+        "rank": 3855,
+        "word": "margarita",
+        "lemma": "margarito",
+        "freq_abs": 3668,
+        "freq_norm": 24.04
+    },
+    {
+        "rank": 3856,
+        "word": "adoptar",
+        "lemma": "adoptar",
+        "freq_abs": 3666,
+        "freq_norm": 24.03
+    },
+    {
+        "rank": 3857,
+        "word": "acusaciones",
+        "lemma": "acusaci\u00f3n",
+        "freq_abs": 3664,
+        "freq_norm": 24.01
+    },
+    {
+        "rank": 3858,
+        "word": "aqu\u00e9l",
+        "lemma": "aqu\u00e9l",
+        "freq_abs": 3661,
+        "freq_norm": 23.99
+    },
+    {
+        "rank": 3859,
+        "word": "arturo",
+        "lemma": "arturo",
+        "freq_abs": 3655,
+        "freq_norm": 23.95
+    },
+    {
+        "rank": 3860,
+        "word": "considerable",
+        "lemma": "considerable",
+        "freq_abs": 3655,
+        "freq_norm": 23.95
+    },
+    {
+        "rank": 3861,
+        "word": "fusi\u00f3n",
+        "lemma": "fusi\u00f3n",
+        "freq_abs": 3654,
+        "freq_norm": 23.95
+    },
+    {
+        "rank": 3862,
+        "word": "rivera",
+        "lemma": "rivera",
+        "freq_abs": 3651,
+        "freq_norm": 23.93
+    },
+    {
+        "rank": 3863,
+        "word": "seguir\u00e1",
+        "lemma": "seguir",
+        "freq_abs": 3651,
+        "freq_norm": 23.93
+    },
+    {
+        "rank": 3864,
+        "word": "resultan",
+        "lemma": "resultar",
+        "freq_abs": 3650,
+        "freq_norm": 23.92
+    },
+    {
+        "rank": 3865,
+        "word": "simples",
+        "lemma": "simple",
+        "freq_abs": 3650,
+        "freq_norm": 23.92
+    },
+    {
+        "rank": 3866,
+        "word": "chino",
+        "lemma": "chino",
+        "freq_abs": 3649,
+        "freq_norm": 23.91
+    },
+    {
+        "rank": 3867,
+        "word": "debilidad",
+        "lemma": "debilidad",
+        "freq_abs": 3649,
+        "freq_norm": 23.91
+    },
+    {
+        "rank": 3868,
+        "word": "juntas",
+        "lemma": "junto",
+        "freq_abs": 3649,
+        "freq_norm": 23.91
+    },
+    {
+        "rank": 3869,
+        "word": "adi\u00f3s",
+        "lemma": "adi\u00f3s",
+        "freq_abs": 3648,
+        "freq_norm": 23.91
+    },
+    {
+        "rank": 3870,
+        "word": "b\u00e1sico",
+        "lemma": "b\u00e1sico",
+        "freq_abs": 3648,
+        "freq_norm": 23.91
+    },
+    {
+        "rank": 3871,
+        "word": "propuesto",
+        "lemma": "propuesto",
+        "freq_abs": 3648,
+        "freq_norm": 23.91
+    },
+    {
+        "rank": 3872,
+        "word": "cardenal",
+        "lemma": "cardenal",
+        "freq_abs": 3647,
+        "freq_norm": 23.9
+    },
+    {
+        "rank": 3873,
+        "word": "constantemente",
+        "lemma": "constantemente",
+        "freq_abs": 3647,
+        "freq_norm": 23.9
+    },
+    {
+        "rank": 3874,
+        "word": "estrategias",
+        "lemma": "estrategia",
+        "freq_abs": 3643,
+        "freq_norm": 23.87
+    },
+    {
+        "rank": 3875,
+        "word": "corporal",
+        "lemma": "corporal",
+        "freq_abs": 3642,
+        "freq_norm": 23.87
+    },
+    {
+        "rank": 3876,
+        "word": "basura",
+        "lemma": "basura",
+        "freq_abs": 3640,
+        "freq_norm": 23.85
+    },
+    {
+        "rank": 3877,
+        "word": "entrado",
+        "lemma": "entrado",
+        "freq_abs": 3640,
+        "freq_norm": 23.85
+    },
+    {
+        "rank": 3878,
+        "word": "hist\u00f3ricos",
+        "lemma": "hist\u00f3rico",
+        "freq_abs": 3639,
+        "freq_norm": 23.85
+    },
+    {
+        "rank": 3879,
+        "word": "normales",
+        "lemma": "normal",
+        "freq_abs": 3639,
+        "freq_norm": 23.85
+    },
+    {
+        "rank": 3880,
+        "word": "reconocido",
+        "lemma": "reconocido",
+        "freq_abs": 3639,
+        "freq_norm": 23.85
+    },
+    {
+        "rank": 3881,
+        "word": "cuentos",
+        "lemma": "cuento",
+        "freq_abs": 3638,
+        "freq_norm": 23.84
+    },
+    {
+        "rank": 3882,
+        "word": "paciencia",
+        "lemma": "paciencia",
+        "freq_abs": 3638,
+        "freq_norm": 23.84
+    },
+    {
+        "rank": 3883,
+        "word": "suyos",
+        "lemma": "suyo",
+        "freq_abs": 3638,
+        "freq_norm": 23.84
+    },
+    {
+        "rank": 3884,
+        "word": "pl\u00e1stico",
+        "lemma": "pl\u00e1stico",
+        "freq_abs": 3636,
+        "freq_norm": 23.83
+    },
+    {
+        "rank": 3885,
+        "word": "beb\u00e9",
+        "lemma": "beb\u00e9",
+        "freq_abs": 3635,
+        "freq_norm": 23.82
+    },
+    {
+        "rank": 3886,
+        "word": "herencia",
+        "lemma": "herencia",
+        "freq_abs": 3634,
+        "freq_norm": 23.82
+    },
+    {
+        "rank": 3887,
+        "word": "visitantes",
+        "lemma": "visitante",
+        "freq_abs": 3634,
+        "freq_norm": 23.82
+    },
+    {
+        "rank": 3888,
+        "word": "situada",
+        "lemma": "situado",
+        "freq_abs": 3633,
+        "freq_norm": 23.81
+    },
+    {
+        "rank": 3889,
+        "word": "eva",
+        "lemma": "eva",
+        "freq_abs": 3631,
+        "freq_norm": 23.8
+    },
+    {
+        "rank": 3890,
+        "word": "resultar",
+        "lemma": "resultar",
+        "freq_abs": 3631,
+        "freq_norm": 23.8
+    },
+    {
+        "rank": 3891,
+        "word": "ficci\u00f3n",
+        "lemma": "ficci\u00f3n",
+        "freq_abs": 3629,
+        "freq_norm": 23.78
+    },
+    {
+        "rank": 3892,
+        "word": "basada",
+        "lemma": "basado",
+        "freq_abs": 3627,
+        "freq_norm": 23.77
+    },
+    {
+        "rank": 3893,
+        "word": "abundante",
+        "lemma": "abundante",
+        "freq_abs": 3626,
+        "freq_norm": 23.76
+    },
+    {
+        "rank": 3894,
+        "word": "compartir",
+        "lemma": "compartir",
+        "freq_abs": 3626,
+        "freq_norm": 23.76
+    },
+    {
+        "rank": 3895,
+        "word": "hospitales",
+        "lemma": "hospital",
+        "freq_abs": 3626,
+        "freq_norm": 23.76
+    },
+    {
+        "rank": 3896,
+        "word": "concluir",
+        "lemma": "concluir",
+        "freq_abs": 3624,
+        "freq_norm": 23.75
+    },
+    {
+        "rank": 3897,
+        "word": "organizar",
+        "lemma": "organizar",
+        "freq_abs": 3624,
+        "freq_norm": 23.75
+    },
+    {
+        "rank": 3898,
+        "word": "sencilla",
+        "lemma": "sencillo",
+        "freq_abs": 3622,
+        "freq_norm": 23.74
+    },
+    {
+        "rank": 3899,
+        "word": "canarias",
+        "lemma": "canarias",
+        "freq_abs": 3621,
+        "freq_norm": 23.73
+    },
+    {
+        "rank": 3900,
+        "word": "gen\u00e9tica",
+        "lemma": "gen\u00e9tico",
+        "freq_abs": 3621,
+        "freq_norm": 23.73
+    },
+    {
+        "rank": 3901,
+        "word": "berl\u00edn",
+        "lemma": "berl\u00edn",
+        "freq_abs": 3620,
+        "freq_norm": 23.72
+    },
+    {
+        "rank": 3902,
+        "word": "perd\u00f3n",
+        "lemma": "perd\u00f3n",
+        "freq_abs": 3620,
+        "freq_norm": 23.72
+    },
+    {
+        "rank": 3903,
+        "word": "significativo",
+        "lemma": "significativo",
+        "freq_abs": 3620,
+        "freq_norm": 23.72
+    },
+    {
+        "rank": 3904,
+        "word": "versiones",
+        "lemma": "versi\u00f3n",
+        "freq_abs": 3619,
+        "freq_norm": 23.72
+    },
+    {
+        "rank": 3905,
+        "word": "disfrutar",
+        "lemma": "disfrutar",
+        "freq_abs": 3618,
+        "freq_norm": 23.71
+    },
+    {
+        "rank": 3906,
+        "word": "vanguardia",
+        "lemma": "vanguardia",
+        "freq_abs": 3618,
+        "freq_norm": 23.71
+    },
+    {
+        "rank": 3907,
+        "word": "propietarios",
+        "lemma": "propietario",
+        "freq_abs": 3614,
+        "freq_norm": 23.68
+    },
+    {
+        "rank": 3908,
+        "word": "culto",
+        "lemma": "culto",
+        "freq_abs": 3612,
+        "freq_norm": 23.67
+    },
+    {
+        "rank": 3909,
+        "word": "aplicaciones",
+        "lemma": "aplicaci\u00f3n",
+        "freq_abs": 3610,
+        "freq_norm": 23.66
+    },
+    {
+        "rank": 3910,
+        "word": "azules",
+        "lemma": "azul",
+        "freq_abs": 3610,
+        "freq_norm": 23.66
+    },
+    {
+        "rank": 3911,
+        "word": "evidentemente",
+        "lemma": "evidentemente",
+        "freq_abs": 3610,
+        "freq_norm": 23.66
+    },
+    {
+        "rank": 3912,
+        "word": "gui\u00f3n",
+        "lemma": "gui\u00f3n",
+        "freq_abs": 3610,
+        "freq_norm": 23.66
+    },
+    {
+        "rank": 3913,
+        "word": "tesoro",
+        "lemma": "tesoro",
+        "freq_abs": 3609,
+        "freq_norm": 23.65
+    },
+    {
+        "rank": 3914,
+        "word": "niega",
+        "lemma": "negar",
+        "freq_abs": 3608,
+        "freq_norm": 23.64
+    },
+    {
+        "rank": 3915,
+        "word": "celebrar",
+        "lemma": "celebrar",
+        "freq_abs": 3607,
+        "freq_norm": 23.64
+    },
+    {
+        "rank": 3916,
+        "word": "recordaba",
+        "lemma": "recordar",
+        "freq_abs": 3606,
+        "freq_norm": 23.63
+    },
+    {
+        "rank": 3917,
+        "word": "equivalente",
+        "lemma": "equivalente",
+        "freq_abs": 3605,
+        "freq_norm": 23.63
+    },
+    {
+        "rank": 3918,
+        "word": "limitaciones",
+        "lemma": "limitaci\u00f3n",
+        "freq_abs": 3604,
+        "freq_norm": 23.62
+    },
+    {
+        "rank": 3919,
+        "word": "milagro",
+        "lemma": "milagro",
+        "freq_abs": 3604,
+        "freq_norm": 23.62
+    },
+    {
+        "rank": 3920,
+        "word": "jugando",
+        "lemma": "jugar",
+        "freq_abs": 3603,
+        "freq_norm": 23.61
+    },
+    {
+        "rank": 3921,
+        "word": "categor\u00edas",
+        "lemma": "categor\u00eda",
+        "freq_abs": 3600,
+        "freq_norm": 23.59
+    },
+    {
+        "rank": 3922,
+        "word": "educativo",
+        "lemma": "educativo",
+        "freq_abs": 3600,
+        "freq_norm": 23.59
+    },
+    {
+        "rank": 3923,
+        "word": "represi\u00f3n",
+        "lemma": "represi\u00f3n",
+        "freq_abs": 3599,
+        "freq_norm": 23.59
+    },
+    {
+        "rank": 3924,
+        "word": "sindicales",
+        "lemma": "sindical",
+        "freq_abs": 3598,
+        "freq_norm": 23.58
+    },
+    {
+        "rank": 3925,
+        "word": "turistas",
+        "lemma": "turista",
+        "freq_abs": 3598,
+        "freq_norm": 23.58
+    },
+    {
+        "rank": 3926,
+        "word": "acusaci\u00f3n",
+        "lemma": "acusaci\u00f3n",
+        "freq_abs": 3593,
+        "freq_norm": 23.55
+    },
+    {
+        "rank": 3927,
+        "word": "correcta",
+        "lemma": "correcto",
+        "freq_abs": 3593,
+        "freq_norm": 23.55
+    },
+    {
+        "rank": 3928,
+        "word": "parejas",
+        "lemma": "pareja",
+        "freq_abs": 3593,
+        "freq_norm": 23.55
+    },
+    {
+        "rank": 3929,
+        "word": "novedad",
+        "lemma": "novedad",
+        "freq_abs": 3592,
+        "freq_norm": 23.54
+    },
+    {
+        "rank": 3930,
+        "word": "liberales",
+        "lemma": "liberal",
+        "freq_abs": 3589,
+        "freq_norm": 23.52
+    },
+    {
+        "rank": 3931,
+        "word": "continua",
+        "lemma": "continuo",
+        "freq_abs": 3586,
+        "freq_norm": 23.5
+    },
+    {
+        "rank": 3932,
+        "word": "h\u00e1bitos",
+        "lemma": "h\u00e1bito",
+        "freq_abs": 3586,
+        "freq_norm": 23.5
+    },
+    {
+        "rank": 3933,
+        "word": "joan",
+        "lemma": "joan",
+        "freq_abs": 3586,
+        "freq_norm": 23.5
+    },
+    {
+        "rank": 3934,
+        "word": "delegado",
+        "lemma": "delegado",
+        "freq_abs": 3585,
+        "freq_norm": 23.49
+    },
+    {
+        "rank": 3935,
+        "word": "recurrir",
+        "lemma": "recurrir",
+        "freq_abs": 3585,
+        "freq_norm": 23.49
+    },
+    {
+        "rank": 3936,
+        "word": "cualidades",
+        "lemma": "cualidad",
+        "freq_abs": 3584,
+        "freq_norm": 23.49
+    },
+    {
+        "rank": 3937,
+        "word": "costos",
+        "lemma": "costo",
+        "freq_abs": 3581,
+        "freq_norm": 23.47
+    },
+    {
+        "rank": 3938,
+        "word": "michael",
+        "lemma": "michael",
+        "freq_abs": 3580,
+        "freq_norm": 23.46
+    },
+    {
+        "rank": 3939,
+        "word": "universitario",
+        "lemma": "universitario",
+        "freq_abs": 3577,
+        "freq_norm": 23.44
+    },
+    {
+        "rank": 3940,
+        "word": "expediente",
+        "lemma": "expediente",
+        "freq_abs": 3575,
+        "freq_norm": 23.43
+    },
+    {
+        "rank": 3941,
+        "word": "perspectivas",
+        "lemma": "perspectiva",
+        "freq_abs": 3575,
+        "freq_norm": 23.43
+    },
+    {
+        "rank": 3942,
+        "word": "expresiones",
+        "lemma": "expresi\u00f3n",
+        "freq_abs": 3574,
+        "freq_norm": 23.42
+    },
+    {
+        "rank": 3943,
+        "word": "referencias",
+        "lemma": "referencia",
+        "freq_abs": 3573,
+        "freq_norm": 23.42
+    },
+    {
+        "rank": 3944,
+        "word": "nace",
+        "lemma": "nacer",
+        "freq_abs": 3572,
+        "freq_norm": 23.41
+    },
+    {
+        "rank": 3945,
+        "word": "cierra",
+        "lemma": "cerrar",
+        "freq_abs": 3571,
+        "freq_norm": 23.4
+    },
+    {
+        "rank": 3946,
+        "word": "denominado",
+        "lemma": "denominado",
+        "freq_abs": 3570,
+        "freq_norm": 23.4
+    },
+    {
+        "rank": 3947,
+        "word": "cortar",
+        "lemma": "cortar",
+        "freq_abs": 3569,
+        "freq_norm": 23.39
+    },
+    {
+        "rank": 3948,
+        "word": "excepto",
+        "lemma": "excepto",
+        "freq_abs": 3568,
+        "freq_norm": 23.38
+    },
+    {
+        "rank": 3949,
+        "word": "garant\u00edas",
+        "lemma": "garant\u00eda",
+        "freq_abs": 3568,
+        "freq_norm": 23.38
+    },
+    {
+        "rank": 3950,
+        "word": "envi\u00f3",
+        "lemma": "enviar",
+        "freq_abs": 3567,
+        "freq_norm": 23.38
+    },
+    {
+        "rank": 3951,
+        "word": "industrias",
+        "lemma": "industria",
+        "freq_abs": 3564,
+        "freq_norm": 23.36
+    },
+    {
+        "rank": 3952,
+        "word": "rapidez",
+        "lemma": "rapidez",
+        "freq_abs": 3563,
+        "freq_norm": 23.35
+    },
+    {
+        "rank": 3953,
+        "word": "carreteras",
+        "lemma": "carretera",
+        "freq_abs": 3562,
+        "freq_norm": 23.34
+    },
+    {
+        "rank": 3954,
+        "word": "digital",
+        "lemma": "digital",
+        "freq_abs": 3562,
+        "freq_norm": 23.34
+    },
+    {
+        "rank": 3955,
+        "word": "impone",
+        "lemma": "imponer",
+        "freq_abs": 3562,
+        "freq_norm": 23.34
+    },
+    {
+        "rank": 3956,
+        "word": "gregorio",
+        "lemma": "gregorio",
+        "freq_abs": 3561,
+        "freq_norm": 23.34
+    },
+    {
+        "rank": 3957,
+        "word": "crema",
+        "lemma": "cremo",
+        "freq_abs": 3560,
+        "freq_norm": 23.33
+    },
+    {
+        "rank": 3958,
+        "word": "destacan",
+        "lemma": "destacar",
+        "freq_abs": 3560,
+        "freq_norm": 23.33
+    },
+    {
+        "rank": 3959,
+        "word": "parcial",
+        "lemma": "parcial",
+        "freq_abs": 3560,
+        "freq_norm": 23.33
+    },
+    {
+        "rank": 3960,
+        "word": "sit\u00faa",
+        "lemma": "situar",
+        "freq_abs": 3560,
+        "freq_norm": 23.33
+    },
+    {
+        "rank": 3961,
+        "word": "conexi\u00f3n",
+        "lemma": "conexi\u00f3n",
+        "freq_abs": 3559,
+        "freq_norm": 23.32
+    },
+    {
+        "rank": 3962,
+        "word": "gubernamental",
+        "lemma": "gubernamental",
+        "freq_abs": 3559,
+        "freq_norm": 23.32
+    },
+    {
+        "rank": 3963,
+        "word": "versos",
+        "lemma": "verso",
+        "freq_abs": 3556,
+        "freq_norm": 23.3
+    },
+    {
+        "rank": 3964,
+        "word": "concreta",
+        "lemma": "concreto",
+        "freq_abs": 3555,
+        "freq_norm": 23.3
+    },
+    {
+        "rank": 3965,
+        "word": "filas",
+        "lemma": "fila",
+        "freq_abs": 3555,
+        "freq_norm": 23.3
+    },
+    {
+        "rank": 3966,
+        "word": "desaparecer",
+        "lemma": "desaparecer",
+        "freq_abs": 3554,
+        "freq_norm": 23.29
+    },
+    {
+        "rank": 3967,
+        "word": "retirada",
+        "lemma": "retirada",
+        "freq_abs": 3554,
+        "freq_norm": 23.29
+    },
+    {
+        "rank": 3968,
+        "word": "decirse",
+        "lemma": "decir \u00e9l",
+        "freq_abs": 3553,
+        "freq_norm": 23.28
+    },
+    {
+        "rank": 3969,
+        "word": "soberan\u00eda",
+        "lemma": "soberan\u00eda",
+        "freq_abs": 3552,
+        "freq_norm": 23.28
+    },
+    {
+        "rank": 3970,
+        "word": "xvii",
+        "lemma": "xvii",
+        "freq_abs": 3552,
+        "freq_norm": 23.28
+    },
+    {
+        "rank": 3971,
+        "word": "basado",
+        "lemma": "basado",
+        "freq_abs": 3551,
+        "freq_norm": 23.27
+    },
+    {
+        "rank": 3972,
+        "word": "n\u00fa\u00f1ez",
+        "lemma": "n\u00fa\u00f1ez",
+        "freq_abs": 3550,
+        "freq_norm": 23.26
+    },
+    {
+        "rank": 3973,
+        "word": "anuales",
+        "lemma": "anual",
+        "freq_abs": 3549,
+        "freq_norm": 23.26
+    },
+    {
+        "rank": 3974,
+        "word": "chileno",
+        "lemma": "chileno",
+        "freq_abs": 3549,
+        "freq_norm": 23.26
+    },
+    {
+        "rank": 3975,
+        "word": "mediterr\u00e1neo",
+        "lemma": "mediterr\u00e1neo",
+        "freq_abs": 3548,
+        "freq_norm": 23.25
+    },
+    {
+        "rank": 3976,
+        "word": "indispensable",
+        "lemma": "indispensable",
+        "freq_abs": 3547,
+        "freq_norm": 23.25
+    },
+    {
+        "rank": 3977,
+        "word": "periodismo",
+        "lemma": "periodismo",
+        "freq_abs": 3547,
+        "freq_norm": 23.25
+    },
+    {
+        "rank": 3978,
+        "word": "desempleo",
+        "lemma": "desempleo",
+        "freq_abs": 3544,
+        "freq_norm": 23.23
+    },
+    {
+        "rank": 3979,
+        "word": "bal\u00f3n",
+        "lemma": "bal\u00f3n",
+        "freq_abs": 3543,
+        "freq_norm": 23.22
+    },
+    {
+        "rank": 3980,
+        "word": "eeuu",
+        "lemma": "eeuu",
+        "freq_abs": 3542,
+        "freq_norm": 23.21
+    },
+    {
+        "rank": 3981,
+        "word": "m\u00fasicos",
+        "lemma": "m\u00fasico",
+        "freq_abs": 3538,
+        "freq_norm": 23.19
+    },
+    {
+        "rank": 3982,
+        "word": "prepara",
+        "lemma": "preparar",
+        "freq_abs": 3538,
+        "freq_norm": 23.19
+    },
+    {
+        "rank": 3983,
+        "word": "oficialmente",
+        "lemma": "oficialmente",
+        "freq_abs": 3537,
+        "freq_norm": 23.18
+    },
+    {
+        "rank": 3984,
+        "word": "sacerdote",
+        "lemma": "sacerdote",
+        "freq_abs": 3537,
+        "freq_norm": 23.18
+    },
+    {
+        "rank": 3985,
+        "word": "muere",
+        "lemma": "morir",
+        "freq_abs": 3536,
+        "freq_norm": 23.17
+    },
+    {
+        "rank": 3986,
+        "word": "hijas",
+        "lemma": "hija",
+        "freq_abs": 3535,
+        "freq_norm": 23.17
+    },
+    {
+        "rank": 3987,
+        "word": "disponer",
+        "lemma": "disponer",
+        "freq_abs": 3534,
+        "freq_norm": 23.16
+    },
+    {
+        "rank": 3988,
+        "word": "ejemplar",
+        "lemma": "ejemplar",
+        "freq_abs": 3534,
+        "freq_norm": 23.16
+    },
+    {
+        "rank": 3989,
+        "word": "miseria",
+        "lemma": "miseria",
+        "freq_abs": 3534,
+        "freq_norm": 23.16
+    },
+    {
+        "rank": 3990,
+        "word": "amarillo",
+        "lemma": "amarillo",
+        "freq_abs": 3533,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3991,
+        "word": "creemos",
+        "lemma": "creer",
+        "freq_abs": 3533,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3992,
+        "word": "deje",
+        "lemma": "deje",
+        "freq_abs": 3533,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3993,
+        "word": "genera",
+        "lemma": "generar",
+        "freq_abs": 3533,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3994,
+        "word": "restantes",
+        "lemma": "restante",
+        "freq_abs": 3533,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3995,
+        "word": "bellas",
+        "lemma": "bello",
+        "freq_abs": 3532,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3996,
+        "word": "sara",
+        "lemma": "sara",
+        "freq_abs": 3532,
+        "freq_norm": 23.15
+    },
+    {
+        "rank": 3997,
+        "word": "ama",
+        "lemma": "amar",
+        "freq_abs": 3530,
+        "freq_norm": 23.13
+    },
+    {
+        "rank": 3998,
+        "word": "episodio",
+        "lemma": "episodar",
+        "freq_abs": 3529,
+        "freq_norm": 23.13
+    },
+    {
+        "rank": 3999,
+        "word": "bush",
+        "lemma": "bush",
+        "freq_abs": 3528,
+        "freq_norm": 23.12
+    },
+    {
+        "rank": 4000,
+        "word": "kg",
+        "lemma": "kg",
+        "freq_abs": 3525,
+        "freq_norm": 23.1
+    },
+    {
+        "rank": 4001,
+        "word": "ensayos",
+        "lemma": "ensayo",
+        "freq_abs": 3522,
+        "freq_norm": 23.08
+    },
+    {
+        "rank": 4002,
+        "word": "seguimiento",
+        "lemma": "seguimiento",
+        "freq_abs": 3522,
+        "freq_norm": 23.08
+    },
+    {
+        "rank": 4003,
+        "word": "pertenecen",
+        "lemma": "pertenecer",
+        "freq_abs": 3520,
+        "freq_norm": 23.07
+    },
+    {
+        "rank": 4004,
+        "word": "regres\u00f3",
+        "lemma": "regresar",
+        "freq_abs": 3516,
+        "freq_norm": 23.04
+    },
+    {
+        "rank": 4005,
+        "word": "arquitecto",
+        "lemma": "arquitecto",
+        "freq_abs": 3515,
+        "freq_norm": 23.04
+    },
+    {
+        "rank": 4006,
+        "word": "com",
+        "lemma": "com",
+        "freq_abs": 3514,
+        "freq_norm": 23.03
+    },
+    {
+        "rank": 4007,
+        "word": "vega",
+        "lemma": "vegar",
+        "freq_abs": 3514,
+        "freq_norm": 23.03
+    },
+    {
+        "rank": 4008,
+        "word": "llegando",
+        "lemma": "llegar",
+        "freq_abs": 3513,
+        "freq_norm": 23.02
+    },
+    {
+        "rank": 4009,
+        "word": "abandonado",
+        "lemma": "abandonado",
+        "freq_abs": 3511,
+        "freq_norm": 23.01
+    },
+    {
+        "rank": 4010,
+        "word": "corporaci\u00f3n",
+        "lemma": "corporaci\u00f3n",
+        "freq_abs": 3511,
+        "freq_norm": 23.01
+    },
+    {
+        "rank": 4011,
+        "word": "convicci\u00f3n",
+        "lemma": "convicci\u00f3n",
+        "freq_abs": 3510,
+        "freq_norm": 23.0
+    },
+    {
+        "rank": 4012,
+        "word": "caracteriza",
+        "lemma": "caracterizar",
+        "freq_abs": 3507,
+        "freq_norm": 22.98
+    },
+    {
+        "rank": 4013,
+        "word": "acepta",
+        "lemma": "aceptar",
+        "freq_abs": 3506,
+        "freq_norm": 22.98
+    },
+    {
+        "rank": 4014,
+        "word": "agenda",
+        "lemma": "agenda",
+        "freq_abs": 3506,
+        "freq_norm": 22.98
+    },
+    {
+        "rank": 4015,
+        "word": "pasillo",
+        "lemma": "pasillo",
+        "freq_abs": 3506,
+        "freq_norm": 22.98
+    },
+    {
+        "rank": 4016,
+        "word": "sacrificio",
+        "lemma": "sacrificio",
+        "freq_abs": 3506,
+        "freq_norm": 22.98
+    },
+    {
+        "rank": 4017,
+        "word": "adolescentes",
+        "lemma": "adolescente",
+        "freq_abs": 3505,
+        "freq_norm": 22.97
+    },
+    {
+        "rank": 4018,
+        "word": "americanos",
+        "lemma": "americano",
+        "freq_abs": 3505,
+        "freq_norm": 22.97
+    },
+    {
+        "rank": 4019,
+        "word": "alicia",
+        "lemma": "alicia",
+        "freq_abs": 3500,
+        "freq_norm": 22.94
+    },
+    {
+        "rank": 4020,
+        "word": "regalo",
+        "lemma": "regalo",
+        "freq_abs": 3500,
+        "freq_norm": 22.94
+    },
+    {
+        "rank": 4021,
+        "word": "aparente",
+        "lemma": "aparente",
+        "freq_abs": 3499,
+        "freq_norm": 22.93
+    },
+    {
+        "rank": 4022,
+        "word": "justamente",
+        "lemma": "justamente",
+        "freq_abs": 3498,
+        "freq_norm": 22.92
+    },
+    {
+        "rank": 4023,
+        "word": "musicales",
+        "lemma": "musical",
+        "freq_abs": 3498,
+        "freq_norm": 22.92
+    },
+    {
+        "rank": 4024,
+        "word": "universitaria",
+        "lemma": "universitario",
+        "freq_abs": 3498,
+        "freq_norm": 22.92
+    },
+    {
+        "rank": 4025,
+        "word": "siga",
+        "lemma": "seguir",
+        "freq_abs": 3496,
+        "freq_norm": 22.91
+    },
+    {
+        "rank": 4026,
+        "word": "ajuste",
+        "lemma": "ajuste",
+        "freq_abs": 3495,
+        "freq_norm": 22.9
+    },
+    {
+        "rank": 4027,
+        "word": "creador",
+        "lemma": "creador",
+        "freq_abs": 3494,
+        "freq_norm": 22.9
+    },
+    {
+        "rank": 4028,
+        "word": "colegios",
+        "lemma": "colegio",
+        "freq_abs": 3492,
+        "freq_norm": 22.88
+    },
+    {
+        "rank": 4029,
+        "word": "fresco",
+        "lemma": "fresco",
+        "freq_abs": 3492,
+        "freq_norm": 22.88
+    },
+    {
+        "rank": 4030,
+        "word": "ind\u00edgena",
+        "lemma": "ind\u00edgena",
+        "freq_abs": 3492,
+        "freq_norm": 22.88
+    },
+    {
+        "rank": 4031,
+        "word": "luc\u00eda",
+        "lemma": "lucir",
+        "freq_abs": 3492,
+        "freq_norm": 22.88
+    },
+    {
+        "rank": 4032,
+        "word": "estuve",
+        "lemma": "estar",
+        "freq_abs": 3491,
+        "freq_norm": 22.88
+    },
+    {
+        "rank": 4033,
+        "word": "herida",
+        "lemma": "herido",
+        "freq_abs": 3491,
+        "freq_norm": 22.88
+    },
+    {
+        "rank": 4034,
+        "word": "electricidad",
+        "lemma": "electricidad",
+        "freq_abs": 3489,
+        "freq_norm": 22.86
+    },
+    {
+        "rank": 4035,
+        "word": "generar",
+        "lemma": "generar",
+        "freq_abs": 3489,
+        "freq_norm": 22.86
+    },
+    {
+        "rank": 4036,
+        "word": "incluir",
+        "lemma": "incluir",
+        "freq_abs": 3489,
+        "freq_norm": 22.86
+    },
+    {
+        "rank": 4037,
+        "word": "ramos",
+        "lemma": "ramos",
+        "freq_abs": 3488,
+        "freq_norm": 22.86
+    },
+    {
+        "rank": 4038,
+        "word": "pe\u00f1a",
+        "lemma": "pe\u00f1o",
+        "freq_abs": 3484,
+        "freq_norm": 22.83
+    },
+    {
+        "rank": 4039,
+        "word": "pinturas",
+        "lemma": "pintura",
+        "freq_abs": 3484,
+        "freq_norm": 22.83
+    },
+    {
+        "rank": 4040,
+        "word": "ech\u00f3",
+        "lemma": "echar",
+        "freq_abs": 3482,
+        "freq_norm": 22.82
+    },
+    {
+        "rank": 4041,
+        "word": "f\u00e9lix",
+        "lemma": "f\u00e9lix",
+        "freq_abs": 3480,
+        "freq_norm": 22.81
+    },
+    {
+        "rank": 4042,
+        "word": "laura",
+        "lemma": "laura",
+        "freq_abs": 3480,
+        "freq_norm": 22.81
+    },
+    {
+        "rank": 4043,
+        "word": "af\u00e1n",
+        "lemma": "af\u00e1n",
+        "freq_abs": 3479,
+        "freq_norm": 22.8
+    },
+    {
+        "rank": 4044,
+        "word": "cambi\u00f3",
+        "lemma": "cambiar",
+        "freq_abs": 3479,
+        "freq_norm": 22.8
+    },
+    {
+        "rank": 4045,
+        "word": "proteger",
+        "lemma": "proteger",
+        "freq_abs": 3479,
+        "freq_norm": 22.8
+    },
+    {
+        "rank": 4046,
+        "word": "recinto",
+        "lemma": "recinto",
+        "freq_abs": 3478,
+        "freq_norm": 22.79
+    },
+    {
+        "rank": 4047,
+        "word": "vuelven",
+        "lemma": "volver",
+        "freq_abs": 3478,
+        "freq_norm": 22.79
+    },
+    {
+        "rank": 4048,
+        "word": "decenas",
+        "lemma": "decena",
+        "freq_abs": 3477,
+        "freq_norm": 22.79
+    },
+    {
+        "rank": 4049,
+        "word": "vigencia",
+        "lemma": "vigencia",
+        "freq_abs": 3476,
+        "freq_norm": 22.78
+    },
+    {
+        "rank": 4050,
+        "word": "administrativo",
+        "lemma": "administrativo",
+        "freq_abs": 3475,
+        "freq_norm": 22.77
+    },
+    {
+        "rank": 4051,
+        "word": "ni\u00f1as",
+        "lemma": "ni\u00f1a",
+        "freq_abs": 3475,
+        "freq_norm": 22.77
+    },
+    {
+        "rank": 4052,
+        "word": "usuario",
+        "lemma": "usuario",
+        "freq_abs": 3474,
+        "freq_norm": 22.77
+    },
+    {
+        "rank": 4053,
+        "word": "hermoso",
+        "lemma": "hermoso",
+        "freq_abs": 3471,
+        "freq_norm": 22.75
+    },
+    {
+        "rank": 4054,
+        "word": "une",
+        "lemma": "unir",
+        "freq_abs": 3470,
+        "freq_norm": 22.74
+    },
+    {
+        "rank": 4055,
+        "word": "t\u00e9",
+        "lemma": "ter",
+        "freq_abs": 3468,
+        "freq_norm": 22.73
+    },
+    {
+        "rank": 4056,
+        "word": "breves",
+        "lemma": "breve",
+        "freq_abs": 3467,
+        "freq_norm": 22.72
+    },
+    {
+        "rank": 4057,
+        "word": "muebles",
+        "lemma": "mueble",
+        "freq_abs": 3466,
+        "freq_norm": 22.71
+    },
+    {
+        "rank": 4058,
+        "word": "c\u00e1lculo",
+        "lemma": "c\u00e1lculo",
+        "freq_abs": 3465,
+        "freq_norm": 22.71
+    },
+    {
+        "rank": 4059,
+        "word": "malas",
+        "lemma": "mala",
+        "freq_abs": 3465,
+        "freq_norm": 22.71
+    },
+    {
+        "rank": 4060,
+        "word": "propietario",
+        "lemma": "propietario",
+        "freq_abs": 3465,
+        "freq_norm": 22.71
+    },
+    {
+        "rank": 4061,
+        "word": "puta",
+        "lemma": "puta",
+        "freq_abs": 3464,
+        "freq_norm": 22.7
+    },
+    {
+        "rank": 4062,
+        "word": "efectuar",
+        "lemma": "efectuar",
+        "freq_abs": 3463,
+        "freq_norm": 22.69
+    },
+    {
+        "rank": 4063,
+        "word": "fuimos",
+        "lemma": "ir",
+        "freq_abs": 3463,
+        "freq_norm": 22.69
+    },
+    {
+        "rank": 4064,
+        "word": "vivi\u00f3",
+        "lemma": "vivir",
+        "freq_abs": 3463,
+        "freq_norm": 22.69
+    },
+    {
+        "rank": 4065,
+        "word": "aut\u00f3nomas",
+        "lemma": "aut\u00f3nomo",
+        "freq_abs": 3462,
+        "freq_norm": 22.69
+    },
+    {
+        "rank": 4066,
+        "word": "fina",
+        "lemma": "fino",
+        "freq_abs": 3462,
+        "freq_norm": 22.69
+    },
+    {
+        "rank": 4067,
+        "word": "aparatos",
+        "lemma": "aparato",
+        "freq_abs": 3461,
+        "freq_norm": 22.68
+    },
+    {
+        "rank": 4068,
+        "word": "basa",
+        "lemma": "b\u00e1s",
+        "freq_abs": 3461,
+        "freq_norm": 22.68
+    },
+    {
+        "rank": 4069,
+        "word": "avanzar",
+        "lemma": "avanzar",
+        "freq_abs": 3460,
+        "freq_norm": 22.67
+    },
+    {
+        "rank": 4070,
+        "word": "longitud",
+        "lemma": "longitud",
+        "freq_abs": 3459,
+        "freq_norm": 22.67
+    },
+    {
+        "rank": 4071,
+        "word": "arias",
+        "lemma": "aria",
+        "freq_abs": 3456,
+        "freq_norm": 22.65
+    },
+    {
+        "rank": 4072,
+        "word": "baj\u00f3",
+        "lemma": "bajar",
+        "freq_abs": 3455,
+        "freq_norm": 22.64
+    },
+    {
+        "rank": 4073,
+        "word": "brit\u00e1nica",
+        "lemma": "brit\u00e1nico",
+        "freq_abs": 3455,
+        "freq_norm": 22.64
+    },
+    {
+        "rank": 4074,
+        "word": "directivos",
+        "lemma": "directivo",
+        "freq_abs": 3455,
+        "freq_norm": 22.64
+    },
+    {
+        "rank": 4075,
+        "word": "planteamiento",
+        "lemma": "planteamiento",
+        "freq_abs": 3455,
+        "freq_norm": 22.64
+    },
+    {
+        "rank": 4076,
+        "word": "colegas",
+        "lemma": "colega",
+        "freq_abs": 3454,
+        "freq_norm": 22.64
+    },
+    {
+        "rank": 4077,
+        "word": "secuencia",
+        "lemma": "secuencia",
+        "freq_abs": 3452,
+        "freq_norm": 22.62
+    },
+    {
+        "rank": 4078,
+        "word": "adolescente",
+        "lemma": "adolescente",
+        "freq_abs": 3449,
+        "freq_norm": 22.6
+    },
+    {
+        "rank": 4079,
+        "word": "relacionadas",
+        "lemma": "relacionado",
+        "freq_abs": 3447,
+        "freq_norm": 22.59
+    },
+    {
+        "rank": 4080,
+        "word": "urgente",
+        "lemma": "urgente",
+        "freq_abs": 3447,
+        "freq_norm": 22.59
+    },
+    {
+        "rank": 4081,
+        "word": "culpable",
+        "lemma": "culpable",
+        "freq_abs": 3446,
+        "freq_norm": 22.58
+    },
+    {
+        "rank": 4082,
+        "word": "pagos",
+        "lemma": "pago",
+        "freq_abs": 3446,
+        "freq_norm": 22.58
+    },
+    {
+        "rank": 4083,
+        "word": "film",
+        "lemma": "film",
+        "freq_abs": 3445,
+        "freq_norm": 22.58
+    },
+    {
+        "rank": 4084,
+        "word": "herido",
+        "lemma": "herido",
+        "freq_abs": 3444,
+        "freq_norm": 22.57
+    },
+    {
+        "rank": 4085,
+        "word": "afectan",
+        "lemma": "afectar",
+        "freq_abs": 3443,
+        "freq_norm": 22.56
+    },
+    {
+        "rank": 4086,
+        "word": "sombrero",
+        "lemma": "sombrero",
+        "freq_abs": 3443,
+        "freq_norm": 22.56
+    },
+    {
+        "rank": 4087,
+        "word": "caldo",
+        "lemma": "caldo",
+        "freq_abs": 3442,
+        "freq_norm": 22.56
+    },
+    {
+        "rank": 4088,
+        "word": "vih",
+        "lemma": "vih",
+        "freq_abs": 3442,
+        "freq_norm": 22.56
+    },
+    {
+        "rank": 4089,
+        "word": "costado",
+        "lemma": "costado",
+        "freq_abs": 3441,
+        "freq_norm": 22.55
+    },
+    {
+        "rank": 4090,
+        "word": "negras",
+        "lemma": "negra",
+        "freq_abs": 3439,
+        "freq_norm": 22.54
+    },
+    {
+        "rank": 4091,
+        "word": "piensan",
+        "lemma": "pensar",
+        "freq_abs": 3439,
+        "freq_norm": 22.54
+    },
+    {
+        "rank": 4092,
+        "word": "pendientes",
+        "lemma": "pendiente",
+        "freq_abs": 3438,
+        "freq_norm": 22.53
+    },
+    {
+        "rank": 4093,
+        "word": "serlo",
+        "lemma": "ser \u00e9l",
+        "freq_abs": 3438,
+        "freq_norm": 22.53
+    },
+    {
+        "rank": 4094,
+        "word": "catorce",
+        "lemma": "catorce",
+        "freq_abs": 3437,
+        "freq_norm": 22.52
+    },
+    {
+        "rank": 4095,
+        "word": "afp",
+        "lemma": "afp",
+        "freq_abs": 3435,
+        "freq_norm": 22.51
+    },
+    {
+        "rank": 4096,
+        "word": "oscura",
+        "lemma": "oscuro",
+        "freq_abs": 3435,
+        "freq_norm": 22.51
+    },
+    {
+        "rank": 4097,
+        "word": "boda",
+        "lemma": "boda",
+        "freq_abs": 3434,
+        "freq_norm": 22.5
+    },
+    {
+        "rank": 4098,
+        "word": "calific\u00f3",
+        "lemma": "calificar",
+        "freq_abs": 3433,
+        "freq_norm": 22.5
+    },
+    {
+        "rank": 4099,
+        "word": "quito",
+        "lemma": "quito",
+        "freq_abs": 3432,
+        "freq_norm": 22.49
+    },
+    {
+        "rank": 4100,
+        "word": "gala",
+        "lemma": "gala",
+        "freq_abs": 3430,
+        "freq_norm": 22.48
+    },
+    {
+        "rank": 4101,
+        "word": "agradable",
+        "lemma": "agradable",
+        "freq_abs": 3426,
+        "freq_norm": 22.45
+    },
+    {
+        "rank": 4102,
+        "word": "efectiva",
+        "lemma": "efectivo",
+        "freq_abs": 3426,
+        "freq_norm": 22.45
+    },
+    {
+        "rank": 4103,
+        "word": "adquisici\u00f3n",
+        "lemma": "adquisici\u00f3n",
+        "freq_abs": 3425,
+        "freq_norm": 22.45
+    },
+    {
+        "rank": 4104,
+        "word": "tratados",
+        "lemma": "tratado",
+        "freq_abs": 3424,
+        "freq_norm": 22.44
+    },
+    {
+        "rank": 4105,
+        "word": "ver\u00e1",
+        "lemma": "ver",
+        "freq_abs": 3424,
+        "freq_norm": 22.44
+    },
+    {
+        "rank": 4106,
+        "word": "infierno",
+        "lemma": "infierno",
+        "freq_abs": 3423,
+        "freq_norm": 22.43
+    },
+    {
+        "rank": 4107,
+        "word": "prevista",
+        "lemma": "previsto",
+        "freq_abs": 3423,
+        "freq_norm": 22.43
+    },
+    {
+        "rank": 4108,
+        "word": "rayos",
+        "lemma": "rayo",
+        "freq_abs": 3423,
+        "freq_norm": 22.43
+    },
+    {
+        "rank": 4109,
+        "word": "josep",
+        "lemma": "josep",
+        "freq_abs": 3422,
+        "freq_norm": 22.43
+    },
+    {
+        "rank": 4110,
+        "word": "rold\u00e1n",
+        "lemma": "rold\u00e1n",
+        "freq_abs": 3422,
+        "freq_norm": 22.43
+    },
+    {
+        "rank": 4111,
+        "word": "contado",
+        "lemma": "contado",
+        "freq_abs": 3421,
+        "freq_norm": 22.42
+    },
+    {
+        "rank": 4112,
+        "word": "policiales",
+        "lemma": "policial",
+        "freq_abs": 3421,
+        "freq_norm": 22.42
+    },
+    {
+        "rank": 4113,
+        "word": "eliminaci\u00f3n",
+        "lemma": "eliminaci\u00f3n",
+        "freq_abs": 3419,
+        "freq_norm": 22.41
+    },
+    {
+        "rank": 4114,
+        "word": "inicialmente",
+        "lemma": "inicialmente",
+        "freq_abs": 3419,
+        "freq_norm": 22.41
+    },
+    {
+        "rank": 4115,
+        "word": "estable",
+        "lemma": "estable",
+        "freq_abs": 3418,
+        "freq_norm": 22.4
+    },
+    {
+        "rank": 4116,
+        "word": "f\u00edsicos",
+        "lemma": "f\u00edsico",
+        "freq_abs": 3416,
+        "freq_norm": 22.39
+    },
+    {
+        "rank": 4117,
+        "word": "seca",
+        "lemma": "seco",
+        "freq_abs": 3416,
+        "freq_norm": 22.39
+    },
+    {
+        "rank": 4118,
+        "word": "observaciones",
+        "lemma": "observaci\u00f3n",
+        "freq_abs": 3414,
+        "freq_norm": 22.37
+    },
+    {
+        "rank": 4119,
+        "word": "ancho",
+        "lemma": "ancho",
+        "freq_abs": 3413,
+        "freq_norm": 22.37
+    },
+    {
+        "rank": 4120,
+        "word": "coloca",
+        "lemma": "colocar",
+        "freq_abs": 3413,
+        "freq_norm": 22.37
+    },
+    {
+        "rank": 4121,
+        "word": "comedia",
+        "lemma": "comedia",
+        "freq_abs": 3411,
+        "freq_norm": 22.35
+    },
+    {
+        "rank": 4122,
+        "word": "considerarse",
+        "lemma": "considerar \u00e9l",
+        "freq_abs": 3411,
+        "freq_norm": 22.35
+    },
+    {
+        "rank": 4123,
+        "word": "administrativa",
+        "lemma": "administrativo",
+        "freq_abs": 3410,
+        "freq_norm": 22.35
+    },
+    {
+        "rank": 4124,
+        "word": "cre\u00f3",
+        "lemma": "crear",
+        "freq_abs": 3410,
+        "freq_norm": 22.35
+    },
+    {
+        "rank": 4125,
+        "word": "elaborado",
+        "lemma": "elaborado",
+        "freq_abs": 3410,
+        "freq_norm": 22.35
+    },
+    {
+        "rank": 4126,
+        "word": "crecer",
+        "lemma": "crecer",
+        "freq_abs": 3408,
+        "freq_norm": 22.33
+    },
+    {
+        "rank": 4127,
+        "word": "cristianos",
+        "lemma": "cristianos",
+        "freq_abs": 3407,
+        "freq_norm": 22.33
+    },
+    {
+        "rank": 4128,
+        "word": "pistola",
+        "lemma": "pistola",
+        "freq_abs": 3406,
+        "freq_norm": 22.32
+    },
+    {
+        "rank": 4129,
+        "word": "cartera",
+        "lemma": "cartera",
+        "freq_abs": 3405,
+        "freq_norm": 22.31
+    },
+    {
+        "rank": 4130,
+        "word": "respiraci\u00f3n",
+        "lemma": "respiraci\u00f3n",
+        "freq_abs": 3405,
+        "freq_norm": 22.31
+    },
+    {
+        "rank": 4131,
+        "word": "nacionalistas",
+        "lemma": "nacionalista",
+        "freq_abs": 3404,
+        "freq_norm": 22.31
+    },
+    {
+        "rank": 4132,
+        "word": "imponer",
+        "lemma": "imponer",
+        "freq_abs": 3401,
+        "freq_norm": 22.29
+    },
+    {
+        "rank": 4133,
+        "word": "obrero",
+        "lemma": "obrero",
+        "freq_abs": 3400,
+        "freq_norm": 22.28
+    },
+    {
+        "rank": 4134,
+        "word": "\u00fanicos",
+        "lemma": "\u00fanico",
+        "freq_abs": 3400,
+        "freq_norm": 22.28
+    },
+    {
+        "rank": 4135,
+        "word": "vientre",
+        "lemma": "vientre",
+        "freq_abs": 3400,
+        "freq_norm": 22.28
+    },
+    {
+        "rank": 4136,
+        "word": "directora",
+        "lemma": "director",
+        "freq_abs": 3399,
+        "freq_norm": 22.28
+    },
+    {
+        "rank": 4137,
+        "word": "poetas",
+        "lemma": "poeta",
+        "freq_abs": 3399,
+        "freq_norm": 22.28
+    },
+    {
+        "rank": 4138,
+        "word": "a\u00e9rea",
+        "lemma": "a\u00e9reo",
+        "freq_abs": 3398,
+        "freq_norm": 22.27
+    },
+    {
+        "rank": 4139,
+        "word": "azar",
+        "lemma": "azar",
+        "freq_abs": 3398,
+        "freq_norm": 22.27
+    },
+    {
+        "rank": 4140,
+        "word": "despertar",
+        "lemma": "despertar",
+        "freq_abs": 3397,
+        "freq_norm": 22.26
+    },
+    {
+        "rank": 4141,
+        "word": "plataforma",
+        "lemma": "plataforma",
+        "freq_abs": 3397,
+        "freq_norm": 22.26
+    },
+    {
+        "rank": 4142,
+        "word": "ejecutiva",
+        "lemma": "ejecutivo",
+        "freq_abs": 3392,
+        "freq_norm": 22.23
+    },
+    {
+        "rank": 4143,
+        "word": "discutir",
+        "lemma": "discutir",
+        "freq_abs": 3390,
+        "freq_norm": 22.22
+    },
+    {
+        "rank": 4144,
+        "word": "indican",
+        "lemma": "indicar",
+        "freq_abs": 3390,
+        "freq_norm": 22.22
+    },
+    {
+        "rank": 4145,
+        "word": "visible",
+        "lemma": "visible",
+        "freq_abs": 3385,
+        "freq_norm": 22.18
+    },
+    {
+        "rank": 4146,
+        "word": "duque",
+        "lemma": "ducar",
+        "freq_abs": 3384,
+        "freq_norm": 22.18
+    },
+    {
+        "rank": 4147,
+        "word": "mortalidad",
+        "lemma": "mortalidad",
+        "freq_abs": 3383,
+        "freq_norm": 22.17
+    },
+    {
+        "rank": 4148,
+        "word": "marcado",
+        "lemma": "marcado",
+        "freq_abs": 3382,
+        "freq_norm": 22.16
+    },
+    {
+        "rank": 4149,
+        "word": "acabado",
+        "lemma": "acabado",
+        "freq_abs": 3378,
+        "freq_norm": 22.14
+    },
+    {
+        "rank": 4150,
+        "word": "preocupa",
+        "lemma": "preocupar",
+        "freq_abs": 3377,
+        "freq_norm": 22.13
+    },
+    {
+        "rank": 4151,
+        "word": "reproducci\u00f3n",
+        "lemma": "reproducci\u00f3n",
+        "freq_abs": 3377,
+        "freq_norm": 22.13
+    },
+    {
+        "rank": 4152,
+        "word": "espec\u00edficos",
+        "lemma": "espec\u00edfico",
+        "freq_abs": 3376,
+        "freq_norm": 22.12
+    },
+    {
+        "rank": 4153,
+        "word": "sensible",
+        "lemma": "sensible",
+        "freq_abs": 3375,
+        "freq_norm": 22.12
+    },
+    {
+        "rank": 4154,
+        "word": "territorios",
+        "lemma": "territorio",
+        "freq_abs": 3375,
+        "freq_norm": 22.12
+    },
+    {
+        "rank": 4155,
+        "word": "genes",
+        "lemma": "gen",
+        "freq_abs": 3370,
+        "freq_norm": 22.08
+    },
+    {
+        "rank": 4156,
+        "word": "finanzas",
+        "lemma": "finanza",
+        "freq_abs": 3369,
+        "freq_norm": 22.08
+    },
+    {
+        "rank": 4157,
+        "word": "entradas",
+        "lemma": "entrada",
+        "freq_abs": 3367,
+        "freq_norm": 22.07
+    },
+    {
+        "rank": 4158,
+        "word": "piden",
+        "lemma": "pedir",
+        "freq_abs": 3367,
+        "freq_norm": 22.07
+    },
+    {
+        "rank": 4159,
+        "word": "soportar",
+        "lemma": "soportar",
+        "freq_abs": 3367,
+        "freq_norm": 22.07
+    },
+    {
+        "rank": 4160,
+        "word": "anunciado",
+        "lemma": "anunciado",
+        "freq_abs": 3366,
+        "freq_norm": 22.06
+    },
+    {
+        "rank": 4161,
+        "word": "autorizaci\u00f3n",
+        "lemma": "autorizaci\u00f3n",
+        "freq_abs": 3365,
+        "freq_norm": 22.05
+    },
+    {
+        "rank": 4162,
+        "word": "consta",
+        "lemma": "constar",
+        "freq_abs": 3365,
+        "freq_norm": 22.05
+    },
+    {
+        "rank": 4163,
+        "word": "sof\u00eda",
+        "lemma": "sof\u00eda",
+        "freq_abs": 3365,
+        "freq_norm": 22.05
+    },
+    {
+        "rank": 4164,
+        "word": "obtiene",
+        "lemma": "obtener",
+        "freq_abs": 3364,
+        "freq_norm": 22.05
+    },
+    {
+        "rank": 4165,
+        "word": "escasos",
+        "lemma": "escaso",
+        "freq_abs": 3363,
+        "freq_norm": 22.04
+    },
+    {
+        "rank": 4166,
+        "word": "trece",
+        "lemma": "trece",
+        "freq_abs": 3363,
+        "freq_norm": 22.04
+    },
+    {
+        "rank": 4167,
+        "word": "or\u00edgenes",
+        "lemma": "origen",
+        "freq_abs": 3361,
+        "freq_norm": 22.03
+    },
+    {
+        "rank": 4168,
+        "word": "integrado",
+        "lemma": "integrado",
+        "freq_abs": 3359,
+        "freq_norm": 22.01
+    },
+    {
+        "rank": 4169,
+        "word": "mierda",
+        "lemma": "mierdo",
+        "freq_abs": 3359,
+        "freq_norm": 22.01
+    },
+    {
+        "rank": 4170,
+        "word": "qui\u00e9nes",
+        "lemma": "qui\u00e9n",
+        "freq_abs": 3359,
+        "freq_norm": 22.01
+    },
+    {
+        "rank": 4171,
+        "word": "aprob\u00f3",
+        "lemma": "aprobar",
+        "freq_abs": 3358,
+        "freq_norm": 22.01
+    },
+    {
+        "rank": 4172,
+        "word": "cent\u00edmetros",
+        "lemma": "cent\u00edmetro",
+        "freq_abs": 3358,
+        "freq_norm": 22.01
+    },
+    {
+        "rank": 4173,
+        "word": "habitualmente",
+        "lemma": "habitualmente",
+        "freq_abs": 3358,
+        "freq_norm": 22.01
+    },
+    {
+        "rank": 4174,
+        "word": "censura",
+        "lemma": "censura",
+        "freq_abs": 3357,
+        "freq_norm": 22.0
+    },
+    {
+        "rank": 4175,
+        "word": "cotidiana",
+        "lemma": "cotidiano",
+        "freq_abs": 3357,
+        "freq_norm": 22.0
+    },
+    {
+        "rank": 4176,
+        "word": "interesados",
+        "lemma": "interesado",
+        "freq_abs": 3357,
+        "freq_norm": 22.0
+    },
+    {
+        "rank": 4177,
+        "word": "penas",
+        "lemma": "pena",
+        "freq_abs": 3357,
+        "freq_norm": 22.0
+    },
+    {
+        "rank": 4178,
+        "word": "sorprendente",
+        "lemma": "sorprendente",
+        "freq_abs": 3355,
+        "freq_norm": 21.99
+    },
+    {
+        "rank": 4179,
+        "word": "declarar",
+        "lemma": "declarar",
+        "freq_abs": 3353,
+        "freq_norm": 21.97
+    },
+    {
+        "rank": 4180,
+        "word": "sospecha",
+        "lemma": "sospecha",
+        "freq_abs": 3353,
+        "freq_norm": 21.97
+    },
+    {
+        "rank": 4181,
+        "word": "b\u00e1sicamente",
+        "lemma": "b\u00e1sicamente",
+        "freq_abs": 3352,
+        "freq_norm": 21.97
+    },
+    {
+        "rank": 4182,
+        "word": "circular",
+        "lemma": "circular",
+        "freq_abs": 3352,
+        "freq_norm": 21.97
+    },
+    {
+        "rank": 4183,
+        "word": "viuda",
+        "lemma": "viuda",
+        "freq_abs": 3352,
+        "freq_norm": 21.97
+    },
+    {
+        "rank": 4184,
+        "word": "contempla",
+        "lemma": "contemplar",
+        "freq_abs": 3350,
+        "freq_norm": 21.95
+    },
+    {
+        "rank": 4185,
+        "word": "casado",
+        "lemma": "casado",
+        "freq_abs": 3349,
+        "freq_norm": 21.95
+    },
+    {
+        "rank": 4186,
+        "word": "espec\u00edfica",
+        "lemma": "espec\u00edfico",
+        "freq_abs": 3349,
+        "freq_norm": 21.95
+    },
+    {
+        "rank": 4187,
+        "word": "mesas",
+        "lemma": "mesa",
+        "freq_abs": 3349,
+        "freq_norm": 21.95
+    },
+    {
+        "rank": 4188,
+        "word": "simult\u00e1neamente",
+        "lemma": "simult\u00e1neamente",
+        "freq_abs": 3349,
+        "freq_norm": 21.95
+    },
+    {
+        "rank": 4189,
+        "word": "variaciones",
+        "lemma": "variaci\u00f3n",
+        "freq_abs": 3349,
+        "freq_norm": 21.95
+    },
+    {
+        "rank": 4190,
+        "word": "rara",
+        "lemma": "raro",
+        "freq_abs": 3348,
+        "freq_norm": 21.94
+    },
+    {
+        "rank": 4191,
+        "word": "recepci\u00f3n",
+        "lemma": "recepci\u00f3n",
+        "freq_abs": 3348,
+        "freq_norm": 21.94
+    },
+    {
+        "rank": 4192,
+        "word": "calendario",
+        "lemma": "calendario",
+        "freq_abs": 3345,
+        "freq_norm": 21.92
+    },
+    {
+        "rank": 4193,
+        "word": "mec\u00e1nica",
+        "lemma": "mec\u00e1nico",
+        "freq_abs": 3337,
+        "freq_norm": 21.87
+    },
+    {
+        "rank": 4194,
+        "word": "salario",
+        "lemma": "salario",
+        "freq_abs": 3337,
+        "freq_norm": 21.87
+    },
+    {
+        "rank": 4195,
+        "word": "mencionado",
+        "lemma": "mencionado",
+        "freq_abs": 3335,
+        "freq_norm": 21.86
+    },
+    {
+        "rank": 4196,
+        "word": "miel",
+        "lemma": "miel",
+        "freq_abs": 3335,
+        "freq_norm": 21.86
+    },
+    {
+        "rank": 4197,
+        "word": "excelencia",
+        "lemma": "excelencia",
+        "freq_abs": 3333,
+        "freq_norm": 21.84
+    },
+    {
+        "rank": 4198,
+        "word": "cementerio",
+        "lemma": "cementerio",
+        "freq_abs": 3332,
+        "freq_norm": 21.84
+    },
+    {
+        "rank": 4199,
+        "word": "dibujos",
+        "lemma": "dibujo",
+        "freq_abs": 3331,
+        "freq_norm": 21.83
+    },
+    {
+        "rank": 4200,
+        "word": "estadounidenses",
+        "lemma": "estadounidense",
+        "freq_abs": 3331,
+        "freq_norm": 21.83
+    },
+    {
+        "rank": 4201,
+        "word": "cobertura",
+        "lemma": "cobertura",
+        "freq_abs": 3329,
+        "freq_norm": 21.82
+    },
+    {
+        "rank": 4202,
+        "word": "escaso",
+        "lemma": "escaso",
+        "freq_abs": 3329,
+        "freq_norm": 21.82
+    },
+    {
+        "rank": 4203,
+        "word": "antiguas",
+        "lemma": "antigua",
+        "freq_abs": 3328,
+        "freq_norm": 21.81
+    },
+    {
+        "rank": 4204,
+        "word": "brasile\u00f1o",
+        "lemma": "brasile\u00f1o",
+        "freq_abs": 3328,
+        "freq_norm": 21.81
+    },
+    {
+        "rank": 4205,
+        "word": "deportiva",
+        "lemma": "deportivo",
+        "freq_abs": 3326,
+        "freq_norm": 21.8
+    },
+    {
+        "rank": 4206,
+        "word": "se\u00f1orita",
+        "lemma": "se\u00f1oritar",
+        "freq_abs": 3326,
+        "freq_norm": 21.8
+    },
+    {
+        "rank": 4207,
+        "word": "habilidad",
+        "lemma": "habilidad",
+        "freq_abs": 3324,
+        "freq_norm": 21.78
+    },
+    {
+        "rank": 4208,
+        "word": "cerveza",
+        "lemma": "cerveza",
+        "freq_abs": 3322,
+        "freq_norm": 21.77
+    },
+    {
+        "rank": 4209,
+        "word": "estaciones",
+        "lemma": "estaci\u00f3n",
+        "freq_abs": 3322,
+        "freq_norm": 21.77
+    },
+    {
+        "rank": 4210,
+        "word": "denuncias",
+        "lemma": "denuncia",
+        "freq_abs": 3320,
+        "freq_norm": 21.76
+    },
+    {
+        "rank": 4211,
+        "word": "sumamente",
+        "lemma": "sumamente",
+        "freq_abs": 3320,
+        "freq_norm": 21.76
+    },
+    {
+        "rank": 4212,
+        "word": "ampliar",
+        "lemma": "ampliar",
+        "freq_abs": 3319,
+        "freq_norm": 21.75
+    },
+    {
+        "rank": 4213,
+        "word": "ox\u00edgeno",
+        "lemma": "ox\u00edgeno",
+        "freq_abs": 3319,
+        "freq_norm": 21.75
+    },
+    {
+        "rank": 4214,
+        "word": "abiertas",
+        "lemma": "abierto",
+        "freq_abs": 3317,
+        "freq_norm": 21.74
+    },
+    {
+        "rank": 4215,
+        "word": "apunta",
+        "lemma": "apuntar",
+        "freq_abs": 3317,
+        "freq_norm": 21.74
+    },
+    {
+        "rank": 4216,
+        "word": "fallo",
+        "lemma": "fallo",
+        "freq_abs": 3316,
+        "freq_norm": 21.73
+    },
+    {
+        "rank": 4217,
+        "word": "leyenda",
+        "lemma": "leyenda",
+        "freq_abs": 3316,
+        "freq_norm": 21.73
+    },
+    {
+        "rank": 4218,
+        "word": "teatral",
+        "lemma": "teatral",
+        "freq_abs": 3316,
+        "freq_norm": 21.73
+    },
+    {
+        "rank": 4219,
+        "word": "barra",
+        "lemma": "barra",
+        "freq_abs": 3311,
+        "freq_norm": 21.7
+    },
+    {
+        "rank": 4220,
+        "word": "fabricaci\u00f3n",
+        "lemma": "fabricaci\u00f3n",
+        "freq_abs": 3309,
+        "freq_norm": 21.69
+    },
+    {
+        "rank": 4221,
+        "word": "relacionado",
+        "lemma": "relacionado",
+        "freq_abs": 3309,
+        "freq_norm": 21.69
+    },
+    {
+        "rank": 4222,
+        "word": "servido",
+        "lemma": "servido",
+        "freq_abs": 3309,
+        "freq_norm": 21.69
+    },
+    {
+        "rank": 4223,
+        "word": "eh",
+        "lemma": "eh",
+        "freq_abs": 3308,
+        "freq_norm": 21.68
+    },
+    {
+        "rank": 4224,
+        "word": "perdida",
+        "lemma": "perdido",
+        "freq_abs": 3308,
+        "freq_norm": 21.68
+    },
+    {
+        "rank": 4225,
+        "word": "primo",
+        "lemma": "primo",
+        "freq_abs": 3308,
+        "freq_norm": 21.68
+    },
+    {
+        "rank": 4226,
+        "word": "traslado",
+        "lemma": "traslado",
+        "freq_abs": 3308,
+        "freq_norm": 21.68
+    },
+    {
+        "rank": 4227,
+        "word": "refugio",
+        "lemma": "refugio",
+        "freq_abs": 3305,
+        "freq_norm": 21.66
+    },
+    {
+        "rank": 4228,
+        "word": "representar",
+        "lemma": "representar",
+        "freq_abs": 3304,
+        "freq_norm": 21.65
+    },
+    {
+        "rank": 4229,
+        "word": "terapia",
+        "lemma": "terapia",
+        "freq_abs": 3304,
+        "freq_norm": 21.65
+    },
+    {
+        "rank": 4230,
+        "word": "rama",
+        "lemma": "ramar",
+        "freq_abs": 3302,
+        "freq_norm": 21.64
+    },
+    {
+        "rank": 4231,
+        "word": "formando",
+        "lemma": "formar",
+        "freq_abs": 3301,
+        "freq_norm": 21.63
+    },
+    {
+        "rank": 4232,
+        "word": "herramientas",
+        "lemma": "herramienta",
+        "freq_abs": 3301,
+        "freq_norm": 21.63
+    },
+    {
+        "rank": 4233,
+        "word": "jud\u00edos",
+        "lemma": "jud\u00edo",
+        "freq_abs": 3301,
+        "freq_norm": 21.63
+    },
+    {
+        "rank": 4234,
+        "word": "trabajador",
+        "lemma": "trabajador",
+        "freq_abs": 3300,
+        "freq_norm": 21.63
+    },
+    {
+        "rank": 4235,
+        "word": "limpia",
+        "lemma": "limpio",
+        "freq_abs": 3299,
+        "freq_norm": 21.62
+    },
+    {
+        "rank": 4236,
+        "word": "declarado",
+        "lemma": "declarado",
+        "freq_abs": 3298,
+        "freq_norm": 21.61
+    },
+    {
+        "rank": 4237,
+        "word": "foro",
+        "lemma": "foro",
+        "freq_abs": 3298,
+        "freq_norm": 21.61
+    },
+    {
+        "rank": 4238,
+        "word": "utilizados",
+        "lemma": "utilizado",
+        "freq_abs": 3298,
+        "freq_norm": 21.61
+    },
+    {
+        "rank": 4239,
+        "word": "retiro",
+        "lemma": "retirar",
+        "freq_abs": 3296,
+        "freq_norm": 21.6
+    },
+    {
+        "rank": 4240,
+        "word": "civilizaci\u00f3n",
+        "lemma": "civilizaci\u00f3n",
+        "freq_abs": 3295,
+        "freq_norm": 21.59
+    },
+    {
+        "rank": 4241,
+        "word": "revela",
+        "lemma": "revelar",
+        "freq_abs": 3292,
+        "freq_norm": 21.57
+    },
+    {
+        "rank": 4242,
+        "word": "sienten",
+        "lemma": "sentir",
+        "freq_abs": 3292,
+        "freq_norm": 21.57
+    },
+    {
+        "rank": 4243,
+        "word": "alturas",
+        "lemma": "altura",
+        "freq_abs": 3291,
+        "freq_norm": 21.57
+    },
+    {
+        "rank": 4244,
+        "word": "colaboradores",
+        "lemma": "colaborador",
+        "freq_abs": 3291,
+        "freq_norm": 21.57
+    },
+    {
+        "rank": 4245,
+        "word": "complejidad",
+        "lemma": "complejidad",
+        "freq_abs": 3291,
+        "freq_norm": 21.57
+    },
+    {
+        "rank": 4246,
+        "word": "fuga",
+        "lemma": "fuga",
+        "freq_abs": 3290,
+        "freq_norm": 21.56
+    },
+    {
+        "rank": 4247,
+        "word": "gramos",
+        "lemma": "gramo",
+        "freq_abs": 3288,
+        "freq_norm": 21.55
+    },
+    {
+        "rank": 4248,
+        "word": "guerras",
+        "lemma": "guerra",
+        "freq_abs": 3288,
+        "freq_norm": 21.55
+    },
+    {
+        "rank": 4249,
+        "word": "literario",
+        "lemma": "literario",
+        "freq_abs": 3288,
+        "freq_norm": 21.55
+    },
+    {
+        "rank": 4250,
+        "word": "autom\u00f3viles",
+        "lemma": "autom\u00f3vil",
+        "freq_abs": 3287,
+        "freq_norm": 21.54
+    },
+    {
+        "rank": 4251,
+        "word": "suena",
+        "lemma": "sonar",
+        "freq_abs": 3287,
+        "freq_norm": 21.54
+    },
+    {
+        "rank": 4252,
+        "word": "estatales",
+        "lemma": "estatal",
+        "freq_abs": 3286,
+        "freq_norm": 21.53
+    },
+    {
+        "rank": 4253,
+        "word": "cu\u00e1ntos",
+        "lemma": "cu\u00e1nto",
+        "freq_abs": 3283,
+        "freq_norm": 21.51
+    },
+    {
+        "rank": 4254,
+        "word": "paraguay",
+        "lemma": "paraguay",
+        "freq_abs": 3283,
+        "freq_norm": 21.51
+    },
+    {
+        "rank": 4255,
+        "word": "inferiores",
+        "lemma": "inferior",
+        "freq_abs": 3280,
+        "freq_norm": 21.49
+    },
+    {
+        "rank": 4256,
+        "word": "sometido",
+        "lemma": "sometido",
+        "freq_abs": 3279,
+        "freq_norm": 21.49
+    },
+    {
+        "rank": 4257,
+        "word": "aves",
+        "lemma": "ave",
+        "freq_abs": 3277,
+        "freq_norm": 21.48
+    },
+    {
+        "rank": 4258,
+        "word": "giro",
+        "lemma": "giro",
+        "freq_abs": 3276,
+        "freq_norm": 21.47
+    },
+    {
+        "rank": 4259,
+        "word": "judiciales",
+        "lemma": "judicial",
+        "freq_abs": 3276,
+        "freq_norm": 21.47
+    },
+    {
+        "rank": 4260,
+        "word": "universitarios",
+        "lemma": "universitario",
+        "freq_abs": 3276,
+        "freq_norm": 21.47
+    },
+    {
+        "rank": 4261,
+        "word": "grit\u00f3",
+        "lemma": "gritar",
+        "freq_abs": 3274,
+        "freq_norm": 21.46
+    },
+    {
+        "rank": 4262,
+        "word": "solitario",
+        "lemma": "solitario",
+        "freq_abs": 3273,
+        "freq_norm": 21.45
+    },
+    {
+        "rank": 4263,
+        "word": "doy",
+        "lemma": "dar",
+        "freq_abs": 3271,
+        "freq_norm": 21.44
+    },
+    {
+        "rank": 4264,
+        "word": "salamanca",
+        "lemma": "salamanco",
+        "freq_abs": 3271,
+        "freq_norm": 21.44
+    },
+    {
+        "rank": 4265,
+        "word": "componente",
+        "lemma": "componente",
+        "freq_abs": 3270,
+        "freq_norm": 21.43
+    },
+    {
+        "rank": 4266,
+        "word": "decirlo",
+        "lemma": "decir \u00e9l",
+        "freq_abs": 3270,
+        "freq_norm": 21.43
+    },
+    {
+        "rank": 4267,
+        "word": "fantas\u00eda",
+        "lemma": "fantas\u00eda",
+        "freq_abs": 3270,
+        "freq_norm": 21.43
+    },
+    {
+        "rank": 4268,
+        "word": "estrecha",
+        "lemma": "estrecho",
+        "freq_abs": 3269,
+        "freq_norm": 21.42
+    },
+    {
+        "rank": 4269,
+        "word": "mariana",
+        "lemma": "mari\u00e1n",
+        "freq_abs": 3269,
+        "freq_norm": 21.42
+    },
+    {
+        "rank": 4270,
+        "word": "habituales",
+        "lemma": "habitual",
+        "freq_abs": 3268,
+        "freq_norm": 21.42
+    },
+    {
+        "rank": 4271,
+        "word": "vea",
+        "lemma": "ver",
+        "freq_abs": 3266,
+        "freq_norm": 21.4
+    },
+    {
+        "rank": 4272,
+        "word": "cuartos",
+        "lemma": "cuarto",
+        "freq_abs": 3265,
+        "freq_norm": 21.4
+    },
+    {
+        "rank": 4273,
+        "word": "parlamentaria",
+        "lemma": "parlamentario",
+        "freq_abs": 3265,
+        "freq_norm": 21.4
+    },
+    {
+        "rank": 4274,
+        "word": "pregunt\u00e9",
+        "lemma": "preguntar",
+        "freq_abs": 3265,
+        "freq_norm": 21.4
+    },
+    {
+        "rank": 4275,
+        "word": "soporte",
+        "lemma": "soportir",
+        "freq_abs": 3265,
+        "freq_norm": 21.4
+    },
+    {
+        "rank": 4276,
+        "word": "conservar",
+        "lemma": "conservar",
+        "freq_abs": 3262,
+        "freq_norm": 21.38
+    },
+    {
+        "rank": 4277,
+        "word": "dominicana",
+        "lemma": "dominicano",
+        "freq_abs": 3262,
+        "freq_norm": 21.38
+    },
+    {
+        "rank": 4278,
+        "word": "toman",
+        "lemma": "tomar",
+        "freq_abs": 3259,
+        "freq_norm": 21.36
+    },
+    {
+        "rank": 4279,
+        "word": "campa\u00f1as",
+        "lemma": "campa\u00f1a",
+        "freq_abs": 3258,
+        "freq_norm": 21.35
+    },
+    {
+        "rank": 4280,
+        "word": "esenciales",
+        "lemma": "esencial",
+        "freq_abs": 3258,
+        "freq_norm": 21.35
+    },
+    {
+        "rank": 4281,
+        "word": "faltaba",
+        "lemma": "faltar",
+        "freq_abs": 3258,
+        "freq_norm": 21.35
+    },
+    {
+        "rank": 4282,
+        "word": "pensiones",
+        "lemma": "pensi\u00f3n",
+        "freq_abs": 3258,
+        "freq_norm": 21.35
+    },
+    {
+        "rank": 4283,
+        "word": "atractivo",
+        "lemma": "atractivo",
+        "freq_abs": 3257,
+        "freq_norm": 21.34
+    },
+    {
+        "rank": 4284,
+        "word": "lenguas",
+        "lemma": "lengua",
+        "freq_abs": 3257,
+        "freq_norm": 21.34
+    },
+    {
+        "rank": 4285,
+        "word": "gal",
+        "lemma": "gal",
+        "freq_abs": 3254,
+        "freq_norm": 21.32
+    },
+    {
+        "rank": 4286,
+        "word": "insiste",
+        "lemma": "insistir",
+        "freq_abs": 3254,
+        "freq_norm": 21.32
+    },
+    {
+        "rank": 4287,
+        "word": "angeles",
+        "lemma": "angel",
+        "freq_abs": 3253,
+        "freq_norm": 21.32
+    },
+    {
+        "rank": 4288,
+        "word": "esperanzas",
+        "lemma": "esperanza",
+        "freq_abs": 3252,
+        "freq_norm": 21.31
+    },
+    {
+        "rank": 4289,
+        "word": "cuartel",
+        "lemma": "cuartel",
+        "freq_abs": 3248,
+        "freq_norm": 21.29
+    },
+    {
+        "rank": 4290,
+        "word": "prev\u00e9",
+        "lemma": "prever",
+        "freq_abs": 3248,
+        "freq_norm": 21.29
+    },
+    {
+        "rank": 4291,
+        "word": "docentes",
+        "lemma": "docente",
+        "freq_abs": 3247,
+        "freq_norm": 21.28
+    },
+    {
+        "rank": 4292,
+        "word": "interesado",
+        "lemma": "interesado",
+        "freq_abs": 3247,
+        "freq_norm": 21.28
+    },
+    {
+        "rank": 4293,
+        "word": "\u00e1ngeles",
+        "lemma": "\u00e1ngel",
+        "freq_abs": 3246,
+        "freq_norm": 21.27
+    },
+    {
+        "rank": 4294,
+        "word": "facultades",
+        "lemma": "facultad",
+        "freq_abs": 3246,
+        "freq_norm": 21.27
+    },
+    {
+        "rank": 4295,
+        "word": "construido",
+        "lemma": "construido",
+        "freq_abs": 3245,
+        "freq_norm": 21.27
+    },
+    {
+        "rank": 4296,
+        "word": "continuo",
+        "lemma": "continuo",
+        "freq_abs": 3245,
+        "freq_norm": 21.27
+    },
+    {
+        "rank": 4297,
+        "word": "dur\u00f3",
+        "lemma": "durar",
+        "freq_abs": 3245,
+        "freq_norm": 21.27
+    },
+    {
+        "rank": 4298,
+        "word": "herrera",
+        "lemma": "herrera",
+        "freq_abs": 3245,
+        "freq_norm": 21.27
+    },
+    {
+        "rank": 4299,
+        "word": "certeza",
+        "lemma": "certeza",
+        "freq_abs": 3244,
+        "freq_norm": 21.26
+    },
+    {
+        "rank": 4300,
+        "word": "correcto",
+        "lemma": "correcto",
+        "freq_abs": 3243,
+        "freq_norm": 21.25
+    },
+    {
+        "rank": 4301,
+        "word": "nombrado",
+        "lemma": "nombrado",
+        "freq_abs": 3243,
+        "freq_norm": 21.25
+    },
+    {
+        "rank": 4302,
+        "word": "realizar\u00e1",
+        "lemma": "realizar",
+        "freq_abs": 3243,
+        "freq_norm": 21.25
+    },
+    {
+        "rank": 4303,
+        "word": "semejantes",
+        "lemma": "semejante",
+        "freq_abs": 3240,
+        "freq_norm": 21.23
+    },
+    {
+        "rank": 4304,
+        "word": "dirigir",
+        "lemma": "dirigir",
+        "freq_abs": 3238,
+        "freq_norm": 21.22
+    },
+    {
+        "rank": 4305,
+        "word": "pac\u00edfico",
+        "lemma": "pac\u00edfico",
+        "freq_abs": 3238,
+        "freq_norm": 21.22
+    },
+    {
+        "rank": 4306,
+        "word": "ilegal",
+        "lemma": "ilegal",
+        "freq_abs": 3237,
+        "freq_norm": 21.21
+    },
+    {
+        "rank": 4307,
+        "word": "burgos",
+        "lemma": "burgo",
+        "freq_abs": 3235,
+        "freq_norm": 21.2
+    },
+    {
+        "rank": 4308,
+        "word": "empezado",
+        "lemma": "empezado",
+        "freq_abs": 3235,
+        "freq_norm": 21.2
+    },
+    {
+        "rank": 4309,
+        "word": "llevaban",
+        "lemma": "llevar",
+        "freq_abs": 3234,
+        "freq_norm": 21.19
+    },
+    {
+        "rank": 4310,
+        "word": "mostrado",
+        "lemma": "mostrado",
+        "freq_abs": 3234,
+        "freq_norm": 21.19
+    },
+    {
+        "rank": 4311,
+        "word": "cercana",
+        "lemma": "cercano",
+        "freq_abs": 3232,
+        "freq_norm": 21.18
+    },
+    {
+        "rank": 4312,
+        "word": "guardias",
+        "lemma": "guardia",
+        "freq_abs": 3232,
+        "freq_norm": 21.18
+    },
+    {
+        "rank": 4313,
+        "word": "mito",
+        "lemma": "mito",
+        "freq_abs": 3231,
+        "freq_norm": 21.17
+    },
+    {
+        "rank": 4314,
+        "word": "ven\u00edan",
+        "lemma": "venir",
+        "freq_abs": 3231,
+        "freq_norm": 21.17
+    },
+    {
+        "rank": 4315,
+        "word": "presentarse",
+        "lemma": "presentar \u00e9l",
+        "freq_abs": 3229,
+        "freq_norm": 21.16
+    },
+    {
+        "rank": 4316,
+        "word": "famosa",
+        "lemma": "famoso",
+        "freq_abs": 3228,
+        "freq_norm": 21.15
+    },
+    {
+        "rank": 4317,
+        "word": "frecuentemente",
+        "lemma": "frecuentemente",
+        "freq_abs": 3227,
+        "freq_norm": 21.15
+    },
+    {
+        "rank": 4318,
+        "word": "normativa",
+        "lemma": "normativo",
+        "freq_abs": 3227,
+        "freq_norm": 21.15
+    },
+    {
+        "rank": 4319,
+        "word": "absurdo",
+        "lemma": "absurdo",
+        "freq_abs": 3226,
+        "freq_norm": 21.14
+    },
+    {
+        "rank": 4320,
+        "word": "col\u00f3n",
+        "lemma": "col\u00f3n",
+        "freq_abs": 3223,
+        "freq_norm": 21.12
+    },
+    {
+        "rank": 4321,
+        "word": "f\u00f3rmulas",
+        "lemma": "f\u00f3rmula",
+        "freq_abs": 3223,
+        "freq_norm": 21.12
+    },
+    {
+        "rank": 4322,
+        "word": "afectado",
+        "lemma": "afectado",
+        "freq_abs": 3221,
+        "freq_norm": 21.11
+    },
+    {
+        "rank": 4323,
+        "word": "futura",
+        "lemma": "futuro",
+        "freq_abs": 3221,
+        "freq_norm": 21.11
+    },
+    {
+        "rank": 4324,
+        "word": "aclarar",
+        "lemma": "aclarar",
+        "freq_abs": 3220,
+        "freq_norm": 21.1
+    },
+    {
+        "rank": 4325,
+        "word": "r\u00e9cord",
+        "lemma": "r\u00e9cord",
+        "freq_abs": 3220,
+        "freq_norm": 21.1
+    },
+    {
+        "rank": 4326,
+        "word": "extranjera",
+        "lemma": "extranjero",
+        "freq_abs": 3218,
+        "freq_norm": 21.09
+    },
+    {
+        "rank": 4327,
+        "word": "amo",
+        "lemma": "amar",
+        "freq_abs": 3217,
+        "freq_norm": 21.08
+    },
+    {
+        "rank": 4328,
+        "word": "contemplar",
+        "lemma": "contemplar",
+        "freq_abs": 3217,
+        "freq_norm": 21.08
+    },
+    {
+        "rank": 4329,
+        "word": "tecnol\u00f3gico",
+        "lemma": "tecnol\u00f3gico",
+        "freq_abs": 3217,
+        "freq_norm": 21.08
+    },
+    {
+        "rank": 4330,
+        "word": "vidrio",
+        "lemma": "vidrio",
+        "freq_abs": 3217,
+        "freq_norm": 21.08
+    },
+    {
+        "rank": 4331,
+        "word": "cintura",
+        "lemma": "cintura",
+        "freq_abs": 3215,
+        "freq_norm": 21.07
+    },
+    {
+        "rank": 4332,
+        "word": "medina",
+        "lemma": "medinar",
+        "freq_abs": 3214,
+        "freq_norm": 21.06
+    },
+    {
+        "rank": 4333,
+        "word": "religiosas",
+        "lemma": "religiosa",
+        "freq_abs": 3214,
+        "freq_norm": 21.06
+    },
+    {
+        "rank": 4334,
+        "word": "alba",
+        "lemma": "albar",
+        "freq_abs": 3213,
+        "freq_norm": 21.06
+    },
+    {
+        "rank": 4335,
+        "word": "ocupado",
+        "lemma": "ocupado",
+        "freq_abs": 3213,
+        "freq_norm": 21.06
+    },
+    {
+        "rank": 4336,
+        "word": "p\u00e1jaros",
+        "lemma": "p\u00e1jaro",
+        "freq_abs": 3213,
+        "freq_norm": 21.06
+    },
+    {
+        "rank": 4337,
+        "word": "hermanas",
+        "lemma": "hermana",
+        "freq_abs": 3211,
+        "freq_norm": 21.04
+    },
+    {
+        "rank": 4338,
+        "word": "secundaria",
+        "lemma": "secundario",
+        "freq_abs": 3211,
+        "freq_norm": 21.04
+    },
+    {
+        "rank": 4339,
+        "word": "clubes",
+        "lemma": "club",
+        "freq_abs": 3209,
+        "freq_norm": 21.03
+    },
+    {
+        "rank": 4340,
+        "word": "plantilla",
+        "lemma": "plantilla",
+        "freq_abs": 3209,
+        "freq_norm": 21.03
+    },
+    {
+        "rank": 4341,
+        "word": "b\u00e1sicas",
+        "lemma": "b\u00e1sico",
+        "freq_abs": 3208,
+        "freq_norm": 21.02
+    },
+    {
+        "rank": 4342,
+        "word": "crece",
+        "lemma": "crecer",
+        "freq_abs": 3208,
+        "freq_norm": 21.02
+    },
+    {
+        "rank": 4343,
+        "word": "incre\u00edble",
+        "lemma": "incre\u00edble",
+        "freq_abs": 3208,
+        "freq_norm": 21.02
+    },
+    {
+        "rank": 4344,
+        "word": "nave",
+        "lemma": "nave",
+        "freq_abs": 3208,
+        "freq_norm": 21.02
+    },
+    {
+        "rank": 4345,
+        "word": "reto",
+        "lemma": "reto",
+        "freq_abs": 3207,
+        "freq_norm": 21.02
+    },
+    {
+        "rank": 4346,
+        "word": "adn",
+        "lemma": "adn",
+        "freq_abs": 3204,
+        "freq_norm": 21.0
+    },
+    {
+        "rank": 4347,
+        "word": "vegetales",
+        "lemma": "vegetal",
+        "freq_abs": 3203,
+        "freq_norm": 20.99
+    },
+    {
+        "rank": 4348,
+        "word": "enviar",
+        "lemma": "enviar",
+        "freq_abs": 3202,
+        "freq_norm": 20.98
+    },
+    {
+        "rank": 4349,
+        "word": "llevando",
+        "lemma": "llevar",
+        "freq_abs": 3202,
+        "freq_norm": 20.98
+    },
+    {
+        "rank": 4350,
+        "word": "h\u00e9roe",
+        "lemma": "h\u00e9roe",
+        "freq_abs": 3201,
+        "freq_norm": 20.98
+    },
+    {
+        "rank": 4351,
+        "word": "celebrado",
+        "lemma": "celebrado",
+        "freq_abs": 3199,
+        "freq_norm": 20.96
+    },
+    {
+        "rank": 4352,
+        "word": "criminal",
+        "lemma": "criminal",
+        "freq_abs": 3198,
+        "freq_norm": 20.96
+    },
+    {
+        "rank": 4353,
+        "word": "palmas",
+        "lemma": "palma",
+        "freq_abs": 3198,
+        "freq_norm": 20.96
+    },
+    {
+        "rank": 4354,
+        "word": "rocas",
+        "lemma": "roca",
+        "freq_abs": 3197,
+        "freq_norm": 20.95
+    },
+    {
+        "rank": 4355,
+        "word": "contribuir",
+        "lemma": "contribuir",
+        "freq_abs": 3194,
+        "freq_norm": 20.93
+    },
+    {
+        "rank": 4356,
+        "word": "lenta",
+        "lemma": "lento",
+        "freq_abs": 3193,
+        "freq_norm": 20.92
+    },
+    {
+        "rank": 4357,
+        "word": "llave",
+        "lemma": "llave",
+        "freq_abs": 3193,
+        "freq_norm": 20.92
+    },
+    {
+        "rank": 4358,
+        "word": "haces",
+        "lemma": "haz",
+        "freq_abs": 3192,
+        "freq_norm": 20.92
+    },
+    {
+        "rank": 4359,
+        "word": "sube",
+        "lemma": "subir",
+        "freq_abs": 3192,
+        "freq_norm": 20.92
+    },
+    {
+        "rank": 4360,
+        "word": "canciller",
+        "lemma": "canciller",
+        "freq_abs": 3191,
+        "freq_norm": 20.91
+    },
+    {
+        "rank": 4361,
+        "word": "relieve",
+        "lemma": "relieve",
+        "freq_abs": 3191,
+        "freq_norm": 20.91
+    },
+    {
+        "rank": 4362,
+        "word": "ajeno",
+        "lemma": "ajeno",
+        "freq_abs": 3190,
+        "freq_norm": 20.91
+    },
+    {
+        "rank": 4363,
+        "word": "hielo",
+        "lemma": "hielo",
+        "freq_abs": 3190,
+        "freq_norm": 20.91
+    },
+    {
+        "rank": 4364,
+        "word": "leve",
+        "lemma": "leve",
+        "freq_abs": 3190,
+        "freq_norm": 20.91
+    },
+    {
+        "rank": 4365,
+        "word": "obtenidos",
+        "lemma": "obtenido",
+        "freq_abs": 3190,
+        "freq_norm": 20.91
+    },
+    {
+        "rank": 4366,
+        "word": "cuenca",
+        "lemma": "cuencar",
+        "freq_abs": 3189,
+        "freq_norm": 20.9
+    },
+    {
+        "rank": 4367,
+        "word": "incendio",
+        "lemma": "incendio",
+        "freq_abs": 3188,
+        "freq_norm": 20.89
+    },
+    {
+        "rank": 4368,
+        "word": "barcos",
+        "lemma": "barco",
+        "freq_abs": 3187,
+        "freq_norm": 20.89
+    },
+    {
+        "rank": 4369,
+        "word": "drama",
+        "lemma": "drama",
+        "freq_abs": 3186,
+        "freq_norm": 20.88
+    },
+    {
+        "rank": 4370,
+        "word": "para\u00edso",
+        "lemma": "para\u00edso",
+        "freq_abs": 3186,
+        "freq_norm": 20.88
+    },
+    {
+        "rank": 4371,
+        "word": "poderoso",
+        "lemma": "poderoso",
+        "freq_abs": 3186,
+        "freq_norm": 20.88
+    },
+    {
+        "rank": 4372,
+        "word": "especialista",
+        "lemma": "especialista",
+        "freq_abs": 3184,
+        "freq_norm": 20.87
+    },
+    {
+        "rank": 4373,
+        "word": "rango",
+        "lemma": "ranguir",
+        "freq_abs": 3182,
+        "freq_norm": 20.85
+    },
+    {
+        "rank": 4374,
+        "word": "dispuesta",
+        "lemma": "dispuesto",
+        "freq_abs": 3181,
+        "freq_norm": 20.85
+    },
+    {
+        "rank": 4375,
+        "word": "exclusiva",
+        "lemma": "exclusivo",
+        "freq_abs": 3181,
+        "freq_norm": 20.85
+    },
+    {
+        "rank": 4376,
+        "word": "supervivencia",
+        "lemma": "supervivencia",
+        "freq_abs": 3181,
+        "freq_norm": 20.85
+    },
+    {
+        "rank": 4377,
+        "word": "toque",
+        "lemma": "toque",
+        "freq_abs": 3181,
+        "freq_norm": 20.85
+    },
+    {
+        "rank": 4378,
+        "word": "metido",
+        "lemma": "metido",
+        "freq_abs": 3180,
+        "freq_norm": 20.84
+    },
+    {
+        "rank": 4379,
+        "word": "internas",
+        "lemma": "interno",
+        "freq_abs": 3177,
+        "freq_norm": 20.82
+    },
+    {
+        "rank": 4380,
+        "word": "cl\u00e1sicos",
+        "lemma": "cl\u00e1sico",
+        "freq_abs": 3175,
+        "freq_norm": 20.81
+    },
+    {
+        "rank": 4381,
+        "word": "elevada",
+        "lemma": "elevado",
+        "freq_abs": 3174,
+        "freq_norm": 20.8
+    },
+    {
+        "rank": 4382,
+        "word": "oy\u00f3",
+        "lemma": "oir",
+        "freq_abs": 3174,
+        "freq_norm": 20.8
+    },
+    {
+        "rank": 4383,
+        "word": "sucesi\u00f3n",
+        "lemma": "sucesi\u00f3n",
+        "freq_abs": 3173,
+        "freq_norm": 20.79
+    },
+    {
+        "rank": 4384,
+        "word": "racional",
+        "lemma": "racional",
+        "freq_abs": 3170,
+        "freq_norm": 20.77
+    },
+    {
+        "rank": 4385,
+        "word": "habitaciones",
+        "lemma": "habitaci\u00f3n",
+        "freq_abs": 3169,
+        "freq_norm": 20.77
+    },
+    {
+        "rank": 4386,
+        "word": "estando",
+        "lemma": "estar",
+        "freq_abs": 3168,
+        "freq_norm": 20.76
+    },
+    {
+        "rank": 4387,
+        "word": "intervenir",
+        "lemma": "intervenir",
+        "freq_abs": 3168,
+        "freq_norm": 20.76
+    },
+    {
+        "rank": 4388,
+        "word": "ascenso",
+        "lemma": "ascenso",
+        "freq_abs": 3166,
+        "freq_norm": 20.75
+    },
+    {
+        "rank": 4389,
+        "word": "solas",
+        "lemma": "solo",
+        "freq_abs": 3163,
+        "freq_norm": 20.73
+    },
+    {
+        "rank": 4390,
+        "word": "asistentes",
+        "lemma": "asistente",
+        "freq_abs": 3160,
+        "freq_norm": 20.71
+    },
+    {
+        "rank": 4391,
+        "word": "antena",
+        "lemma": "ant\u00e9n",
+        "freq_abs": 3159,
+        "freq_norm": 20.7
+    },
+    {
+        "rank": 4392,
+        "word": "publicaciones",
+        "lemma": "publicaci\u00f3n",
+        "freq_abs": 3159,
+        "freq_norm": 20.7
+    },
+    {
+        "rank": 4393,
+        "word": "vera",
+        "lemma": "vera",
+        "freq_abs": 3159,
+        "freq_norm": 20.7
+    },
+    {
+        "rank": 4394,
+        "word": "costes",
+        "lemma": "coste",
+        "freq_abs": 3158,
+        "freq_norm": 20.7
+    },
+    {
+        "rank": 4395,
+        "word": "electr\u00f3nico",
+        "lemma": "electr\u00f3nico",
+        "freq_abs": 3158,
+        "freq_norm": 20.7
+    },
+    {
+        "rank": 4396,
+        "word": "entran",
+        "lemma": "entrar",
+        "freq_abs": 3158,
+        "freq_norm": 20.7
+    },
+    {
+        "rank": 4397,
+        "word": "subi\u00f3",
+        "lemma": "subir",
+        "freq_abs": 3157,
+        "freq_norm": 20.69
+    },
+    {
+        "rank": 4398,
+        "word": "capitalismo",
+        "lemma": "capitalismo",
+        "freq_abs": 3155,
+        "freq_norm": 20.68
+    },
+    {
+        "rank": 4399,
+        "word": "beso",
+        "lemma": "beso",
+        "freq_abs": 3154,
+        "freq_norm": 20.67
+    },
+    {
+        "rank": 4400,
+        "word": "almuerzo",
+        "lemma": "almuerzo",
+        "freq_abs": 3153,
+        "freq_norm": 20.66
+    },
+    {
+        "rank": 4401,
+        "word": "establecimientos",
+        "lemma": "establecimiento",
+        "freq_abs": 3153,
+        "freq_norm": 20.66
+    },
+    {
+        "rank": 4402,
+        "word": "considerada",
+        "lemma": "considerado",
+        "freq_abs": 3152,
+        "freq_norm": 20.66
+    },
+    {
+        "rank": 4403,
+        "word": "mire",
+        "lemma": "mire",
+        "freq_abs": 3152,
+        "freq_norm": 20.66
+    },
+    {
+        "rank": 4404,
+        "word": "presentada",
+        "lemma": "presentado",
+        "freq_abs": 3150,
+        "freq_norm": 20.64
+    },
+    {
+        "rank": 4405,
+        "word": "reduce",
+        "lemma": "reducir",
+        "freq_abs": 3150,
+        "freq_norm": 20.64
+    },
+    {
+        "rank": 4406,
+        "word": "inquietud",
+        "lemma": "inquietud",
+        "freq_abs": 3148,
+        "freq_norm": 20.63
+    },
+    {
+        "rank": 4407,
+        "word": "afici\u00f3n",
+        "lemma": "afici\u00f3n",
+        "freq_abs": 3147,
+        "freq_norm": 20.62
+    },
+    {
+        "rank": 4408,
+        "word": "defectos",
+        "lemma": "defecto",
+        "freq_abs": 3147,
+        "freq_norm": 20.62
+    },
+    {
+        "rank": 4409,
+        "word": "elaborar",
+        "lemma": "elaborar",
+        "freq_abs": 3146,
+        "freq_norm": 20.62
+    },
+    {
+        "rank": 4410,
+        "word": "fomento",
+        "lemma": "fomento",
+        "freq_abs": 3146,
+        "freq_norm": 20.62
+    },
+    {
+        "rank": 4411,
+        "word": "empezaba",
+        "lemma": "empezar",
+        "freq_abs": 3145,
+        "freq_norm": 20.61
+    },
+    {
+        "rank": 4412,
+        "word": "intimidad",
+        "lemma": "intimidad",
+        "freq_abs": 3145,
+        "freq_norm": 20.61
+    },
+    {
+        "rank": 4413,
+        "word": "aporte",
+        "lemma": "aporte",
+        "freq_abs": 3144,
+        "freq_norm": 20.6
+    },
+    {
+        "rank": 4414,
+        "word": "llegamos",
+        "lemma": "llegar",
+        "freq_abs": 3144,
+        "freq_norm": 20.6
+    },
+    {
+        "rank": 4415,
+        "word": "presentaron",
+        "lemma": "presentar",
+        "freq_abs": 3144,
+        "freq_norm": 20.6
+    },
+    {
+        "rank": 4416,
+        "word": "juana",
+        "lemma": "ju\u00e1n",
+        "freq_abs": 3143,
+        "freq_norm": 20.6
+    },
+    {
+        "rank": 4417,
+        "word": "sol\u00eda",
+        "lemma": "soler",
+        "freq_abs": 3142,
+        "freq_norm": 20.59
+    },
+    {
+        "rank": 4418,
+        "word": "investigar",
+        "lemma": "investigar",
+        "freq_abs": 3141,
+        "freq_norm": 20.58
+    },
+    {
+        "rank": 4419,
+        "word": "pimienta",
+        "lemma": "pimiento",
+        "freq_abs": 3141,
+        "freq_norm": 20.58
+    },
+    {
+        "rank": 4420,
+        "word": "acontecimiento",
+        "lemma": "acontecimiento",
+        "freq_abs": 3138,
+        "freq_norm": 20.56
+    },
+    {
+        "rank": 4421,
+        "word": "minas",
+        "lemma": "mina",
+        "freq_abs": 3138,
+        "freq_norm": 20.56
+    },
+    {
+        "rank": 4422,
+        "word": "consideraba",
+        "lemma": "considerar",
+        "freq_abs": 3137,
+        "freq_norm": 20.56
+    },
+    {
+        "rank": 4423,
+        "word": "necesito",
+        "lemma": "necesitar",
+        "freq_abs": 3137,
+        "freq_norm": 20.56
+    },
+    {
+        "rank": 4424,
+        "word": "urss",
+        "lemma": "urs",
+        "freq_abs": 3137,
+        "freq_norm": 20.56
+    },
+    {
+        "rank": 4425,
+        "word": "lanza",
+        "lemma": "lanzar",
+        "freq_abs": 3135,
+        "freq_norm": 20.54
+    },
+    {
+        "rank": 4426,
+        "word": "minerales",
+        "lemma": "mineral",
+        "freq_abs": 3134,
+        "freq_norm": 20.54
+    },
+    {
+        "rank": 4427,
+        "word": "rojos",
+        "lemma": "rojo",
+        "freq_abs": 3134,
+        "freq_norm": 20.54
+    },
+    {
+        "rank": 4428,
+        "word": "entendido",
+        "lemma": "entendido",
+        "freq_abs": 3133,
+        "freq_norm": 20.53
+    },
+    {
+        "rank": 4429,
+        "word": "aceptado",
+        "lemma": "aceptado",
+        "freq_abs": 3131,
+        "freq_norm": 20.52
+    },
+    {
+        "rank": 4430,
+        "word": "cancha",
+        "lemma": "cancha",
+        "freq_abs": 3130,
+        "freq_norm": 20.51
+    },
+    {
+        "rank": 4431,
+        "word": "conservador",
+        "lemma": "conservador",
+        "freq_abs": 3130,
+        "freq_norm": 20.51
+    },
+    {
+        "rank": 4432,
+        "word": "m\u00e1laga",
+        "lemma": "m\u00e1laga",
+        "freq_abs": 3130,
+        "freq_norm": 20.51
+    },
+    {
+        "rank": 4433,
+        "word": "discos",
+        "lemma": "disco",
+        "freq_abs": 3129,
+        "freq_norm": 20.51
+    },
+    {
+        "rank": 4434,
+        "word": "retraso",
+        "lemma": "retraso",
+        "freq_abs": 3129,
+        "freq_norm": 20.51
+    },
+    {
+        "rank": 4435,
+        "word": "compleja",
+        "lemma": "complejo",
+        "freq_abs": 3128,
+        "freq_norm": 20.5
+    },
+    {
+        "rank": 4436,
+        "word": "acad\u00e9mico",
+        "lemma": "acad\u00e9mico",
+        "freq_abs": 3126,
+        "freq_norm": 20.49
+    },
+    {
+        "rank": 4437,
+        "word": "navidad",
+        "lemma": "navidad",
+        "freq_abs": 3126,
+        "freq_norm": 20.49
+    },
+    {
+        "rank": 4438,
+        "word": "california",
+        "lemma": "californio",
+        "freq_abs": 3125,
+        "freq_norm": 20.48
+    },
+    {
+        "rank": 4439,
+        "word": "holanda",
+        "lemma": "holanda",
+        "freq_abs": 3124,
+        "freq_norm": 20.47
+    },
+    {
+        "rank": 4440,
+        "word": "invitado",
+        "lemma": "invitado",
+        "freq_abs": 3123,
+        "freq_norm": 20.47
+    },
+    {
+        "rank": 4441,
+        "word": "fases",
+        "lemma": "fase",
+        "freq_abs": 3122,
+        "freq_norm": 20.46
+    },
+    {
+        "rank": 4442,
+        "word": "pecado",
+        "lemma": "pecado",
+        "freq_abs": 3122,
+        "freq_norm": 20.46
+    },
+    {
+        "rank": 4443,
+        "word": "sustituci\u00f3n",
+        "lemma": "sustituci\u00f3n",
+        "freq_abs": 3122,
+        "freq_norm": 20.46
+    },
+    {
+        "rank": 4444,
+        "word": "serrano",
+        "lemma": "serrano",
+        "freq_abs": 3120,
+        "freq_norm": 20.45
+    },
+    {
+        "rank": 4445,
+        "word": "surgi\u00f3",
+        "lemma": "surgir",
+        "freq_abs": 3120,
+        "freq_norm": 20.45
+    },
+    {
+        "rank": 4446,
+        "word": "cristiano",
+        "lemma": "cristiano",
+        "freq_abs": 3119,
+        "freq_norm": 20.44
+    },
+    {
+        "rank": 4447,
+        "word": "monetaria",
+        "lemma": "monetario",
+        "freq_abs": 3118,
+        "freq_norm": 20.43
+    },
+    {
+        "rank": 4448,
+        "word": "burgues\u00eda",
+        "lemma": "burgues\u00eda",
+        "freq_abs": 3117,
+        "freq_norm": 20.43
+    },
+    {
+        "rank": 4449,
+        "word": "lograron",
+        "lemma": "lograr",
+        "freq_abs": 3117,
+        "freq_norm": 20.43
+    },
+    {
+        "rank": 4450,
+        "word": "semillas",
+        "lemma": "semilla",
+        "freq_abs": 3117,
+        "freq_norm": 20.43
+    },
+    {
+        "rank": 4451,
+        "word": "comerciantes",
+        "lemma": "comerciante",
+        "freq_abs": 3114,
+        "freq_norm": 20.41
+    },
+    {
+        "rank": 4452,
+        "word": "agregar",
+        "lemma": "agregar",
+        "freq_abs": 3112,
+        "freq_norm": 20.39
+    },
+    {
+        "rank": 4453,
+        "word": "recibieron",
+        "lemma": "recibir",
+        "freq_abs": 3112,
+        "freq_norm": 20.39
+    },
+    {
+        "rank": 4454,
+        "word": "vencer",
+        "lemma": "vencer",
+        "freq_abs": 3112,
+        "freq_norm": 20.39
+    },
+    {
+        "rank": 4455,
+        "word": "lesi\u00f3n",
+        "lemma": "lesi\u00f3n",
+        "freq_abs": 3111,
+        "freq_norm": 20.39
+    },
+    {
+        "rank": 4456,
+        "word": "tarifas",
+        "lemma": "tarifa",
+        "freq_abs": 3111,
+        "freq_norm": 20.39
+    },
+    {
+        "rank": 4457,
+        "word": "agresi\u00f3n",
+        "lemma": "agresi\u00f3n",
+        "freq_abs": 3109,
+        "freq_norm": 20.37
+    },
+    {
+        "rank": 4458,
+        "word": "vivimos",
+        "lemma": "vivir",
+        "freq_abs": 3109,
+        "freq_norm": 20.37
+    },
+    {
+        "rank": 4459,
+        "word": "propaganda",
+        "lemma": "propaganda",
+        "freq_abs": 3108,
+        "freq_norm": 20.37
+    },
+    {
+        "rank": 4460,
+        "word": "\u00e1rabe",
+        "lemma": "\u00e1rabe",
+        "freq_abs": 3107,
+        "freq_norm": 20.36
+    },
+    {
+        "rank": 4461,
+        "word": "aseguran",
+        "lemma": "asegurar",
+        "freq_abs": 3107,
+        "freq_norm": 20.36
+    },
+    {
+        "rank": 4462,
+        "word": "p\u00e1g",
+        "lemma": "p\u00e1g",
+        "freq_abs": 3107,
+        "freq_norm": 20.36
+    },
+    {
+        "rank": 4463,
+        "word": "precis\u00f3",
+        "lemma": "precisar",
+        "freq_abs": 3106,
+        "freq_norm": 20.35
+    },
+    {
+        "rank": 4464,
+        "word": "trimestre",
+        "lemma": "trimestre",
+        "freq_abs": 3104,
+        "freq_norm": 20.34
+    },
+    {
+        "rank": 4465,
+        "word": "vitamina",
+        "lemma": "vitamina",
+        "freq_abs": 3104,
+        "freq_norm": 20.34
+    },
+    {
+        "rank": 4466,
+        "word": "religiosos",
+        "lemma": "religioso",
+        "freq_abs": 3102,
+        "freq_norm": 20.33
+    },
+    {
+        "rank": 4467,
+        "word": "falsa",
+        "lemma": "falso",
+        "freq_abs": 3101,
+        "freq_norm": 20.32
+    },
+    {
+        "rank": 4468,
+        "word": "molina",
+        "lemma": "mol\u00edn",
+        "freq_abs": 3100,
+        "freq_norm": 20.32
+    },
+    {
+        "rank": 4469,
+        "word": "llegu\u00e9",
+        "lemma": "llegar",
+        "freq_abs": 3099,
+        "freq_norm": 20.31
+    },
+    {
+        "rank": 4470,
+        "word": "p\u00fablicamente",
+        "lemma": "p\u00fablicamente",
+        "freq_abs": 3099,
+        "freq_norm": 20.31
+    },
+    {
+        "rank": 4471,
+        "word": "cuadrados",
+        "lemma": "cuadrado",
+        "freq_abs": 3098,
+        "freq_norm": 20.3
+    },
+    {
+        "rank": 4472,
+        "word": "repite",
+        "lemma": "repetir",
+        "freq_abs": 3098,
+        "freq_norm": 20.3
+    },
+    {
+        "rank": 4473,
+        "word": "anuncia",
+        "lemma": "anunciar",
+        "freq_abs": 3097,
+        "freq_norm": 20.3
+    },
+    {
+        "rank": 4474,
+        "word": "cartel",
+        "lemma": "cartel",
+        "freq_abs": 3097,
+        "freq_norm": 20.3
+    },
+    {
+        "rank": 4475,
+        "word": "tiendas",
+        "lemma": "tienda",
+        "freq_abs": 3096,
+        "freq_norm": 20.29
+    },
+    {
+        "rank": 4476,
+        "word": "conserva",
+        "lemma": "conservar",
+        "freq_abs": 3095,
+        "freq_norm": 20.28
+    },
+    {
+        "rank": 4477,
+        "word": "iniciativas",
+        "lemma": "iniciativa",
+        "freq_abs": 3095,
+        "freq_norm": 20.28
+    },
+    {
+        "rank": 4478,
+        "word": "requieren",
+        "lemma": "requerir",
+        "freq_abs": 3095,
+        "freq_norm": 20.28
+    },
+    {
+        "rank": 4479,
+        "word": "concejal",
+        "lemma": "concejal",
+        "freq_abs": 3094,
+        "freq_norm": 20.28
+    },
+    {
+        "rank": 4480,
+        "word": "james",
+        "lemma": "james",
+        "freq_abs": 3094,
+        "freq_norm": 20.28
+    },
+    {
+        "rank": 4481,
+        "word": "\u00f3",
+        "lemma": "\u00f3",
+        "freq_abs": 3093,
+        "freq_norm": 20.27
+    },
+    {
+        "rank": 4482,
+        "word": "verla",
+        "lemma": "ver \u00e9l",
+        "freq_abs": 3093,
+        "freq_norm": 20.27
+    },
+    {
+        "rank": 4483,
+        "word": "est\u00edmulo",
+        "lemma": "est\u00edmulo",
+        "freq_abs": 3092,
+        "freq_norm": 20.26
+    },
+    {
+        "rank": 4484,
+        "word": "nombramiento",
+        "lemma": "nombramiento",
+        "freq_abs": 3092,
+        "freq_norm": 20.26
+    },
+    {
+        "rank": 4485,
+        "word": "nervios",
+        "lemma": "nervio",
+        "freq_abs": 3091,
+        "freq_norm": 20.26
+    },
+    {
+        "rank": 4486,
+        "word": "traducci\u00f3n",
+        "lemma": "traducci\u00f3n",
+        "freq_abs": 3090,
+        "freq_norm": 20.25
+    },
+    {
+        "rank": 4487,
+        "word": "financieras",
+        "lemma": "financiera",
+        "freq_abs": 3089,
+        "freq_norm": 20.24
+    },
+    {
+        "rank": 4488,
+        "word": "interesantes",
+        "lemma": "interesante",
+        "freq_abs": 3088,
+        "freq_norm": 20.24
+    },
+    {
+        "rank": 4489,
+        "word": "metal",
+        "lemma": "metal",
+        "freq_abs": 3087,
+        "freq_norm": 20.23
+    },
+    {
+        "rank": 4490,
+        "word": "impuso",
+        "lemma": "imponer",
+        "freq_abs": 3086,
+        "freq_norm": 20.22
+    },
+    {
+        "rank": 4491,
+        "word": "secretaria",
+        "lemma": "secretaria",
+        "freq_abs": 3086,
+        "freq_norm": 20.22
+    },
+    {
+        "rank": 4492,
+        "word": "rev\u00e9s",
+        "lemma": "rev\u00e9s",
+        "freq_abs": 3085,
+        "freq_norm": 20.22
+    },
+    {
+        "rank": 4493,
+        "word": "tejidos",
+        "lemma": "tejido",
+        "freq_abs": 3084,
+        "freq_norm": 20.21
+    },
+    {
+        "rank": 4494,
+        "word": "ortiz",
+        "lemma": "ortiz",
+        "freq_abs": 3083,
+        "freq_norm": 20.2
+    },
+    {
+        "rank": 4495,
+        "word": "decidieron",
+        "lemma": "decidir",
+        "freq_abs": 3082,
+        "freq_norm": 20.2
+    },
+    {
+        "rank": 4496,
+        "word": "virtudes",
+        "lemma": "virtud",
+        "freq_abs": 3081,
+        "freq_norm": 20.19
+    },
+    {
+        "rank": 4497,
+        "word": "destinados",
+        "lemma": "destinado",
+        "freq_abs": 3080,
+        "freq_norm": 20.18
+    },
+    {
+        "rank": 4498,
+        "word": "incluidos",
+        "lemma": "incluir",
+        "freq_abs": 3080,
+        "freq_norm": 20.18
+    },
+    {
+        "rank": 4499,
+        "word": "inform\u00e1tica",
+        "lemma": "inform\u00e1tica",
+        "freq_abs": 3080,
+        "freq_norm": 20.18
+    },
+    {
+        "rank": 4500,
+        "word": "perfecci\u00f3n",
+        "lemma": "perfecci\u00f3n",
+        "freq_abs": 3080,
+        "freq_norm": 20.18
+    },
+    {
+        "rank": 4501,
+        "word": "incidente",
+        "lemma": "incidente",
+        "freq_abs": 3078,
+        "freq_norm": 20.17
+    },
+    {
+        "rank": 4502,
+        "word": "silva",
+        "lemma": "silva",
+        "freq_abs": 3078,
+        "freq_norm": 20.17
+    },
+    {
+        "rank": 4503,
+        "word": "densidad",
+        "lemma": "densidad",
+        "freq_abs": 3077,
+        "freq_norm": 20.16
+    },
+    {
+        "rank": 4504,
+        "word": "comedor",
+        "lemma": "comedor",
+        "freq_abs": 3076,
+        "freq_norm": 20.16
+    },
+    {
+        "rank": 4505,
+        "word": "evita",
+        "lemma": "evitar",
+        "freq_abs": 3075,
+        "freq_norm": 20.15
+    },
+    {
+        "rank": 4506,
+        "word": "consumidor",
+        "lemma": "consumidor",
+        "freq_abs": 3074,
+        "freq_norm": 20.14
+    },
+    {
+        "rank": 4507,
+        "word": "comenta",
+        "lemma": "comentar",
+        "freq_abs": 3072,
+        "freq_norm": 20.13
+    },
+    {
+        "rank": 4508,
+        "word": "inocente",
+        "lemma": "inocente",
+        "freq_abs": 3069,
+        "freq_norm": 20.11
+    },
+    {
+        "rank": 4509,
+        "word": "diaria",
+        "lemma": "diario",
+        "freq_abs": 3068,
+        "freq_norm": 20.11
+    },
+    {
+        "rank": 4510,
+        "word": "aliento",
+        "lemma": "aliento",
+        "freq_abs": 3067,
+        "freq_norm": 20.1
+    },
+    {
+        "rank": 4511,
+        "word": "aplica",
+        "lemma": "aplicar",
+        "freq_abs": 3067,
+        "freq_norm": 20.1
+    },
+    {
+        "rank": 4512,
+        "word": "el\u00e9ctrico",
+        "lemma": "el\u00e9ctrico",
+        "freq_abs": 3067,
+        "freq_norm": 20.1
+    },
+    {
+        "rank": 4513,
+        "word": "retirar",
+        "lemma": "retirar",
+        "freq_abs": 3067,
+        "freq_norm": 20.1
+    },
+    {
+        "rank": 4514,
+        "word": "concretamente",
+        "lemma": "concretamente",
+        "freq_abs": 3066,
+        "freq_norm": 20.09
+    },
+    {
+        "rank": 4515,
+        "word": "horario",
+        "lemma": "horario",
+        "freq_abs": 3066,
+        "freq_norm": 20.09
+    },
+    {
+        "rank": 4516,
+        "word": "virginia",
+        "lemma": "virginia",
+        "freq_abs": 3066,
+        "freq_norm": 20.09
+    },
+    {
+        "rank": 4517,
+        "word": "espec\u00edficas",
+        "lemma": "espec\u00edfico",
+        "freq_abs": 3064,
+        "freq_norm": 20.08
+    },
+    {
+        "rank": 4518,
+        "word": "significaci\u00f3n",
+        "lemma": "significaci\u00f3n",
+        "freq_abs": 3064,
+        "freq_norm": 20.08
+    },
+    {
+        "rank": 4519,
+        "word": "venezolano",
+        "lemma": "venezolano",
+        "freq_abs": 3064,
+        "freq_norm": 20.08
+    },
+    {
+        "rank": 4520,
+        "word": "sorprendido",
+        "lemma": "sorprendido",
+        "freq_abs": 3063,
+        "freq_norm": 20.07
+    },
+    {
+        "rank": 4521,
+        "word": "pasados",
+        "lemma": "pasado",
+        "freq_abs": 3062,
+        "freq_norm": 20.07
+    },
+    {
+        "rank": 4522,
+        "word": "comienzan",
+        "lemma": "comenzar",
+        "freq_abs": 3061,
+        "freq_norm": 20.06
+    },
+    {
+        "rank": 4523,
+        "word": "se\u00f1alan",
+        "lemma": "se\u00f1alar",
+        "freq_abs": 3061,
+        "freq_norm": 20.06
+    },
+    {
+        "rank": 4524,
+        "word": "adquiere",
+        "lemma": "adquirir",
+        "freq_abs": 3058,
+        "freq_norm": 20.04
+    },
+    {
+        "rank": 4525,
+        "word": "felices",
+        "lemma": "feliz",
+        "freq_abs": 3058,
+        "freq_norm": 20.04
+    },
+    {
+        "rank": 4526,
+        "word": "pinochet",
+        "lemma": "pinochet",
+        "freq_abs": 3058,
+        "freq_norm": 20.04
+    },
+    {
+        "rank": 4527,
+        "word": "sepa",
+        "lemma": "sepa",
+        "freq_abs": 3056,
+        "freq_norm": 20.03
+    },
+    {
+        "rank": 4528,
+        "word": "emocional",
+        "lemma": "emocional",
+        "freq_abs": 3054,
+        "freq_norm": 20.01
+    },
+    {
+        "rank": 4529,
+        "word": "pico",
+        "lemma": "pico",
+        "freq_abs": 3054,
+        "freq_norm": 20.01
+    },
+    {
+        "rank": 4530,
+        "word": "solicitar",
+        "lemma": "solicitar",
+        "freq_abs": 3054,
+        "freq_norm": 20.01
+    },
+    {
+        "rank": 4531,
+        "word": "excesiva",
+        "lemma": "excesivo",
+        "freq_abs": 3052,
+        "freq_norm": 20.0
+    },
+    {
+        "rank": 4532,
+        "word": "dominante",
+        "lemma": "dominante",
+        "freq_abs": 3051,
+        "freq_norm": 19.99
+    },
+    {
+        "rank": 4533,
+        "word": "cabello",
+        "lemma": "cabello",
+        "freq_abs": 3050,
+        "freq_norm": 19.99
+    },
+    {
+        "rank": 4534,
+        "word": "intentando",
+        "lemma": "intentar",
+        "freq_abs": 3050,
+        "freq_norm": 19.99
+    },
+    {
+        "rank": 4535,
+        "word": "denomina",
+        "lemma": "denominar",
+        "freq_abs": 3048,
+        "freq_norm": 19.97
+    },
+    {
+        "rank": 4536,
+        "word": "figuran",
+        "lemma": "figurar",
+        "freq_abs": 3048,
+        "freq_norm": 19.97
+    },
+    {
+        "rank": 4537,
+        "word": "derivados",
+        "lemma": "derivado",
+        "freq_abs": 3047,
+        "freq_norm": 19.97
+    },
+    {
+        "rank": 4538,
+        "word": "h\u00e9ctor",
+        "lemma": "h\u00e9ctor",
+        "freq_abs": 3047,
+        "freq_norm": 19.97
+    },
+    {
+        "rank": 4539,
+        "word": "richard",
+        "lemma": "richard",
+        "freq_abs": 3047,
+        "freq_norm": 19.97
+    },
+    {
+        "rank": 4540,
+        "word": "distinci\u00f3n",
+        "lemma": "distinci\u00f3n",
+        "freq_abs": 3046,
+        "freq_norm": 19.96
+    },
+    {
+        "rank": 4541,
+        "word": "entregar",
+        "lemma": "entregar",
+        "freq_abs": 3046,
+        "freq_norm": 19.96
+    },
+    {
+        "rank": 4542,
+        "word": "ingleses",
+        "lemma": "ingl\u00e9s",
+        "freq_abs": 3046,
+        "freq_norm": 19.96
+    },
+    {
+        "rank": 4543,
+        "word": "aprendido",
+        "lemma": "aprendido",
+        "freq_abs": 3045,
+        "freq_norm": 19.95
+    },
+    {
+        "rank": 4544,
+        "word": "exposiciones",
+        "lemma": "exposici\u00f3n",
+        "freq_abs": 3045,
+        "freq_norm": 19.95
+    },
+    {
+        "rank": 4545,
+        "word": "ganador",
+        "lemma": "ganador",
+        "freq_abs": 3045,
+        "freq_norm": 19.95
+    },
+    {
+        "rank": 4546,
+        "word": "carece",
+        "lemma": "carecer",
+        "freq_abs": 3044,
+        "freq_norm": 19.95
+    },
+    {
+        "rank": 4547,
+        "word": "rub\u00e9n",
+        "lemma": "rub\u00e9n",
+        "freq_abs": 3044,
+        "freq_norm": 19.95
+    },
+    {
+        "rank": 4548,
+        "word": "cigarrillo",
+        "lemma": "cigarrillo",
+        "freq_abs": 3043,
+        "freq_norm": 19.94
+    },
+    {
+        "rank": 4549,
+        "word": "entrevistas",
+        "lemma": "entrevista",
+        "freq_abs": 3043,
+        "freq_norm": 19.94
+    },
+    {
+        "rank": 4550,
+        "word": "mandatario",
+        "lemma": "mandatario",
+        "freq_abs": 3043,
+        "freq_norm": 19.94
+    },
+    {
+        "rank": 4551,
+        "word": "celebr\u00f3",
+        "lemma": "celebrar",
+        "freq_abs": 3042,
+        "freq_norm": 19.93
+    },
+    {
+        "rank": 4552,
+        "word": "labores",
+        "lemma": "labor",
+        "freq_abs": 3042,
+        "freq_norm": 19.93
+    },
+    {
+        "rank": 4553,
+        "word": "listo",
+        "lemma": "listo",
+        "freq_abs": 3042,
+        "freq_norm": 19.93
+    },
+    {
+        "rank": 4554,
+        "word": "us",
+        "lemma": "us",
+        "freq_abs": 3042,
+        "freq_norm": 19.93
+    },
+    {
+        "rank": 4555,
+        "word": "participaron",
+        "lemma": "participar",
+        "freq_abs": 3041,
+        "freq_norm": 19.93
+    },
+    {
+        "rank": 4556,
+        "word": "tomate",
+        "lemma": "tomate",
+        "freq_abs": 3041,
+        "freq_norm": 19.93
+    },
+    {
+        "rank": 4557,
+        "word": "in\u00e9s",
+        "lemma": "in\u00e9s",
+        "freq_abs": 3039,
+        "freq_norm": 19.92
+    },
+    {
+        "rank": 4558,
+        "word": "sab\u00edan",
+        "lemma": "saber",
+        "freq_abs": 3039,
+        "freq_norm": 19.92
+    },
+    {
+        "rank": 4559,
+        "word": "armado",
+        "lemma": "armado",
+        "freq_abs": 3038,
+        "freq_norm": 19.91
+    },
+    {
+        "rank": 4560,
+        "word": "mantenerse",
+        "lemma": "mantener \u00e9l",
+        "freq_abs": 3038,
+        "freq_norm": 19.91
+    },
+    {
+        "rank": 4561,
+        "word": "per\u00edodos",
+        "lemma": "per\u00edodo",
+        "freq_abs": 3038,
+        "freq_norm": 19.91
+    },
+    {
+        "rank": 4562,
+        "word": "fraga",
+        "lemma": "fragar",
+        "freq_abs": 3036,
+        "freq_norm": 19.9
+    },
+    {
+        "rank": 4563,
+        "word": "nacer",
+        "lemma": "nacer",
+        "freq_abs": 3036,
+        "freq_norm": 19.9
+    },
+    {
+        "rank": 4564,
+        "word": "seria",
+        "lemma": "serio",
+        "freq_abs": 3035,
+        "freq_norm": 19.89
+    },
+    {
+        "rank": 4565,
+        "word": "discursos",
+        "lemma": "discurso",
+        "freq_abs": 3034,
+        "freq_norm": 19.88
+    },
+    {
+        "rank": 4566,
+        "word": "cubierto",
+        "lemma": "cubierto",
+        "freq_abs": 3033,
+        "freq_norm": 19.88
+    },
+    {
+        "rank": 4567,
+        "word": "indio",
+        "lemma": "indio",
+        "freq_abs": 3033,
+        "freq_norm": 19.88
+    },
+    {
+        "rank": 4568,
+        "word": "inspecci\u00f3n",
+        "lemma": "inspecci\u00f3n",
+        "freq_abs": 3033,
+        "freq_norm": 19.88
+    },
+    {
+        "rank": 4569,
+        "word": "ofensiva",
+        "lemma": "ofensivo",
+        "freq_abs": 3031,
+        "freq_norm": 19.86
+    },
+    {
+        "rank": 4570,
+        "word": "alerta",
+        "lemma": "alertar",
+        "freq_abs": 3030,
+        "freq_norm": 19.86
+    },
+    {
+        "rank": 4571,
+        "word": "barrera",
+        "lemma": "barrero",
+        "freq_abs": 3030,
+        "freq_norm": 19.86
+    },
+    {
+        "rank": 4572,
+        "word": "emociones",
+        "lemma": "emoci\u00f3n",
+        "freq_abs": 3030,
+        "freq_norm": 19.86
+    },
+    {
+        "rank": 4573,
+        "word": "paga",
+        "lemma": "pagar",
+        "freq_abs": 3030,
+        "freq_norm": 19.86
+    },
+    {
+        "rank": 4574,
+        "word": "varones",
+        "lemma": "var\u00f3n",
+        "freq_abs": 3030,
+        "freq_norm": 19.86
+    },
+    {
+        "rank": 4575,
+        "word": "atl\u00e1ntico",
+        "lemma": "atl\u00e1ntico",
+        "freq_abs": 3029,
+        "freq_norm": 19.85
+    },
+    {
+        "rank": 4576,
+        "word": "choque",
+        "lemma": "choque",
+        "freq_abs": 3029,
+        "freq_norm": 19.85
+    },
+    {
+        "rank": 4577,
+        "word": "grecia",
+        "lemma": "grecia",
+        "freq_abs": 3029,
+        "freq_norm": 19.85
+    },
+    {
+        "rank": 4578,
+        "word": "pasta",
+        "lemma": "pasta",
+        "freq_abs": 3029,
+        "freq_norm": 19.85
+    },
+    {
+        "rank": 4579,
+        "word": "efectivos",
+        "lemma": "efectivo",
+        "freq_abs": 3026,
+        "freq_norm": 19.83
+    },
+    {
+        "rank": 4580,
+        "word": "quedaban",
+        "lemma": "quedar",
+        "freq_abs": 3026,
+        "freq_norm": 19.83
+    },
+    {
+        "rank": 4581,
+        "word": "admiraci\u00f3n",
+        "lemma": "admiraci\u00f3n",
+        "freq_abs": 3025,
+        "freq_norm": 19.82
+    },
+    {
+        "rank": 4582,
+        "word": "bandas",
+        "lemma": "banda",
+        "freq_abs": 3025,
+        "freq_norm": 19.82
+    },
+    {
+        "rank": 4583,
+        "word": "espada",
+        "lemma": "espada",
+        "freq_abs": 3025,
+        "freq_norm": 19.82
+    },
+    {
+        "rank": 4584,
+        "word": "incertidumbre",
+        "lemma": "incertidumbre",
+        "freq_abs": 3025,
+        "freq_norm": 19.82
+    },
+    {
+        "rank": 4585,
+        "word": "claves",
+        "lemma": "clave",
+        "freq_abs": 3024,
+        "freq_norm": 19.82
+    },
+    {
+        "rank": 4586,
+        "word": "citada",
+        "lemma": "citado",
+        "freq_abs": 3022,
+        "freq_norm": 19.8
+    },
+    {
+        "rank": 4587,
+        "word": "extiende",
+        "lemma": "extender",
+        "freq_abs": 3022,
+        "freq_norm": 19.8
+    },
+    {
+        "rank": 4588,
+        "word": "manteca",
+        "lemma": "manteca",
+        "freq_abs": 3022,
+        "freq_norm": 19.8
+    },
+    {
+        "rank": 4589,
+        "word": "comicios",
+        "lemma": "comicio",
+        "freq_abs": 3021,
+        "freq_norm": 19.8
+    },
+    {
+        "rank": 4590,
+        "word": "mata",
+        "lemma": "matar",
+        "freq_abs": 3021,
+        "freq_norm": 19.8
+    },
+    {
+        "rank": 4591,
+        "word": "william",
+        "lemma": "william",
+        "freq_abs": 3021,
+        "freq_norm": 19.8
+    },
+    {
+        "rank": 4592,
+        "word": "recorrer",
+        "lemma": "recorrer",
+        "freq_abs": 3020,
+        "freq_norm": 19.79
+    },
+    {
+        "rank": 4593,
+        "word": "subray\u00f3",
+        "lemma": "subrayar",
+        "freq_abs": 3019,
+        "freq_norm": 19.78
+    },
+    {
+        "rank": 4594,
+        "word": "exportaci\u00f3n",
+        "lemma": "exportaci\u00f3n",
+        "freq_abs": 3017,
+        "freq_norm": 19.77
+    },
+    {
+        "rank": 4595,
+        "word": "militantes",
+        "lemma": "militante",
+        "freq_abs": 3016,
+        "freq_norm": 19.76
+    },
+    {
+        "rank": 4596,
+        "word": "cuerda",
+        "lemma": "cuerda",
+        "freq_abs": 3014,
+        "freq_norm": 19.75
+    },
+    {
+        "rank": 4597,
+        "word": "suceso",
+        "lemma": "suceso",
+        "freq_abs": 3014,
+        "freq_norm": 19.75
+    },
+    {
+        "rank": 4598,
+        "word": "celular",
+        "lemma": "celular",
+        "freq_abs": 3013,
+        "freq_norm": 19.74
+    },
+    {
+        "rank": 4599,
+        "word": "ucd",
+        "lemma": "ucd",
+        "freq_abs": 3013,
+        "freq_norm": 19.74
+    },
+    {
+        "rank": 4600,
+        "word": "abandon\u00f3",
+        "lemma": "abandonar",
+        "freq_abs": 3012,
+        "freq_norm": 19.74
+    },
+    {
+        "rank": 4601,
+        "word": "justificar",
+        "lemma": "justificar",
+        "freq_abs": 3011,
+        "freq_norm": 19.73
+    },
+    {
+        "rank": 4602,
+        "word": "procede",
+        "lemma": "proceder",
+        "freq_abs": 3010,
+        "freq_norm": 19.73
+    },
+    {
+        "rank": 4603,
+        "word": "parto",
+        "lemma": "partir",
+        "freq_abs": 3009,
+        "freq_norm": 19.72
+    },
+    {
+        "rank": 4604,
+        "word": "k",
+        "lemma": "k",
+        "freq_abs": 3007,
+        "freq_norm": 19.71
+    },
+    {
+        "rank": 4605,
+        "word": "probar",
+        "lemma": "probar",
+        "freq_abs": 3007,
+        "freq_norm": 19.71
+    },
+    {
+        "rank": 4606,
+        "word": "proporciona",
+        "lemma": "proporcionar",
+        "freq_abs": 3007,
+        "freq_norm": 19.71
+    },
+    {
+        "rank": 4607,
+        "word": "contrataci\u00f3n",
+        "lemma": "contrataci\u00f3n",
+        "freq_abs": 3006,
+        "freq_norm": 19.7
+    },
+    {
+        "rank": 4608,
+        "word": "costas",
+        "lemma": "costa",
+        "freq_abs": 3004,
+        "freq_norm": 19.69
+    },
+    {
+        "rank": 4609,
+        "word": "dormitorio",
+        "lemma": "dormitoriir",
+        "freq_abs": 3004,
+        "freq_norm": 19.69
+    },
+    {
+        "rank": 4610,
+        "word": "israel\u00ed",
+        "lemma": "israel\u00ed",
+        "freq_abs": 3004,
+        "freq_norm": 19.69
+    },
+    {
+        "rank": 4611,
+        "word": "concretos",
+        "lemma": "concreto",
+        "freq_abs": 3002,
+        "freq_norm": 19.67
+    },
+    {
+        "rank": 4612,
+        "word": "contempor\u00e1nea",
+        "lemma": "contempor\u00e1neo",
+        "freq_abs": 3002,
+        "freq_norm": 19.67
+    },
+    {
+        "rank": 4613,
+        "word": "externo",
+        "lemma": "externo",
+        "freq_abs": 3002,
+        "freq_norm": 19.67
+    },
+    {
+        "rank": 4614,
+        "word": "inmigrantes",
+        "lemma": "inmigrante",
+        "freq_abs": 3002,
+        "freq_norm": 19.67
+    },
+    {
+        "rank": 4615,
+        "word": "dormido",
+        "lemma": "dormido",
+        "freq_abs": 3000,
+        "freq_norm": 19.66
+    },
+    {
+        "rank": 4616,
+        "word": "producirse",
+        "lemma": "producir \u00e9l",
+        "freq_abs": 3000,
+        "freq_norm": 19.66
+    },
+    {
+        "rank": 4617,
+        "word": "disminuir",
+        "lemma": "disminuir",
+        "freq_abs": 2999,
+        "freq_norm": 19.65
+    },
+    {
+        "rank": 4618,
+        "word": "aviso",
+        "lemma": "aviso",
+        "freq_abs": 2997,
+        "freq_norm": 19.64
+    },
+    {
+        "rank": 4619,
+        "word": "conocidas",
+        "lemma": "conocido",
+        "freq_abs": 2997,
+        "freq_norm": 19.64
+    },
+    {
+        "rank": 4620,
+        "word": "delegados",
+        "lemma": "delegado",
+        "freq_abs": 2997,
+        "freq_norm": 19.64
+    },
+    {
+        "rank": 4621,
+        "word": "filme",
+        "lemma": "filme",
+        "freq_abs": 2997,
+        "freq_norm": 19.64
+    },
+    {
+        "rank": 4622,
+        "word": "lejano",
+        "lemma": "lejano",
+        "freq_abs": 2997,
+        "freq_norm": 19.64
+    },
+    {
+        "rank": 4623,
+        "word": "cucharadas",
+        "lemma": "cucharada",
+        "freq_abs": 2995,
+        "freq_norm": 19.63
+    },
+    {
+        "rank": 4624,
+        "word": "contienen",
+        "lemma": "contener",
+        "freq_abs": 2994,
+        "freq_norm": 19.62
+    },
+    {
+        "rank": 4625,
+        "word": "ir\u00e1",
+        "lemma": "ir",
+        "freq_abs": 2994,
+        "freq_norm": 19.62
+    },
+    {
+        "rank": 4626,
+        "word": "loca",
+        "lemma": "locar",
+        "freq_abs": 2994,
+        "freq_norm": 19.62
+    },
+    {
+        "rank": 4627,
+        "word": "indicar",
+        "lemma": "indicar",
+        "freq_abs": 2993,
+        "freq_norm": 19.61
+    },
+    {
+        "rank": 4628,
+        "word": "pollo",
+        "lemma": "pollo",
+        "freq_abs": 2993,
+        "freq_norm": 19.61
+    },
+    {
+        "rank": 4629,
+        "word": "gubernamentales",
+        "lemma": "gubernamental",
+        "freq_abs": 2991,
+        "freq_norm": 19.6
+    },
+    {
+        "rank": 4630,
+        "word": "sanciones",
+        "lemma": "sanci\u00f3n",
+        "freq_abs": 2991,
+        "freq_norm": 19.6
+    },
+    {
+        "rank": 4631,
+        "word": "asalto",
+        "lemma": "asalto",
+        "freq_abs": 2988,
+        "freq_norm": 19.58
+    },
+    {
+        "rank": 4632,
+        "word": "estudia",
+        "lemma": "estudiar",
+        "freq_abs": 2988,
+        "freq_norm": 19.58
+    },
+    {
+        "rank": 4633,
+        "word": "relativo",
+        "lemma": "relativo",
+        "freq_abs": 2988,
+        "freq_norm": 19.58
+    },
+    {
+        "rank": 4634,
+        "word": "duras",
+        "lemma": "duro",
+        "freq_abs": 2987,
+        "freq_norm": 19.57
+    },
+    {
+        "rank": 4635,
+        "word": "madrile\u00f1o",
+        "lemma": "madrile\u00f1o",
+        "freq_abs": 2987,
+        "freq_norm": 19.57
+    },
+    {
+        "rank": 4636,
+        "word": "inglesa",
+        "lemma": "ingl\u00e9s",
+        "freq_abs": 2985,
+        "freq_norm": 19.56
+    },
+    {
+        "rank": 4637,
+        "word": "noble",
+        "lemma": "noble",
+        "freq_abs": 2985,
+        "freq_norm": 19.56
+    },
+    {
+        "rank": 4638,
+        "word": "sueldo",
+        "lemma": "sueldo",
+        "freq_abs": 2985,
+        "freq_norm": 19.56
+    },
+    {
+        "rank": 4639,
+        "word": "lecci\u00f3n",
+        "lemma": "lecci\u00f3n",
+        "freq_abs": 2984,
+        "freq_norm": 19.55
+    },
+    {
+        "rank": 4640,
+        "word": "murieron",
+        "lemma": "morir",
+        "freq_abs": 2984,
+        "freq_norm": 19.55
+    },
+    {
+        "rank": 4641,
+        "word": "tratan",
+        "lemma": "tratar",
+        "freq_abs": 2984,
+        "freq_norm": 19.55
+    },
+    {
+        "rank": 4642,
+        "word": "destacado",
+        "lemma": "destacado",
+        "freq_abs": 2983,
+        "freq_norm": 19.55
+    },
+    {
+        "rank": 4643,
+        "word": "referente",
+        "lemma": "referente",
+        "freq_abs": 2983,
+        "freq_norm": 19.55
+    },
+    {
+        "rank": 4644,
+        "word": "bello",
+        "lemma": "bello",
+        "freq_abs": 2982,
+        "freq_norm": 19.54
+    },
+    {
+        "rank": 4645,
+        "word": "concretas",
+        "lemma": "concreta",
+        "freq_abs": 2982,
+        "freq_norm": 19.54
+    },
+    {
+        "rank": 4646,
+        "word": "aliados",
+        "lemma": "aliado",
+        "freq_abs": 2981,
+        "freq_norm": 19.54
+    },
+    {
+        "rank": 4647,
+        "word": "faltan",
+        "lemma": "faltar",
+        "freq_abs": 2980,
+        "freq_norm": 19.53
+    },
+    {
+        "rank": 4648,
+        "word": "fundamento",
+        "lemma": "fundamento",
+        "freq_abs": 2980,
+        "freq_norm": 19.53
+    },
+    {
+        "rank": 4649,
+        "word": "cc",
+        "lemma": "cc",
+        "freq_abs": 2979,
+        "freq_norm": 19.52
+    },
+    {
+        "rank": 4650,
+        "word": "demostr\u00f3",
+        "lemma": "demostrar",
+        "freq_abs": 2979,
+        "freq_norm": 19.52
+    },
+    {
+        "rank": 4651,
+        "word": "positivos",
+        "lemma": "positivo",
+        "freq_abs": 2979,
+        "freq_norm": 19.52
+    },
+    {
+        "rank": 4652,
+        "word": "vidal",
+        "lemma": "vidal",
+        "freq_abs": 2976,
+        "freq_norm": 19.5
+    },
+    {
+        "rank": 4653,
+        "word": "conocemos",
+        "lemma": "conocer",
+        "freq_abs": 2975,
+        "freq_norm": 19.5
+    },
+    {
+        "rank": 4654,
+        "word": "noci\u00f3n",
+        "lemma": "noci\u00f3n",
+        "freq_abs": 2975,
+        "freq_norm": 19.5
+    },
+    {
+        "rank": 4655,
+        "word": "armon\u00eda",
+        "lemma": "armonir",
+        "freq_abs": 2974,
+        "freq_norm": 19.49
+    },
+    {
+        "rank": 4656,
+        "word": "prefiere",
+        "lemma": "preferir",
+        "freq_abs": 2974,
+        "freq_norm": 19.49
+    },
+    {
+        "rank": 4657,
+        "word": "sill\u00f3n",
+        "lemma": "sill\u00f3n",
+        "freq_abs": 2973,
+        "freq_norm": 19.48
+    },
+    {
+        "rank": 4658,
+        "word": "admite",
+        "lemma": "admitir",
+        "freq_abs": 2972,
+        "freq_norm": 19.48
+    },
+    {
+        "rank": 4659,
+        "word": "financiamiento",
+        "lemma": "financiamiento",
+        "freq_abs": 2972,
+        "freq_norm": 19.48
+    },
+    {
+        "rank": 4660,
+        "word": "cucharada",
+        "lemma": "cucharar",
+        "freq_abs": 2971,
+        "freq_norm": 19.47
+    },
+    {
+        "rank": 4661,
+        "word": "invasi\u00f3n",
+        "lemma": "invasi\u00f3n",
+        "freq_abs": 2971,
+        "freq_norm": 19.47
+    },
+    {
+        "rank": 4662,
+        "word": "libertades",
+        "lemma": "libertad",
+        "freq_abs": 2971,
+        "freq_norm": 19.47
+    },
+    {
+        "rank": 4663,
+        "word": "pelea",
+        "lemma": "pelea",
+        "freq_abs": 2971,
+        "freq_norm": 19.47
+    },
+    {
+        "rank": 4664,
+        "word": "escolares",
+        "lemma": "escolar",
+        "freq_abs": 2970,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4665,
+        "word": "ruedas",
+        "lemma": "rueda",
+        "freq_abs": 2970,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4666,
+        "word": "satisfacer",
+        "lemma": "satisfacer",
+        "freq_abs": 2970,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4667,
+        "word": "supuestos",
+        "lemma": "supuesto",
+        "freq_abs": 2970,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4668,
+        "word": "alumno",
+        "lemma": "alumno",
+        "freq_abs": 2969,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4669,
+        "word": "fila",
+        "lemma": "fila",
+        "freq_abs": 2969,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4670,
+        "word": "rabia",
+        "lemma": "rabiar",
+        "freq_abs": 2969,
+        "freq_norm": 19.46
+    },
+    {
+        "rank": 4671,
+        "word": "toc\u00f3",
+        "lemma": "tocar",
+        "freq_abs": 2968,
+        "freq_norm": 19.45
+    },
+    {
+        "rank": 4672,
+        "word": "estad\u00edsticas",
+        "lemma": "estad\u00edstica",
+        "freq_abs": 2967,
+        "freq_norm": 19.44
+    },
+    {
+        "rank": 4673,
+        "word": "conciertos",
+        "lemma": "concierto",
+        "freq_abs": 2966,
+        "freq_norm": 19.44
+    },
+    {
+        "rank": 4674,
+        "word": "asesor",
+        "lemma": "asesor",
+        "freq_abs": 2965,
+        "freq_norm": 19.43
+    },
+    {
+        "rank": 4675,
+        "word": "cinta",
+        "lemma": "cinta",
+        "freq_abs": 2965,
+        "freq_norm": 19.43
+    },
+    {
+        "rank": 4676,
+        "word": "esclavos",
+        "lemma": "esclavo",
+        "freq_abs": 2965,
+        "freq_norm": 19.43
+    },
+    {
+        "rank": 4677,
+        "word": "sabidur\u00eda",
+        "lemma": "sabiduer",
+        "freq_abs": 2965,
+        "freq_norm": 19.43
+    },
+    {
+        "rank": 4678,
+        "word": "vel\u00e1zquez",
+        "lemma": "vel\u00e1zquez",
+        "freq_abs": 2965,
+        "freq_norm": 19.43
+    },
+    {
+        "rank": 4679,
+        "word": "conducir",
+        "lemma": "conducir",
+        "freq_abs": 2963,
+        "freq_norm": 19.42
+    },
+    {
+        "rank": 4680,
+        "word": "encontr\u00e9",
+        "lemma": "encontr\u00e9",
+        "freq_abs": 2963,
+        "freq_norm": 19.42
+    },
+    {
+        "rank": 4681,
+        "word": "productor",
+        "lemma": "productor",
+        "freq_abs": 2963,
+        "freq_norm": 19.42
+    },
+    {
+        "rank": 4682,
+        "word": "muros",
+        "lemma": "muro",
+        "freq_abs": 2962,
+        "freq_norm": 19.41
+    },
+    {
+        "rank": 4683,
+        "word": "cocci\u00f3n",
+        "lemma": "cocci\u00f3n",
+        "freq_abs": 2961,
+        "freq_norm": 19.4
+    },
+    {
+        "rank": 4684,
+        "word": "oral",
+        "lemma": "oral",
+        "freq_abs": 2961,
+        "freq_norm": 19.4
+    },
+    {
+        "rank": 4685,
+        "word": "bol\u00edvar",
+        "lemma": "bol\u00edvar",
+        "freq_abs": 2959,
+        "freq_norm": 19.39
+    },
+    {
+        "rank": 4686,
+        "word": "rayo",
+        "lemma": "rayo",
+        "freq_abs": 2959,
+        "freq_norm": 19.39
+    },
+    {
+        "rank": 4687,
+        "word": "carb\u00f3n",
+        "lemma": "carb\u00f3n",
+        "freq_abs": 2958,
+        "freq_norm": 19.38
+    },
+    {
+        "rank": 4688,
+        "word": "educativa",
+        "lemma": "educativo",
+        "freq_abs": 2958,
+        "freq_norm": 19.38
+    },
+    {
+        "rank": 4689,
+        "word": "exigir",
+        "lemma": "exigir",
+        "freq_abs": 2958,
+        "freq_norm": 19.38
+    },
+    {
+        "rank": 4690,
+        "word": "italianos",
+        "lemma": "italiano",
+        "freq_abs": 2958,
+        "freq_norm": 19.38
+    },
+    {
+        "rank": 4691,
+        "word": "dedica",
+        "lemma": "dedicar",
+        "freq_abs": 2957,
+        "freq_norm": 19.38
+    },
+    {
+        "rank": 4692,
+        "word": "cansancio",
+        "lemma": "cansancio",
+        "freq_abs": 2956,
+        "freq_norm": 19.37
+    },
+    {
+        "rank": 4693,
+        "word": "vestidos",
+        "lemma": "vestido",
+        "freq_abs": 2956,
+        "freq_norm": 19.37
+    },
+    {
+        "rank": 4694,
+        "word": "amanecer",
+        "lemma": "amanecer",
+        "freq_abs": 2955,
+        "freq_norm": 19.36
+    },
+    {
+        "rank": 4695,
+        "word": "coinciden",
+        "lemma": "coincidir",
+        "freq_abs": 2954,
+        "freq_norm": 19.36
+    },
+    {
+        "rank": 4696,
+        "word": "gerardo",
+        "lemma": "gerardo",
+        "freq_abs": 2954,
+        "freq_norm": 19.36
+    },
+    {
+        "rank": 4697,
+        "word": "excepcional",
+        "lemma": "excepcional",
+        "freq_abs": 2951,
+        "freq_norm": 19.34
+    },
+    {
+        "rank": 4698,
+        "word": "personalidades",
+        "lemma": "personalidad",
+        "freq_abs": 2951,
+        "freq_norm": 19.34
+    },
+    {
+        "rank": 4699,
+        "word": "acumulaci\u00f3n",
+        "lemma": "acumulaci\u00f3n",
+        "freq_abs": 2950,
+        "freq_norm": 19.33
+    },
+    {
+        "rank": 4700,
+        "word": "afrontar",
+        "lemma": "afrontar",
+        "freq_abs": 2949,
+        "freq_norm": 19.33
+    },
+    {
+        "rank": 4701,
+        "word": "describe",
+        "lemma": "describir",
+        "freq_abs": 2949,
+        "freq_norm": 19.33
+    },
+    {
+        "rank": 4702,
+        "word": "disponibles",
+        "lemma": "disponible",
+        "freq_abs": 2949,
+        "freq_norm": 19.33
+    },
+    {
+        "rank": 4703,
+        "word": "proceder",
+        "lemma": "proceder",
+        "freq_abs": 2949,
+        "freq_norm": 19.33
+    },
+    {
+        "rank": 4704,
+        "word": "estrictamente",
+        "lemma": "estrictamente",
+        "freq_abs": 2948,
+        "freq_norm": 19.32
+    },
+    {
+        "rank": 4705,
+        "word": "redondo",
+        "lemma": "redondir",
+        "freq_abs": 2948,
+        "freq_norm": 19.32
+    },
+    {
+        "rank": 4706,
+        "word": "horror",
+        "lemma": "horror",
+        "freq_abs": 2947,
+        "freq_norm": 19.31
+    },
+    {
+        "rank": 4707,
+        "word": "copia",
+        "lemma": "copia",
+        "freq_abs": 2946,
+        "freq_norm": 19.31
+    },
+    {
+        "rank": 4708,
+        "word": "renunciar",
+        "lemma": "renunciar",
+        "freq_abs": 2946,
+        "freq_norm": 19.31
+    },
+    {
+        "rank": 4709,
+        "word": "dimisi\u00f3n",
+        "lemma": "dimisi\u00f3n",
+        "freq_abs": 2945,
+        "freq_norm": 19.3
+    },
+    {
+        "rank": 4710,
+        "word": "limpio",
+        "lemma": "limpio",
+        "freq_abs": 2945,
+        "freq_norm": 19.3
+    },
+    {
+        "rank": 4711,
+        "word": "procedente",
+        "lemma": "procedente",
+        "freq_abs": 2944,
+        "freq_norm": 19.29
+    },
+    {
+        "rank": 4712,
+        "word": "gr\u00e1fico",
+        "lemma": "gr\u00e1fico",
+        "freq_abs": 2941,
+        "freq_norm": 19.27
+    },
+    {
+        "rank": 4713,
+        "word": "quedar\u00e1",
+        "lemma": "quedar",
+        "freq_abs": 2941,
+        "freq_norm": 19.27
+    },
+    {
+        "rank": 4714,
+        "word": "cuota",
+        "lemma": "cuota",
+        "freq_abs": 2940,
+        "freq_norm": 19.27
+    },
+    {
+        "rank": 4715,
+        "word": "tramo",
+        "lemma": "tramo",
+        "freq_abs": 2938,
+        "freq_norm": 19.25
+    },
+    {
+        "rank": 4716,
+        "word": "carolina",
+        "lemma": "carol\u00edn",
+        "freq_abs": 2936,
+        "freq_norm": 19.24
+    },
+    {
+        "rank": 4717,
+        "word": "cultivos",
+        "lemma": "cultivo",
+        "freq_abs": 2933,
+        "freq_norm": 19.22
+    },
+    {
+        "rank": 4718,
+        "word": "tratamientos",
+        "lemma": "tratamiento",
+        "freq_abs": 2932,
+        "freq_norm": 19.21
+    },
+    {
+        "rank": 4719,
+        "word": "barro",
+        "lemma": "barro",
+        "freq_abs": 2930,
+        "freq_norm": 19.2
+    },
+    {
+        "rank": 4720,
+        "word": "grasas",
+        "lemma": "grasa",
+        "freq_abs": 2930,
+        "freq_norm": 19.2
+    },
+    {
+        "rank": 4721,
+        "word": "sufren",
+        "lemma": "sufrir",
+        "freq_abs": 2929,
+        "freq_norm": 19.19
+    },
+    {
+        "rank": 4722,
+        "word": "pretenden",
+        "lemma": "pretender",
+        "freq_abs": 2927,
+        "freq_norm": 19.18
+    },
+    {
+        "rank": 4723,
+        "word": "tablas",
+        "lemma": "tabla",
+        "freq_abs": 2927,
+        "freq_norm": 19.18
+    },
+    {
+        "rank": 4724,
+        "word": "residuos",
+        "lemma": "residuo",
+        "freq_abs": 2926,
+        "freq_norm": 19.17
+    },
+    {
+        "rank": 4725,
+        "word": "c\u00e1diz",
+        "lemma": "c\u00e1diz",
+        "freq_abs": 2924,
+        "freq_norm": 19.16
+    },
+    {
+        "rank": 4726,
+        "word": "intervenciones",
+        "lemma": "intervenci\u00f3n",
+        "freq_abs": 2924,
+        "freq_norm": 19.16
+    },
+    {
+        "rank": 4727,
+        "word": "promesa",
+        "lemma": "promesa",
+        "freq_abs": 2924,
+        "freq_norm": 19.16
+    },
+    {
+        "rank": 4728,
+        "word": "volvieron",
+        "lemma": "volver",
+        "freq_abs": 2924,
+        "freq_norm": 19.16
+    },
+    {
+        "rank": 4729,
+        "word": "marqu\u00e9s",
+        "lemma": "marqu\u00e9s",
+        "freq_abs": 2923,
+        "freq_norm": 19.15
+    },
+    {
+        "rank": 4730,
+        "word": "har\u00e1n",
+        "lemma": "hacer",
+        "freq_abs": 2921,
+        "freq_norm": 19.14
+    },
+    {
+        "rank": 4731,
+        "word": "participan",
+        "lemma": "participar",
+        "freq_abs": 2921,
+        "freq_norm": 19.14
+    },
+    {
+        "rank": 4732,
+        "word": "ponga",
+        "lemma": "poner",
+        "freq_abs": 2919,
+        "freq_norm": 19.13
+    },
+    {
+        "rank": 4733,
+        "word": "carro",
+        "lemma": "carro",
+        "freq_abs": 2918,
+        "freq_norm": 19.12
+    },
+    {
+        "rank": 4734,
+        "word": "flujo",
+        "lemma": "flujo",
+        "freq_abs": 2918,
+        "freq_norm": 19.12
+    },
+    {
+        "rank": 4735,
+        "word": "originales",
+        "lemma": "original",
+        "freq_abs": 2917,
+        "freq_norm": 19.12
+    },
+    {
+        "rank": 4736,
+        "word": "desnudo",
+        "lemma": "desnudo",
+        "freq_abs": 2916,
+        "freq_norm": 19.11
+    },
+    {
+        "rank": 4737,
+        "word": "interpretar",
+        "lemma": "interpretar",
+        "freq_abs": 2916,
+        "freq_norm": 19.11
+    },
+    {
+        "rank": 4738,
+        "word": "decisivo",
+        "lemma": "decisivo",
+        "freq_abs": 2914,
+        "freq_norm": 19.1
+    },
+    {
+        "rank": 4739,
+        "word": "entendimiento",
+        "lemma": "entendimiento",
+        "freq_abs": 2914,
+        "freq_norm": 19.1
+    },
+    {
+        "rank": 4740,
+        "word": "llamas",
+        "lemma": "llama",
+        "freq_abs": 2914,
+        "freq_norm": 19.1
+    },
+    {
+        "rank": 4741,
+        "word": "tranquila",
+        "lemma": "tranquilo",
+        "freq_abs": 2912,
+        "freq_norm": 19.08
+    },
+    {
+        "rank": 4742,
+        "word": "hueso",
+        "lemma": "hueso",
+        "freq_abs": 2909,
+        "freq_norm": 19.06
+    },
+    {
+        "rank": 4743,
+        "word": "sentarse",
+        "lemma": "sentar \u00e9l",
+        "freq_abs": 2909,
+        "freq_norm": 19.06
+    },
+    {
+        "rank": 4744,
+        "word": "memorias",
+        "lemma": "memoria",
+        "freq_abs": 2908,
+        "freq_norm": 19.06
+    },
+    {
+        "rank": 4745,
+        "word": "transportes",
+        "lemma": "transporte",
+        "freq_abs": 2908,
+        "freq_norm": 19.06
+    },
+    {
+        "rank": 4746,
+        "word": "incapacidad",
+        "lemma": "incapacidad",
+        "freq_abs": 2907,
+        "freq_norm": 19.05
+    },
+    {
+        "rank": 4747,
+        "word": "pretend\u00eda",
+        "lemma": "pretender",
+        "freq_abs": 2906,
+        "freq_norm": 19.04
+    },
+    {
+        "rank": 4748,
+        "word": "cirug\u00eda",
+        "lemma": "cirug\u00eda",
+        "freq_abs": 2905,
+        "freq_norm": 19.04
+    },
+    {
+        "rank": 4749,
+        "word": "dedicada",
+        "lemma": "dedicado",
+        "freq_abs": 2905,
+        "freq_norm": 19.04
+    },
+    {
+        "rank": 4750,
+        "word": "duros",
+        "lemma": "duro",
+        "freq_abs": 2905,
+        "freq_norm": 19.04
+    },
+    {
+        "rank": 4751,
+        "word": "mary",
+        "lemma": "mary",
+        "freq_abs": 2905,
+        "freq_norm": 19.04
+    },
+    {
+        "rank": 4752,
+        "word": "permitan",
+        "lemma": "permitir",
+        "freq_abs": 2905,
+        "freq_norm": 19.04
+    },
+    {
+        "rank": 4753,
+        "word": "deseaba",
+        "lemma": "desear",
+        "freq_abs": 2904,
+        "freq_norm": 19.03
+    },
+    {
+        "rank": 4754,
+        "word": "direcciones",
+        "lemma": "direcci\u00f3n",
+        "freq_abs": 2904,
+        "freq_norm": 19.03
+    },
+    {
+        "rank": 4755,
+        "word": "refugiados",
+        "lemma": "refugiado",
+        "freq_abs": 2904,
+        "freq_norm": 19.03
+    },
+    {
+        "rank": 4756,
+        "word": "aislamiento",
+        "lemma": "aislamiento",
+        "freq_abs": 2903,
+        "freq_norm": 19.02
+    },
+    {
+        "rank": 4757,
+        "word": "artificial",
+        "lemma": "artificial",
+        "freq_abs": 2903,
+        "freq_norm": 19.02
+    },
+    {
+        "rank": 4758,
+        "word": "cat\u00f3licos",
+        "lemma": "cat\u00f3lico",
+        "freq_abs": 2903,
+        "freq_norm": 19.02
+    },
+    {
+        "rank": 4759,
+        "word": "talleres",
+        "lemma": "taller",
+        "freq_abs": 2903,
+        "freq_norm": 19.02
+    },
+    {
+        "rank": 4760,
+        "word": "orilla",
+        "lemma": "orilla",
+        "freq_abs": 2902,
+        "freq_norm": 19.02
+    },
+    {
+        "rank": 4761,
+        "word": "cami\u00f3n",
+        "lemma": "cami\u00f3n",
+        "freq_abs": 2901,
+        "freq_norm": 19.01
+    },
+    {
+        "rank": 4762,
+        "word": "hoteles",
+        "lemma": "hotel",
+        "freq_abs": 2899,
+        "freq_norm": 19.0
+    },
+    {
+        "rank": 4763,
+        "word": "informar",
+        "lemma": "informar",
+        "freq_abs": 2899,
+        "freq_norm": 19.0
+    },
+    {
+        "rank": 4764,
+        "word": "tumba",
+        "lemma": "tumba",
+        "freq_abs": 2899,
+        "freq_norm": 19.0
+    },
+    {
+        "rank": 4765,
+        "word": "cap\u00edtulos",
+        "lemma": "cap\u00edtulo",
+        "freq_abs": 2897,
+        "freq_norm": 18.98
+    },
+    {
+        "rank": 4766,
+        "word": "r\u00ede",
+        "lemma": "r\u00ede",
+        "freq_abs": 2897,
+        "freq_norm": 18.98
+    },
+    {
+        "rank": 4767,
+        "word": "marruecos",
+        "lemma": "marrueco",
+        "freq_abs": 2896,
+        "freq_norm": 18.98
+    },
+    {
+        "rank": 4768,
+        "word": "due\u00f1os",
+        "lemma": "due\u00f1o",
+        "freq_abs": 2895,
+        "freq_norm": 18.97
+    },
+    {
+        "rank": 4769,
+        "word": "elegante",
+        "lemma": "elegante",
+        "freq_abs": 2895,
+        "freq_norm": 18.97
+    },
+    {
+        "rank": 4770,
+        "word": "romano",
+        "lemma": "romano",
+        "freq_abs": 2895,
+        "freq_norm": 18.97
+    },
+    {
+        "rank": 4771,
+        "word": "c\u00e9lebre",
+        "lemma": "c\u00e9lebre",
+        "freq_abs": 2894,
+        "freq_norm": 18.96
+    },
+    {
+        "rank": 4772,
+        "word": "diana",
+        "lemma": "di\u00e1n",
+        "freq_abs": 2894,
+        "freq_norm": 18.96
+    },
+    {
+        "rank": 4773,
+        "word": "formada",
+        "lemma": "formado",
+        "freq_abs": 2894,
+        "freq_norm": 18.96
+    },
+    {
+        "rank": 4774,
+        "word": "miradas",
+        "lemma": "mirada",
+        "freq_abs": 2894,
+        "freq_norm": 18.96
+    },
+    {
+        "rank": 4775,
+        "word": "jardines",
+        "lemma": "jard\u00edn",
+        "freq_abs": 2891,
+        "freq_norm": 18.95
+    },
+    {
+        "rank": 4776,
+        "word": "publicada",
+        "lemma": "publicado",
+        "freq_abs": 2889,
+        "freq_norm": 18.93
+    },
+    {
+        "rank": 4777,
+        "word": "realizando",
+        "lemma": "realizar",
+        "freq_abs": 2888,
+        "freq_norm": 18.93
+    },
+    {
+        "rank": 4778,
+        "word": "comidas",
+        "lemma": "comida",
+        "freq_abs": 2887,
+        "freq_norm": 18.92
+    },
+    {
+        "rank": 4779,
+        "word": "\u00fatiles",
+        "lemma": "\u00fatil",
+        "freq_abs": 2887,
+        "freq_norm": 18.92
+    },
+    {
+        "rank": 4780,
+        "word": "carbono",
+        "lemma": "carbono",
+        "freq_abs": 2886,
+        "freq_norm": 18.91
+    },
+    {
+        "rank": 4781,
+        "word": "oculta",
+        "lemma": "oculto",
+        "freq_abs": 2886,
+        "freq_norm": 18.91
+    },
+    {
+        "rank": 4782,
+        "word": "web",
+        "lemma": "web",
+        "freq_abs": 2886,
+        "freq_norm": 18.91
+    },
+    {
+        "rank": 4783,
+        "word": "bailar",
+        "lemma": "bailar",
+        "freq_abs": 2885,
+        "freq_norm": 18.91
+    },
+    {
+        "rank": 4784,
+        "word": "irak",
+        "lemma": "irak",
+        "freq_abs": 2885,
+        "freq_norm": 18.91
+    },
+    {
+        "rank": 4785,
+        "word": "transcurso",
+        "lemma": "transcurso",
+        "freq_abs": 2885,
+        "freq_norm": 18.91
+    },
+    {
+        "rank": 4786,
+        "word": "act\u00faan",
+        "lemma": "actuar",
+        "freq_abs": 2884,
+        "freq_norm": 18.9
+    },
+    {
+        "rank": 4787,
+        "word": "colectivos",
+        "lemma": "colectivo",
+        "freq_abs": 2884,
+        "freq_norm": 18.9
+    },
+    {
+        "rank": 4788,
+        "word": "medir",
+        "lemma": "medir",
+        "freq_abs": 2883,
+        "freq_norm": 18.89
+    },
+    {
+        "rank": 4789,
+        "word": "orejas",
+        "lemma": "oreja",
+        "freq_abs": 2882,
+        "freq_norm": 18.89
+    },
+    {
+        "rank": 4790,
+        "word": "conductas",
+        "lemma": "conducta",
+        "freq_abs": 2880,
+        "freq_norm": 18.87
+    },
+    {
+        "rank": 4791,
+        "word": "empate",
+        "lemma": "empate",
+        "freq_abs": 2880,
+        "freq_norm": 18.87
+    },
+    {
+        "rank": 4792,
+        "word": "colonial",
+        "lemma": "colonial",
+        "freq_abs": 2879,
+        "freq_norm": 18.87
+    },
+    {
+        "rank": 4793,
+        "word": "presa",
+        "lemma": "presa",
+        "freq_abs": 2879,
+        "freq_norm": 18.87
+    },
+    {
+        "rank": 4794,
+        "word": "rumores",
+        "lemma": "rumor",
+        "freq_abs": 2879,
+        "freq_norm": 18.87
+    },
+    {
+        "rank": 4795,
+        "word": "apoya",
+        "lemma": "apoyar",
+        "freq_abs": 2878,
+        "freq_norm": 18.86
+    },
+    {
+        "rank": 4796,
+        "word": "guardar",
+        "lemma": "guardar",
+        "freq_abs": 2878,
+        "freq_norm": 18.86
+    },
+    {
+        "rank": 4797,
+        "word": "hect\u00e1reas",
+        "lemma": "hect\u00e1rea",
+        "freq_abs": 2876,
+        "freq_norm": 18.85
+    },
+    {
+        "rank": 4798,
+        "word": "sonri\u00f3",
+        "lemma": "sonre\u00edr",
+        "freq_abs": 2875,
+        "freq_norm": 18.84
+    },
+    {
+        "rank": 4799,
+        "word": "chicas",
+        "lemma": "chica",
+        "freq_abs": 2874,
+        "freq_norm": 18.83
+    },
+    {
+        "rank": 4800,
+        "word": "monarqu\u00eda",
+        "lemma": "monarqu\u00eda",
+        "freq_abs": 2873,
+        "freq_norm": 18.83
+    },
+    {
+        "rank": 4801,
+        "word": "operativo",
+        "lemma": "operativo",
+        "freq_abs": 2873,
+        "freq_norm": 18.83
+    },
+    {
+        "rank": 4802,
+        "word": "preguntar",
+        "lemma": "preguntar",
+        "freq_abs": 2873,
+        "freq_norm": 18.83
+    },
+    {
+        "rank": 4803,
+        "word": "buscaba",
+        "lemma": "buscar",
+        "freq_abs": 2872,
+        "freq_norm": 18.82
+    },
+    {
+        "rank": 4804,
+        "word": "definido",
+        "lemma": "definido",
+        "freq_abs": 2872,
+        "freq_norm": 18.82
+    },
+    {
+        "rank": 4805,
+        "word": "ciudadan\u00eda",
+        "lemma": "ciudadan\u00eda",
+        "freq_abs": 2870,
+        "freq_norm": 18.81
+    },
+    {
+        "rank": 4806,
+        "word": "paloma",
+        "lemma": "paloma",
+        "freq_abs": 2870,
+        "freq_norm": 18.81
+    },
+    {
+        "rank": 4807,
+        "word": "concluye",
+        "lemma": "concluir",
+        "freq_abs": 2869,
+        "freq_norm": 18.8
+    },
+    {
+        "rank": 4808,
+        "word": "v\u00eddeo",
+        "lemma": "v\u00eddeo",
+        "freq_abs": 2869,
+        "freq_norm": 18.8
+    },
+    {
+        "rank": 4809,
+        "word": "usos",
+        "lemma": "uso",
+        "freq_abs": 2868,
+        "freq_norm": 18.79
+    },
+    {
+        "rank": 4810,
+        "word": "vascos",
+        "lemma": "vasco",
+        "freq_abs": 2868,
+        "freq_norm": 18.79
+    },
+    {
+        "rank": 4811,
+        "word": "robo",
+        "lemma": "robar",
+        "freq_abs": 2867,
+        "freq_norm": 18.79
+    },
+    {
+        "rank": 4812,
+        "word": "roto",
+        "lemma": "roto",
+        "freq_abs": 2867,
+        "freq_norm": 18.79
+    },
+    {
+        "rank": 4813,
+        "word": "volv\u00ed",
+        "lemma": "volv\u00ed",
+        "freq_abs": 2867,
+        "freq_norm": 18.79
+    },
+    {
+        "rank": 4814,
+        "word": "desayuno",
+        "lemma": "desayuno",
+        "freq_abs": 2866,
+        "freq_norm": 18.78
+    },
+    {
+        "rank": 4815,
+        "word": "respetar",
+        "lemma": "respetar",
+        "freq_abs": 2866,
+        "freq_norm": 18.78
+    },
+    {
+        "rank": 4816,
+        "word": "compositor",
+        "lemma": "compositor",
+        "freq_abs": 2865,
+        "freq_norm": 18.77
+    },
+    {
+        "rank": 4817,
+        "word": "respectivos",
+        "lemma": "respectivo",
+        "freq_abs": 2865,
+        "freq_norm": 18.77
+    },
+    {
+        "rank": 4818,
+        "word": "m\u00f3vil",
+        "lemma": "m\u00f3vil",
+        "freq_abs": 2863,
+        "freq_norm": 18.76
+    },
+    {
+        "rank": 4819,
+        "word": "trama",
+        "lemma": "trama",
+        "freq_abs": 2863,
+        "freq_norm": 18.76
+    },
+    {
+        "rank": 4820,
+        "word": "tenis",
+        "lemma": "tenis",
+        "freq_abs": 2862,
+        "freq_norm": 18.76
+    },
+    {
+        "rank": 4821,
+        "word": "complicado",
+        "lemma": "complicado",
+        "freq_abs": 2861,
+        "freq_norm": 18.75
+    },
+    {
+        "rank": 4822,
+        "word": "desastre",
+        "lemma": "desastre",
+        "freq_abs": 2861,
+        "freq_norm": 18.75
+    },
+    {
+        "rank": 4823,
+        "word": "ministra",
+        "lemma": "ministra",
+        "freq_abs": 2861,
+        "freq_norm": 18.75
+    },
+    {
+        "rank": 4824,
+        "word": "asesinado",
+        "lemma": "asesinar",
+        "freq_abs": 2859,
+        "freq_norm": 18.74
+    },
+    {
+        "rank": 4825,
+        "word": "celebra",
+        "lemma": "celebrar",
+        "freq_abs": 2859,
+        "freq_norm": 18.74
+    },
+    {
+        "rank": 4826,
+        "word": "razonable",
+        "lemma": "razonable",
+        "freq_abs": 2858,
+        "freq_norm": 18.73
+    },
+    {
+        "rank": 4827,
+        "word": "vayan",
+        "lemma": "ir",
+        "freq_abs": 2858,
+        "freq_norm": 18.73
+    },
+    {
+        "rank": 4828,
+        "word": "productividad",
+        "lemma": "productividad",
+        "freq_abs": 2857,
+        "freq_norm": 18.72
+    },
+    {
+        "rank": 4829,
+        "word": "corredor",
+        "lemma": "corredor",
+        "freq_abs": 2856,
+        "freq_norm": 18.72
+    },
+    {
+        "rank": 4830,
+        "word": "separado",
+        "lemma": "separado",
+        "freq_abs": 2856,
+        "freq_norm": 18.72
+    },
+    {
+        "rank": 4831,
+        "word": "alas",
+        "lemma": "ala",
+        "freq_abs": 2855,
+        "freq_norm": 18.71
+    },
+    {
+        "rank": 4832,
+        "word": "cuantas",
+        "lemma": "cuanta",
+        "freq_abs": 2855,
+        "freq_norm": 18.71
+    },
+    {
+        "rank": 4833,
+        "word": "dom\u00ednguez",
+        "lemma": "dom\u00ednguez",
+        "freq_abs": 2855,
+        "freq_norm": 18.71
+    },
+    {
+        "rank": 4834,
+        "word": "hechas",
+        "lemma": "hecho",
+        "freq_abs": 2855,
+        "freq_norm": 18.71
+    },
+    {
+        "rank": 4835,
+        "word": "permit\u00eda",
+        "lemma": "permitir",
+        "freq_abs": 2855,
+        "freq_norm": 18.71
+    },
+    {
+        "rank": 4836,
+        "word": "hablamos",
+        "lemma": "hablar",
+        "freq_abs": 2852,
+        "freq_norm": 18.69
+    },
+    {
+        "rank": 4837,
+        "word": "alarma",
+        "lemma": "alarmar",
+        "freq_abs": 2851,
+        "freq_norm": 18.68
+    },
+    {
+        "rank": 4838,
+        "word": "atentados",
+        "lemma": "atentado",
+        "freq_abs": 2851,
+        "freq_norm": 18.68
+    },
+    {
+        "rank": 4839,
+        "word": "moverse",
+        "lemma": "mover \u00e9l",
+        "freq_abs": 2851,
+        "freq_norm": 18.68
+    },
+    {
+        "rank": 4840,
+        "word": "fraude",
+        "lemma": "fraude",
+        "freq_abs": 2850,
+        "freq_norm": 18.68
+    },
+    {
+        "rank": 4841,
+        "word": "mentales",
+        "lemma": "mental",
+        "freq_abs": 2850,
+        "freq_norm": 18.68
+    },
+    {
+        "rank": 4842,
+        "word": "seguidores",
+        "lemma": "seguidor",
+        "freq_abs": 2849,
+        "freq_norm": 18.67
+    },
+    {
+        "rank": 4843,
+        "word": "llevo",
+        "lemma": "llevar",
+        "freq_abs": 2848,
+        "freq_norm": 18.66
+    },
+    {
+        "rank": 4844,
+        "word": "planteamientos",
+        "lemma": "planteamiento",
+        "freq_abs": 2848,
+        "freq_norm": 18.66
+    },
+    {
+        "rank": 4845,
+        "word": "invitaci\u00f3n",
+        "lemma": "invitaci\u00f3n",
+        "freq_abs": 2847,
+        "freq_norm": 18.66
+    },
+    {
+        "rank": 4846,
+        "word": "c\u00e1lculos",
+        "lemma": "c\u00e1lculo",
+        "freq_abs": 2845,
+        "freq_norm": 18.64
+    },
+    {
+        "rank": 4847,
+        "word": "catalanes",
+        "lemma": "catal\u00e1n",
+        "freq_abs": 2845,
+        "freq_norm": 18.64
+    },
+    {
+        "rank": 4848,
+        "word": "limitado",
+        "lemma": "limitado",
+        "freq_abs": 2844,
+        "freq_norm": 18.64
+    },
+    {
+        "rank": 4849,
+        "word": "manten\u00eda",
+        "lemma": "mantener",
+        "freq_abs": 2844,
+        "freq_norm": 18.64
+    },
+    {
+        "rank": 4850,
+        "word": "onda",
+        "lemma": "onda",
+        "freq_abs": 2844,
+        "freq_norm": 18.64
+    },
+    {
+        "rank": 4851,
+        "word": "fray",
+        "lemma": "fray",
+        "freq_abs": 2843,
+        "freq_norm": 18.63
+    },
+    {
+        "rank": 4852,
+        "word": "acercarse",
+        "lemma": "acercar \u00e9l",
+        "freq_abs": 2842,
+        "freq_norm": 18.62
+    },
+    {
+        "rank": 4853,
+        "word": "caos",
+        "lemma": "caos",
+        "freq_abs": 2842,
+        "freq_norm": 18.62
+    },
+    {
+        "rank": 4854,
+        "word": "exigencia",
+        "lemma": "exigencia",
+        "freq_abs": 2842,
+        "freq_norm": 18.62
+    },
+    {
+        "rank": 4855,
+        "word": "oviedo",
+        "lemma": "oviedo",
+        "freq_abs": 2840,
+        "freq_norm": 18.61
+    },
+    {
+        "rank": 4856,
+        "word": "reagan",
+        "lemma": "reagar",
+        "freq_abs": 2840,
+        "freq_norm": 18.61
+    },
+    {
+        "rank": 4857,
+        "word": "griego",
+        "lemma": "griego",
+        "freq_abs": 2839,
+        "freq_norm": 18.6
+    },
+    {
+        "rank": 4858,
+        "word": "crey\u00f3",
+        "lemma": "creer",
+        "freq_abs": 2838,
+        "freq_norm": 18.6
+    },
+    {
+        "rank": 4859,
+        "word": "vano",
+        "lemma": "vano",
+        "freq_abs": 2838,
+        "freq_norm": 18.6
+    },
+    {
+        "rank": 4860,
+        "word": "sexto",
+        "lemma": "sexto",
+        "freq_abs": 2837,
+        "freq_norm": 18.59
+    },
+    {
+        "rank": 4861,
+        "word": "supuestamente",
+        "lemma": "supuestamente",
+        "freq_abs": 2837,
+        "freq_norm": 18.59
+    },
+    {
+        "rank": 4862,
+        "word": "int\u00e9rpretes",
+        "lemma": "int\u00e9rprete",
+        "freq_abs": 2835,
+        "freq_norm": 18.58
+    },
+    {
+        "rank": 4863,
+        "word": "protestas",
+        "lemma": "protesta",
+        "freq_abs": 2835,
+        "freq_norm": 18.58
+    },
+    {
+        "rank": 4864,
+        "word": "sufrimiento",
+        "lemma": "sufrimiento",
+        "freq_abs": 2835,
+        "freq_norm": 18.58
+    },
+    {
+        "rank": 4865,
+        "word": "carnes",
+        "lemma": "carne",
+        "freq_abs": 2834,
+        "freq_norm": 18.57
+    },
+    {
+        "rank": 4866,
+        "word": "egipto",
+        "lemma": "egipto",
+        "freq_abs": 2833,
+        "freq_norm": 18.56
+    },
+    {
+        "rank": 4867,
+        "word": "administraciones",
+        "lemma": "administraci\u00f3n",
+        "freq_abs": 2832,
+        "freq_norm": 18.56
+    },
+    {
+        "rank": 4868,
+        "word": "calder\u00f3n",
+        "lemma": "calder\u00f3n",
+        "freq_abs": 2832,
+        "freq_norm": 18.56
+    },
+    {
+        "rank": 4869,
+        "word": "desaf\u00edo",
+        "lemma": "desaf\u00edo",
+        "freq_abs": 2832,
+        "freq_norm": 18.56
+    },
+    {
+        "rank": 4870,
+        "word": "antig\u00fcedad",
+        "lemma": "antig\u00fcedad",
+        "freq_abs": 2830,
+        "freq_norm": 18.55
+    },
+    {
+        "rank": 4871,
+        "word": "tercio",
+        "lemma": "tercio",
+        "freq_abs": 2830,
+        "freq_norm": 18.55
+    },
+    {
+        "rank": 4872,
+        "word": "estreno",
+        "lemma": "estreno",
+        "freq_abs": 2829,
+        "freq_norm": 18.54
+    },
+    {
+        "rank": 4873,
+        "word": "\u00e1frica",
+        "lemma": "\u00e1frica",
+        "freq_abs": 2828,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4874,
+        "word": "bah\u00eda",
+        "lemma": "bah\u00eda",
+        "freq_abs": 2828,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4875,
+        "word": "fortaleza",
+        "lemma": "fortaleza",
+        "freq_abs": 2828,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4876,
+        "word": "obviamente",
+        "lemma": "obviamente",
+        "freq_abs": 2828,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4877,
+        "word": "siguieron",
+        "lemma": "seguir",
+        "freq_abs": 2828,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4878,
+        "word": "vinos",
+        "lemma": "vino",
+        "freq_abs": 2828,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4879,
+        "word": "fujimori",
+        "lemma": "fujimori",
+        "freq_abs": 2827,
+        "freq_norm": 18.53
+    },
+    {
+        "rank": 4880,
+        "word": "ingenier\u00eda",
+        "lemma": "ingenier\u00eda",
+        "freq_abs": 2826,
+        "freq_norm": 18.52
+    },
+    {
+        "rank": 4881,
+        "word": "resultaron",
+        "lemma": "resultar",
+        "freq_abs": 2826,
+        "freq_norm": 18.52
+    },
+    {
+        "rank": 4882,
+        "word": "garganta",
+        "lemma": "garganta",
+        "freq_abs": 2825,
+        "freq_norm": 18.51
+    },
+    {
+        "rank": 4883,
+        "word": "masculino",
+        "lemma": "masculino",
+        "freq_abs": 2825,
+        "freq_norm": 18.51
+    },
+    {
+        "rank": 4884,
+        "word": "sentada",
+        "lemma": "sentado",
+        "freq_abs": 2825,
+        "freq_norm": 18.51
+    },
+    {
+        "rank": 4885,
+        "word": "quedando",
+        "lemma": "quedar",
+        "freq_abs": 2824,
+        "freq_norm": 18.51
+    },
+    {
+        "rank": 4886,
+        "word": "majestad",
+        "lemma": "majestad",
+        "freq_abs": 2823,
+        "freq_norm": 18.5
+    },
+    {
+        "rank": 4887,
+        "word": "rector",
+        "lemma": "rector",
+        "freq_abs": 2823,
+        "freq_norm": 18.5
+    },
+    {
+        "rank": 4888,
+        "word": "m\u00ednimos",
+        "lemma": "m\u00ednimo",
+        "freq_abs": 2822,
+        "freq_norm": 18.49
+    },
+    {
+        "rank": 4889,
+        "word": "modernos",
+        "lemma": "moderno",
+        "freq_abs": 2821,
+        "freq_norm": 18.49
+    },
+    {
+        "rank": 4890,
+        "word": "experto",
+        "lemma": "experto",
+        "freq_abs": 2820,
+        "freq_norm": 18.48
+    },
+    {
+        "rank": 4891,
+        "word": "rosas",
+        "lemma": "rosa",
+        "freq_abs": 2820,
+        "freq_norm": 18.48
+    },
+    {
+        "rank": 4892,
+        "word": "trajo",
+        "lemma": "traer",
+        "freq_abs": 2820,
+        "freq_norm": 18.48
+    },
+    {
+        "rank": 4893,
+        "word": "vela",
+        "lemma": "velar",
+        "freq_abs": 2820,
+        "freq_norm": 18.48
+    },
+    {
+        "rank": 4894,
+        "word": "cobre",
+        "lemma": "cobre",
+        "freq_abs": 2818,
+        "freq_norm": 18.47
+    },
+    {
+        "rank": 4895,
+        "word": "permanencia",
+        "lemma": "permanencia",
+        "freq_abs": 2818,
+        "freq_norm": 18.47
+    },
+    {
+        "rank": 4896,
+        "word": "rescate",
+        "lemma": "rescate",
+        "freq_abs": 2817,
+        "freq_norm": 18.46
+    },
+    {
+        "rank": 4897,
+        "word": "enfrente",
+        "lemma": "enfrente",
+        "freq_abs": 2816,
+        "freq_norm": 18.45
+    },
+    {
+        "rank": 4898,
+        "word": "firmas",
+        "lemma": "firma",
+        "freq_abs": 2816,
+        "freq_norm": 18.45
+    },
+    {
+        "rank": 4899,
+        "word": "tensiones",
+        "lemma": "tensi\u00f3n",
+        "freq_abs": 2816,
+        "freq_norm": 18.45
+    },
+    {
+        "rank": 4900,
+        "word": "confederaci\u00f3n",
+        "lemma": "confederaci\u00f3n",
+        "freq_abs": 2815,
+        "freq_norm": 18.45
+    },
+    {
+        "rank": 4901,
+        "word": "problem\u00e1tica",
+        "lemma": "problem\u00e1tico",
+        "freq_abs": 2814,
+        "freq_norm": 18.44
+    },
+    {
+        "rank": 4902,
+        "word": "recta",
+        "lemma": "recto",
+        "freq_abs": 2814,
+        "freq_norm": 18.44
+    },
+    {
+        "rank": 4903,
+        "word": "trabajaba",
+        "lemma": "trabajar",
+        "freq_abs": 2814,
+        "freq_norm": 18.44
+    },
+    {
+        "rank": 4904,
+        "word": "asia",
+        "lemma": "asiar",
+        "freq_abs": 2812,
+        "freq_norm": 18.43
+    },
+    {
+        "rank": 4905,
+        "word": "extranjeras",
+        "lemma": "extranjero",
+        "freq_abs": 2812,
+        "freq_norm": 18.43
+    },
+    {
+        "rank": 4906,
+        "word": "llevar\u00e1",
+        "lemma": "llevar",
+        "freq_abs": 2811,
+        "freq_norm": 18.42
+    },
+    {
+        "rank": 4907,
+        "word": "detener",
+        "lemma": "detener",
+        "freq_abs": 2810,
+        "freq_norm": 18.41
+    },
+    {
+        "rank": 4908,
+        "word": "modalidad",
+        "lemma": "modalidad",
+        "freq_abs": 2810,
+        "freq_norm": 18.41
+    },
+    {
+        "rank": 4909,
+        "word": "guzm\u00e1n",
+        "lemma": "guzm\u00e1n",
+        "freq_abs": 2809,
+        "freq_norm": 18.41
+    },
+    {
+        "rank": 4910,
+        "word": "vegetal",
+        "lemma": "vegetal",
+        "freq_abs": 2809,
+        "freq_norm": 18.41
+    },
+    {
+        "rank": 4911,
+        "word": "ch\u00e1vez",
+        "lemma": "ch\u00e1vez",
+        "freq_abs": 2808,
+        "freq_norm": 18.4
+    },
+    {
+        "rank": 4912,
+        "word": "jugo",
+        "lemma": "jugo",
+        "freq_abs": 2808,
+        "freq_norm": 18.4
+    },
+    {
+        "rank": 4913,
+        "word": "terrestre",
+        "lemma": "terrestre",
+        "freq_abs": 2808,
+        "freq_norm": 18.4
+    },
+    {
+        "rank": 4914,
+        "word": "\u00e1ngulo",
+        "lemma": "\u00e1ngulir",
+        "freq_abs": 2805,
+        "freq_norm": 18.38
+    },
+    {
+        "rank": 4915,
+        "word": "tentaci\u00f3n",
+        "lemma": "tentaci\u00f3n",
+        "freq_abs": 2805,
+        "freq_norm": 18.38
+    },
+    {
+        "rank": 4916,
+        "word": "coordinador",
+        "lemma": "coordinador",
+        "freq_abs": 2804,
+        "freq_norm": 18.37
+    },
+    {
+        "rank": 4917,
+        "word": "nerviosa",
+        "lemma": "nervioso",
+        "freq_abs": 2804,
+        "freq_norm": 18.37
+    },
+    {
+        "rank": 4918,
+        "word": "suicidio",
+        "lemma": "suicidio",
+        "freq_abs": 2803,
+        "freq_norm": 18.37
+    },
+    {
+        "rank": 4919,
+        "word": "acompa\u00f1a",
+        "lemma": "acompa\u00f1ar",
+        "freq_abs": 2802,
+        "freq_norm": 18.36
+    },
+    {
+        "rank": 4920,
+        "word": "armados",
+        "lemma": "armado",
+        "freq_abs": 2801,
+        "freq_norm": 18.36
+    },
+    {
+        "rank": 4921,
+        "word": "rol",
+        "lemma": "rol",
+        "freq_abs": 2801,
+        "freq_norm": 18.36
+    },
+    {
+        "rank": 4922,
+        "word": "agr\u00edcolas",
+        "lemma": "agr\u00edcola",
+        "freq_abs": 2800,
+        "freq_norm": 18.35
+    },
+    {
+        "rank": 4923,
+        "word": "murcia",
+        "lemma": "murcia",
+        "freq_abs": 2800,
+        "freq_norm": 18.35
+    },
+    {
+        "rank": 4924,
+        "word": "oliva",
+        "lemma": "olivo",
+        "freq_abs": 2800,
+        "freq_norm": 18.35
+    },
+    {
+        "rank": 4925,
+        "word": "provisional",
+        "lemma": "provisional",
+        "freq_abs": 2800,
+        "freq_norm": 18.35
+    },
+    {
+        "rank": 4926,
+        "word": "determina",
+        "lemma": "determ\u00edn",
+        "freq_abs": 2799,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4927,
+        "word": "evaluar",
+        "lemma": "evaluar",
+        "freq_abs": 2799,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4928,
+        "word": "funcional",
+        "lemma": "funcional",
+        "freq_abs": 2799,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4929,
+        "word": "p\u00e1rrafo",
+        "lemma": "p\u00e1rrafo",
+        "freq_abs": 2799,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4930,
+        "word": "patas",
+        "lemma": "pata",
+        "freq_abs": 2799,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4931,
+        "word": "cruzar",
+        "lemma": "cruzar",
+        "freq_abs": 2798,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4932,
+        "word": "huir",
+        "lemma": "huir",
+        "freq_abs": 2798,
+        "freq_norm": 18.34
+    },
+    {
+        "rank": 4933,
+        "word": "novio",
+        "lemma": "novio",
+        "freq_abs": 2797,
+        "freq_norm": 18.33
+    },
+    {
+        "rank": 4934,
+        "word": "aparec\u00eda",
+        "lemma": "aparecer",
+        "freq_abs": 2794,
+        "freq_norm": 18.31
+    },
+    {
+        "rank": 4935,
+        "word": "justa",
+        "lemma": "justo",
+        "freq_abs": 2793,
+        "freq_norm": 18.3
+    },
+    {
+        "rank": 4936,
+        "word": "manejar",
+        "lemma": "manejar",
+        "freq_abs": 2793,
+        "freq_norm": 18.3
+    },
+    {
+        "rank": 4937,
+        "word": "caro",
+        "lemma": "caro",
+        "freq_abs": 2792,
+        "freq_norm": 18.3
+    },
+    {
+        "rank": 4938,
+        "word": "naranja",
+        "lemma": "naranjar",
+        "freq_abs": 2792,
+        "freq_norm": 18.3
+    },
+    {
+        "rank": 4939,
+        "word": "licenciado",
+        "lemma": "licenciado",
+        "freq_abs": 2791,
+        "freq_norm": 18.29
+    },
+    {
+        "rank": 4940,
+        "word": "rostros",
+        "lemma": "rostro",
+        "freq_abs": 2791,
+        "freq_norm": 18.29
+    },
+    {
+        "rank": 4941,
+        "word": "barba",
+        "lemma": "barba",
+        "freq_abs": 2790,
+        "freq_norm": 18.28
+    },
+    {
+        "rank": 4942,
+        "word": "combustible",
+        "lemma": "combustible",
+        "freq_abs": 2790,
+        "freq_norm": 18.28
+    },
+    {
+        "rank": 4943,
+        "word": "enfrenta",
+        "lemma": "enfrentar",
+        "freq_abs": 2790,
+        "freq_norm": 18.28
+    },
+    {
+        "rank": 4944,
+        "word": "acero",
+        "lemma": "acero",
+        "freq_abs": 2788,
+        "freq_norm": 18.27
+    },
+    {
+        "rank": 4945,
+        "word": "adquirido",
+        "lemma": "adquirir",
+        "freq_abs": 2787,
+        "freq_norm": 18.26
+    },
+    {
+        "rank": 4946,
+        "word": "sorprendi\u00f3",
+        "lemma": "sorprender",
+        "freq_abs": 2787,
+        "freq_norm": 18.26
+    },
+    {
+        "rank": 4947,
+        "word": "esfera",
+        "lemma": "esfera",
+        "freq_abs": 2786,
+        "freq_norm": 18.26
+    },
+    {
+        "rank": 4948,
+        "word": "genio",
+        "lemma": "genio",
+        "freq_abs": 2786,
+        "freq_norm": 18.26
+    },
+    {
+        "rank": 4949,
+        "word": "bernardo",
+        "lemma": "bernardo",
+        "freq_abs": 2785,
+        "freq_norm": 18.25
+    },
+    {
+        "rank": 4950,
+        "word": "ira",
+        "lemma": "ira",
+        "freq_abs": 2785,
+        "freq_norm": 18.25
+    },
+    {
+        "rank": 4951,
+        "word": "vapor",
+        "lemma": "vapor",
+        "freq_abs": 2785,
+        "freq_norm": 18.25
+    },
+    {
+        "rank": 4952,
+        "word": "satisfecho",
+        "lemma": "satisfecho",
+        "freq_abs": 2783,
+        "freq_norm": 18.24
+    },
+    {
+        "rank": 4953,
+        "word": "s\u00edmbolos",
+        "lemma": "s\u00edmbolo",
+        "freq_abs": 2783,
+        "freq_norm": 18.24
+    },
+    {
+        "rank": 4954,
+        "word": "encuestas",
+        "lemma": "encuesta",
+        "freq_abs": 2782,
+        "freq_norm": 18.23
+    },
+    {
+        "rank": 4955,
+        "word": "lluvias",
+        "lemma": "lluvia",
+        "freq_abs": 2781,
+        "freq_norm": 18.22
+    },
+    {
+        "rank": 4956,
+        "word": "obtenci\u00f3n",
+        "lemma": "obtenci\u00f3n",
+        "freq_abs": 2781,
+        "freq_norm": 18.22
+    },
+    {
+        "rank": 4957,
+        "word": "curva",
+        "lemma": "curvo",
+        "freq_abs": 2780,
+        "freq_norm": 18.22
+    },
+    {
+        "rank": 4958,
+        "word": "bill",
+        "lemma": "bill",
+        "freq_abs": 2778,
+        "freq_norm": 18.2
+    },
+    {
+        "rank": 4959,
+        "word": "coca",
+        "lemma": "cocar",
+        "freq_abs": 2778,
+        "freq_norm": 18.2
+    },
+    {
+        "rank": 4960,
+        "word": "guerrilleros",
+        "lemma": "guerrillero",
+        "freq_abs": 2778,
+        "freq_norm": 18.2
+    },
+    {
+        "rank": 4961,
+        "word": "incrementar",
+        "lemma": "incrementar",
+        "freq_abs": 2778,
+        "freq_norm": 18.2
+    },
+    {
+        "rank": 4962,
+        "word": "medalla",
+        "lemma": "medalla",
+        "freq_abs": 2778,
+        "freq_norm": 18.2
+    },
+    {
+        "rank": 4963,
+        "word": "nacionalidad",
+        "lemma": "nacionalidad",
+        "freq_abs": 2776,
+        "freq_norm": 18.19
+    },
+    {
+        "rank": 4964,
+        "word": "vigo",
+        "lemma": "ver",
+        "freq_abs": 2776,
+        "freq_norm": 18.19
+    },
+    {
+        "rank": 4965,
+        "word": "bebidas",
+        "lemma": "bebida",
+        "freq_abs": 2775,
+        "freq_norm": 18.18
+    },
+    {
+        "rank": 4966,
+        "word": "trate",
+        "lemma": "tratar",
+        "freq_abs": 2775,
+        "freq_norm": 18.18
+    },
+    {
+        "rank": 4967,
+        "word": "complejos",
+        "lemma": "complejo",
+        "freq_abs": 2774,
+        "freq_norm": 18.18
+    },
+    {
+        "rank": 4968,
+        "word": "realizaron",
+        "lemma": "realizar",
+        "freq_abs": 2774,
+        "freq_norm": 18.18
+    },
+    {
+        "rank": 4969,
+        "word": "preocupado",
+        "lemma": "preocupado",
+        "freq_abs": 2773,
+        "freq_norm": 18.17
+    },
+    {
+        "rank": 4970,
+        "word": "caracteres",
+        "lemma": "caracter",
+        "freq_abs": 2772,
+        "freq_norm": 18.17
+    },
+    {
+        "rank": 4971,
+        "word": "vuelva",
+        "lemma": "volver",
+        "freq_abs": 2772,
+        "freq_norm": 18.17
+    },
+    {
+        "rank": 4972,
+        "word": "estableci\u00f3",
+        "lemma": "establecer",
+        "freq_abs": 2771,
+        "freq_norm": 18.16
+    },
+    {
+        "rank": 4973,
+        "word": "formato",
+        "lemma": "formato",
+        "freq_abs": 2771,
+        "freq_norm": 18.16
+    },
+    {
+        "rank": 4974,
+        "word": "contempor\u00e1neo",
+        "lemma": "contempor\u00e1neo",
+        "freq_abs": 2770,
+        "freq_norm": 18.15
+    },
+    {
+        "rank": 4975,
+        "word": "registrado",
+        "lemma": "registrado",
+        "freq_abs": 2769,
+        "freq_norm": 18.15
+    },
+    {
+        "rank": 4976,
+        "word": "convenci\u00f3n",
+        "lemma": "convenci\u00f3n",
+        "freq_abs": 2768,
+        "freq_norm": 18.14
+    },
+    {
+        "rank": 4977,
+        "word": "taxi",
+        "lemma": "taxi",
+        "freq_abs": 2768,
+        "freq_norm": 18.14
+    },
+    {
+        "rank": 4978,
+        "word": "tronco",
+        "lemma": "tronco",
+        "freq_abs": 2768,
+        "freq_norm": 18.14
+    },
+    {
+        "rank": 4979,
+        "word": "observ\u00f3",
+        "lemma": "observar",
+        "freq_abs": 2767,
+        "freq_norm": 18.13
+    },
+    {
+        "rank": 4980,
+        "word": "apreciar",
+        "lemma": "apreciar",
+        "freq_abs": 2766,
+        "freq_norm": 18.13
+    },
+    {
+        "rank": 4981,
+        "word": "diera",
+        "lemma": "dar",
+        "freq_abs": 2765,
+        "freq_norm": 18.12
+    },
+    {
+        "rank": 4982,
+        "word": "consideraciones",
+        "lemma": "consideraci\u00f3n",
+        "freq_abs": 2764,
+        "freq_norm": 18.11
+    },
+    {
+        "rank": 4983,
+        "word": "empiezan",
+        "lemma": "empezar",
+        "freq_abs": 2763,
+        "freq_norm": 18.11
+    },
+    {
+        "rank": 4984,
+        "word": "viena",
+        "lemma": "viena",
+        "freq_abs": 2763,
+        "freq_norm": 18.11
+    },
+    {
+        "rank": 4985,
+        "word": "dedic\u00f3",
+        "lemma": "dedicar",
+        "freq_abs": 2762,
+        "freq_norm": 18.1
+    },
+    {
+        "rank": 4986,
+        "word": "tardes",
+        "lemma": "tarde",
+        "freq_abs": 2760,
+        "freq_norm": 18.09
+    },
+    {
+        "rank": 4987,
+        "word": "asociados",
+        "lemma": "asociado",
+        "freq_abs": 2759,
+        "freq_norm": 18.08
+    },
+    {
+        "rank": 4988,
+        "word": "instalado",
+        "lemma": "instalado",
+        "freq_abs": 2759,
+        "freq_norm": 18.08
+    },
+    {
+        "rank": 4989,
+        "word": "supuesta",
+        "lemma": "supuesto",
+        "freq_abs": 2759,
+        "freq_norm": 18.08
+    },
+    {
+        "rank": 4990,
+        "word": "tecnol\u00f3gica",
+        "lemma": "tecnol\u00f3gico",
+        "freq_abs": 2758,
+        "freq_norm": 18.07
+    },
+    {
+        "rank": 4991,
+        "word": "transferencia",
+        "lemma": "transferencia",
+        "freq_abs": 2758,
+        "freq_norm": 18.07
+    },
+    {
+        "rank": 4992,
+        "word": "\u00e1mbitos",
+        "lemma": "\u00e1mbito",
+        "freq_abs": 2757,
+        "freq_norm": 18.07
+    },
+    {
+        "rank": 4993,
+        "word": "empe\u00f1o",
+        "lemma": "empe\u00f1o",
+        "freq_abs": 2757,
+        "freq_norm": 18.07
+    },
+    {
+        "rank": 4994,
+        "word": "eugenio",
+        "lemma": "eugenio",
+        "freq_abs": 2757,
+        "freq_norm": 18.07
+    },
+    {
+        "rank": 4995,
+        "word": "vistas",
+        "lemma": "visto",
+        "freq_abs": 2757,
+        "freq_norm": 18.07
+    },
+    {
+        "rank": 4996,
+        "word": "arreglo",
+        "lemma": "arreglo",
+        "freq_abs": 2755,
+        "freq_norm": 18.05
+    },
+    {
+        "rank": 4997,
+        "word": "magistrado",
+        "lemma": "magistrar",
+        "freq_abs": 2754,
+        "freq_norm": 18.05
+    },
+    {
+        "rank": 4998,
+        "word": "notables",
+        "lemma": "notable",
+        "freq_abs": 2754,
+        "freq_norm": 18.05
+    },
+    {
+        "rank": 4999,
+        "word": "registros",
+        "lemma": "registro",
+        "freq_abs": 2753,
+        "freq_norm": 18.04
+    },
+    {
+        "rank": 5000,
+        "word": "jug\u00f3",
+        "lemma": "jugar",
+        "freq_abs": 2752,
+        "freq_norm": 18.03
+    }
+]
