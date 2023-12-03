@@ -3,146 +3,206 @@ from datetime import datetime
 from typing import Tuple, List
 from datetime import datetime, timedelta
 
-import pytz
-import configparser
-import openai
-
 from db import client
 from stuff.heuristic import *
 import logging
 
-def get_next_card(user_id: int) -> Tuple[int, str, str, str]:
-    """
-    Retrieves the next flashcard for a given user based on their user ID.
+from datetime import datetime
 
-    Args:
-    - user_id: An integer representing the unique ID of the user.
+def add_user(client, email, password_hash):
+    # Correctly formatted query to check if the user exists
+    existing_user = client.table("users").select("email").eq("email", email).execute()
 
-    Returns:
-    A tuple containing the ID, sentence text, translation, and image URL of the next flashcard. Returns an empty tuple if there are no more cards for the day.
-    """
+    if existing_user.data:
+        return {"error": "User with this email already exists."}
 
-    # Select the card with the earliest 'next_review_date' that has not been seen today
-    query = (client.table('sentences').select('*').filter('user_id', 'eq', user_id).filter('next_review_date', 'lte', datetime.utcnow()).filter('seen_today', 'eq', False).order('next_review_date').limit(1).execute())
+    data = {
+        "email": email,
+        "password_hash": password_hash,
+        "created_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
 
-    if len(query.data) == 0:
-        return ()
+    result = client.table("users").insert(data).execute()
+    return result
+
+def get_due_flashcards(client, email):
+    # Retrieve user_id based on email
+    user = client.table("users").select("id").eq("email", email).execute()
+    if not user.data:
+        return {"error": "User not found."}
+
+    user_id = user.data[0]['id']
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    query = (
+        client.table("review_schedule")
+        .select("*, flashcards(*)")
+        .eq("user_id", user_id)
+        .lte("next_review", today)
+        .execute()
+    )
+
+    if 'error' in query:
+        return query
+
+    return query.data
+
+def clear_all_tables(client):
+    try:
+        client.table("review_schedule").delete().gte("id", 0).execute()
+        client.table("flashcards").delete().gte("id", 0).execute()
+        client.table("users").delete().gte("id", 0).execute()
+        return {"success": "All tables cleared."}
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def get_user_id_by_email(client, email):
+    try:
+        user_record = client.table("users").select("id").eq("email", email).execute()
+        if user_record.data:
+            return user_record.data[0]['id']
+        else:
+            return None
+    except Exception as e:
+        print("Error fetching user ID:", str(e))
+        return None
+
+clear_result = clear_all_tables(client)
+print(clear_result)
+
+
+# Example usage
+new_user_email = "example@example.com"
+new_user_password_hash = "hashed_password_here"
+user_add_result = add_user(client, new_user_email, new_user_password_hash)
+
+# Fetch the user ID for the newly created user
+user_id = get_user_id_by_email(client, new_user_email)
+
+if user_id is not None:
+    print(f"User ID for {new_user_email} is {user_id}")
+    # Now you can use this user_id for further operations like adding sentences
+    # ...
+else:
+    print("User not found or error occurred.")
+
+def add_sentence(client, user_id, front, back):
+    try:
+        # First, insert the new flashcard
+        flashcard_data = {
+            "user_id": user_id,
+            "front": front,
+            "back": back,
+            "tokens": {},  # Adjust this based on your schema
+            "created_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        }
+        flashcard_result = client.table("flashcards").insert(flashcard_data).execute()
+
+        if hasattr(flashcard_result, 'data'):
+            flashcard_data = flashcard_result.data
+            if flashcard_data and isinstance(flashcard_data, list):
+                new_card_id = flashcard_data[0]['id']
+                # ... continue with your logic ...
+            else:
+                return {"error": "No data returned or invalid format"}
+        else:
+            return {"error": "Unexpected response structure from API"}
+        
+        # Then, create an entry in the review_schedule table
+        review_data = {
+            "user_id": user_id,
+            "card_id": new_card_id,
+            "next_review": datetime.now().strftime('%Y-%m-%d'),
+            "interval": 1,  # Starting interval, adjust as needed
+            "last_reviewed": None,
+            "review_count": 0,
+            "success_count": 0
+        }
+        review_result = client.table("review_schedule").insert(review_data).execute()
+
+        return review_result
+    except Exception as e:
+        return {"error": str(e)}
+
+    
+# Example usage
+front = "Example sentence"
+back = "Meaning or translation of the sentence"
+
+add_sentence_result = add_sentence(client, user_id, front, back)
+print(add_sentence_result)
+
+
+
+def answer_flashcard(client, user_id, correct):
+    try:
+        # Retrieve the next card due for the user
+        card_id = get_next_card_due_for_user(client, user_id)
+        if card_id is None:
+            return {"error": "No cards due for review"}
+
+        # Retrieve the current review schedule for the card
+        current_review = client.table("review_schedule").select("*").eq("user_id", user_id).eq("card_id", card_id).execute()
+
+        if not current_review.data:
+            return {"error": "Review schedule not found."}
+
+        review_data = current_review.data[0]
+        new_interval = calculate_new_interval(review_data['interval'], correct)
+        next_review_date = datetime.now() + timedelta(days=new_interval)
+
+        # Update review count, success count, and next review date
+        update_data = {
+            "next_review": next_review_date.strftime('%Y-%m-%d'),
+            "interval": new_interval,
+            "review_count": review_data['review_count'] + 1,
+            "success_count": review_data['success_count'] + (1 if correct else 0)
+        }
+
+        result = client.table("review_schedule").update(update_data).eq("id", review_data['id']).execute()
+        return result
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def calculate_new_interval(current_interval, correct):
+    # Implement your logic for the next interval
+    # For example, increase the interval if the answer was correct, and decrease if it was incorrect
+    if correct:
+        return current_interval * 2  # Example: double the interval if correct
     else:
-        card = query.data[0]
-        return card['sentence_id'], card['text'], card['translation'], card['image_url']
+        return max(1, current_interval // 2)  # Example: halve the interval if incorrect, but not less than 1 day
+    
+def get_next_card_due_for_user(client, user_id):
+    try:
+        today = datetime.now().strftime('%Y-%m-%d')
+        next_card_query = (
+            client.table("review_schedule")
+            .select("card_id")
+            .eq("user_id", user_id)
+            .lte("next_review", today)
+            .order("next_review")  # Default order is ascending
+            .limit(1)
+            .execute()
+        )
 
+        if next_card_query.data:
+            return next_card_query.data[0]['card_id']
+        else:
+            return None
+    except Exception as e:
+        print("Error fetching next card due:", str(e))
+        return None
+# Fetch user ID
+user_email = "example@example.com"
+user_id = get_user_id_by_email(client, user_email)
 
-def save_answers(sentence_id: int, answers: List[Tuple[int, bool]]):
-    """
-    Saves answers for a sentence in the database.
-    It updates the 'seen_today' column and the 'next_review_date' in the 'sentences' table and inserts new rows in the 'answers' table for each token_id and answer in the given pairs.
+# Fetch the next card due for review
+next_card_due_id = get_next_card_due_for_user(client, user_id)
 
-    :param sentence_id: ID of the sentence for which the answers are saved. (int)
-    :param answers: List of pairs containing token_id and answer for each token in the sentence. (list of tuples)
-
-    :return: None
-    """
-    next_review_date = calculate_next_review_date(sentence_id, answers, client)
-    next_review_date_utc = next_review_date.replace(tzinfo=pytz.UTC)
-    client.table('sentences').update({'seen_today': True, 'next_review_date': next_review_date_utc.isoformat()}).eq('sentence_id', sentence_id).execute()
-
-    # Insert new rows in the 'answers' table for each token_id and answer in the given pairs
-    for token_id, answer in answers:
-        answer_data = {'sentence_id': sentence_id, 'token_id': token_id, 'answer': answer}
-        client.table('answers').insert([answer_data]).execute()
-
-        # Update the familiarity values for all instances of the same token lemma
-        token = client.table('tokens').select('*').eq('token_id', token_id).execute().data[0]
-        lemma = token['lemma']
-        new_familiarity = update_familiarity(token['familiarity'], answer)
-        client.table('tokens').update({'familiarity': new_familiarity}).eq('lemma', lemma).execute()
-
-def update_familiarity(current_familiarity: float, answer: bool) -> float:
-    """
-    Update the familiarity value based on the user's answer.
-
-    :param current_familiarity: The current familiarity value. (float)
-    :param answer: The user's answer (True if correct, False if incorrect). (bool)
-
-    :return: The updated familiarity value. (float)
-    """
-
-    # Update the familiarity value based on the user's answer
-    if answer:
-        new_familiarity = min(current_familiarity + 0.1, 1.0)
-    else:
-        new_familiarity = max(current_familiarity - 0.1, 0.0)
-
-    return new_familiarity
-
-class EmptyTokensListError(Exception):
-    pass
-
-def calculate_next_review_date(sentence_id: int, answers: List[Tuple[int, bool]], client, interval_factor: float = 1.0) -> datetime:
-
-    """
-    Calculate the next review date for a sentence based on the user's answers.
-
-    :param sentence_id: ID of the sentence for which the answers are provided. (int)
-    :param answers: List of pairs containing token_id and answer for each token in the sentence. (list of tuples)
-    :param client: The database client used to retrieve and update data.
-    :param interval_factor: The factor to adjust the review interval. (float, optional)
-
-    :return: The calculated next review date. (datetime)
-    """
-    # Retrieve the tokens data
-    tokens = client.table('tokens').select('*').eq('sentence_id', sentence_id).execute().data
-
-    # If the tokens list is empty, log a debug message and raise a custom exception
-    #The `tokens` list could be empty if there's an issue with inserting tokens into the database, or if there are no valid tokens
-    # (e.g., only punctuation or proper nouns) in a sentence when the `include_proper_nouns` flag is set to `False`.
-    if not tokens:
-        print(f"Debug: No tokens found for sentence ID {sentence_id}. Please check the database and sentence generation.")
-        raise EmptyTokensListError(f"No tokens found for sentence ID {sentence_id}")
-
-    # Calculate the average familiarity of the tokens in the sentence
-    avg_familiarity = sum(token['familiarity'] for token in tokens) / len(tokens)
-
-    # Update the familiarity values for each token based on the user's answers
-    for token_id, answer in answers:
-        token = [t for t in tokens if t['token_id'] == token_id][0]
-        token['familiarity'] = update_familiarity(token['familiarity'], answer)
-        client.table('tokens').update(token).eq('token_id', token_id).execute()
-
-    # SRS Algorithm (SM-2-like): Calculate the next review date based on the user's selected tokens
-    selected_tokens_familiarity = [token['familiarity'] for token_id, answer in answers if answer for token in (t for t in tokens if t['token_id'] == token_id)]
-
-    if selected_tokens_familiarity:
-        avg_selected_familiarity = sum(selected_tokens_familiarity) / len(selected_tokens_familiarity)
-        # Weighted average of the average familiarity and the average selected familiarity
-        weighted_familiarity = 0.6 * avg_familiarity + 0.4 * avg_selected_familiarity
-        review_interval = timedelta(days=round((1 - weighted_familiarity) * 10))
-    else:
-        review_interval = timedelta(days=1)  # Default review interval for new sentences
-
-    # Calculate the adjusted review interval using the interval factor and familiarity
-    adjusted_review_interval = timedelta(days=int(review_interval.total_seconds() / 86400 * interval_factor))
-
-    # Return the calculated next review date
-    return datetime.utcnow() + adjusted_review_interval
-
-def add_user(name, db_client):
-    # Check if user exists
- # Gets or creates a logger
-
-    result = db_client.table('users').select('*').eq('name', name).execute()
-    if result.data:
-        user_id = result.data[0]['user_id']
-        return user_id
-    else:
-        # User doesn't exist, create a new one
-        try:
-            result = db_client.from_('users').insert({
-                'name': name,
-                'target_language': 'en'  # Set a default target language
-            }).execute()
-            user_id = result.data[0]['user_id']
-            return user_id
-        except:
-            print("Couldn't add a user for some reason")
-            return -1
+if next_card_due_id is not None:
+    print(f"Next card due for user {user_id} is card ID {next_card_due_id}")
+    # Here you can proceed to show this flashcard to the user for review
+else:
+    print("No cards due for review or error occurred.")
