@@ -1,86 +1,67 @@
-# test_flashcards.py
+import unittest
 
-import pytest
-from flashcards.flashcards import (advance_date, add_flashcard_with_timestamp, review_flashcard,
-                                   get_due_flashcards, delete_all_flashcards, simulated_date)
-from datetime import timedelta
-import sqlite3
+import sys
+import os
+# Add the parent directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# or
-from flashcards import db_path  # If importing from another package
+# Now you can import from newfrontend.py
+from newfrontend import get_next_flashcard, save_review, delete_all_flashcards, flashcard_statistics
 
+from unittest.mock import patch
+import datetime
 
+class TestLanguageLearningApp(unittest.TestCase):
 
-@pytest.fixture
-def setup_database():
-    delete_all_flashcards()
-    # Add test data to the database
-    add_flashcard_with_timestamp("Capital of France", "Paris")
-    add_flashcard_with_timestamp("Largest ocean on Earth", "Pacific")
-    # The fixture returns the ids of the new flashcards
-    return [1, 2]
+    def setUp(self):
+        # This method will run before each test
+        # Setup your test environment here
+        pass
 
-def test_advance_date():
-    original_date = simulated_date
-    advance_date(1)
-    assert simulated_date == original_date + timedelta(days=1), "Date should advance by 1 day"
+    @patch('your_module.client')
+    def test_get_next_flashcard(self, mock_client):
+        # Setup mock response
+        mock_client.table.return_value.select.return_value.filter.return_value.order.return_value.limit.return_value.execute.return_value.data = [
+            {'id': 1, 'front': 'Hello', 'back': 'Hola'}
+        ]
 
-def test_add_flashcard_with_timestamp(setup_database):
-    # setup_database is used to reset the environment before running the test
-    card_ids = setup_database
-    for card_id in card_ids:
-        # Test that each card has the correct created_at date
-        # (You would need to implement a function to retrieve a flashcard by id)
-        flashcard = get_flashcard_by_id(card_id)
-        assert flashcard['created_at'] == simulated_date, "Flashcard timestamp should match simulated date"
+        # Call the function
+        result = get_next_flashcard(1)
 
-def test_review_flashcard_yes(setup_database):
-    card_id = setup_database[0]
-    review_flashcard(card_id, 'yes')
-    # (You would need to implement a function to retrieve review information by flashcard id)
-    review_info = get_review_info_by_card_id(card_id)
-    assert review_info['interval'] > 1, "Interval should increase after a positive review"
+        # Check the result
+        self.assertEqual(result, (1, 'Hello', 'Hola'))
 
-def test_review_flashcard_no(setup_database):
-    card_id = setup_database[0]
-    review_flashcard(card_id, 'no')
-    review_info = get_review_info_by_card_id(card_id)
-    assert review_info['interval'] == 1, "Interval should reset after a negative review"
+    @patch('your_module.client')
+    def test_save_review(self, mock_client):
+        # Setup mock responses and expectations
+        mock_client.table.return_value.select.return_value.eq.return_value.execute.return_value.data = [
+            {'id': 1, 'review_count': 5, 'success_count': 3, 'next_review': datetime.datetime.utcnow(), 'last_reviewed': datetime.datetime.utcnow(), 'interval': 1}
+        ]
 
-def test_get_due_flashcards(setup_database):
-    due_flashcards = get_due_flashcards()
-    assert len(due_flashcards) == len(setup_database), "All flashcards should initially be due"
+        # Call the function
+        save_review(1, 1, True)
 
-def test_delete_all_flashcards(setup_database):
-    delete_all_flashcards()
-    due_flashcards = get_due_flashcards()
-    assert len(due_flashcards) == 0, "There should be no flashcards after deletion"
+        # Assertions to check if the update method was called correctly can be added here
 
-# Helper function to retrieve a flashcard by its ID
-def get_flashcard_by_id(card_id):
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    cursor.execute('SELECT id, front, back, created_at FROM flashcards WHERE id = ?', (card_id,))
-    flashcard = cursor.fetchone()
-    conn.close()
-    # Returning as a dictionary for easier access in assertions
-    return {
-        'id': flashcard[0],
-        'front': flashcard[1],
-        'back': flashcard[2],
-        'created_at': flashcard[3]
-    } if flashcard else None
+    @patch('your_module.client')
+    def test_delete_all_flashcards(self, mock_client):
+        # Call the function
+        delete_all_flashcards(1)
 
-# Helper function to retrieve review information by flashcard ID
-def get_review_info_by_card_id(card_id):
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    cursor.execute('SELECT card_id, next_review, interval FROM review_schedule WHERE card_id = ?', (card_id,))
-    review_info = cursor.fetchone()
-    conn.close()
-    # Returning as a dictionary for easier access in assertions
-    return {
-        'card_id': review_info[0],
-        'next_review': review_info[1],
-        'interval': review_info[2]
-    } if review_info else None
+        # Assertions to check if the delete method was called correctly can be added here
+
+    @patch('your_module.client')
+    def test_flashcard_statistics(self, mock_client):
+        # Setup mock responses
+        mock_client.table.return_value.select.return_value.eq.return_value.execute.return_value.count = 10
+
+        # Call the function
+        stats = flashcard_statistics(1)
+
+        # Check the result
+        self.assertIn('Total flashcards: 10', stats)
+
+    # You can add more test cases as needed
+
+if __name__ == '__main__':
+    unittest.main()
