@@ -149,6 +149,7 @@ def pipeline(path: Path) -> dict[str, dict]:
 
 
 def main():
+    """Write word info JSON file based on the given vtt file to the same directory."""
     assert len(
         sys.argv) == 2, "Enter the path to the vtt file as a command line argument."
     assert sys.argv[1].endswith('.vtt')
