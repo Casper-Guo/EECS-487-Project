@@ -9,13 +9,45 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
-def tokenize_sentence(sentence):
-    return re.findall(r'\b\w+\b', sentence.lower())
+import spacy
 
-def initialize_token_difficulties(sentence):
+# Load the Spanish tokenizer
+nlp = spacy.load('es_core_news_sm')
+
+def tokenize_sentence(sentence):
+    # Process the sentence using the spaCy model
+    doc = nlp(sentence)
+    # Extract the lemmas of the tokens from the doc
+    lemmas = [token.lemma_ for token in doc]
+    return lemmas
+
+def initialize_token_difficulties(sentence, corpus_stats):
     tokens = tokenize_sentence(sentence)
-    initial_difficulty = 100  # A default starter score for token difficulty
-    return {token: {"difficulty": initial_difficulty, "encounters": 0, "fails": 0} for token in tokens}
+    initial_difficulty = 100  # Default starter score for token difficulty
+    token_data = {}
+    for token in tokens:
+        # token_stats = corpus_stats.get(token, {})
+        token_data[token] = {
+            "difficulty": initial_difficulty,
+            "encounters": 0,
+            "fails": 0,
+            ##fix these
+            "tfidf": 0.5,
+            "word_importance": 0.5
+        }
+    return token_data
+
+def calculate_sentence_score(tokens):
+    tfidf_scores = [data['tfidf'] for token, data in tokens.items()]
+    average_tfidf = sum(tfidf_scores) / len(tfidf_scores) if tfidf_scores else 0
+
+    d_s_scores = [data['word_importance'] ** 4 for token, data in tokens.items()]
+    d_s_score = (sum(d_s_scores) ** (1/4)) if d_s_scores else 0
+
+    # You can adjust these weights
+    alpha, beta = 0.5, 0.5
+    return alpha * average_tfidf + beta * d_s_score
+
 
 def add_user(client, email, password_hash):
     # Correctly formatted query to check if the user exists
@@ -76,10 +108,10 @@ def get_user_id_by_email(client, email):
         print("Error fetching user ID:", str(e))
         return None
 
-def add_sentence(client, user_id, front, back):
+def add_sentence(client, user_id, front, back, corpus_stats):
     try:
         # Tokenize and initialize difficulties only for the back of the card
-        back_tokens_difficulty = initialize_token_difficulties(back)
+        back_tokens_difficulty = initialize_token_difficulties(back, corpus_stats)
         
         flashcard_data = {
             "user_id": user_id,
@@ -88,6 +120,11 @@ def add_sentence(client, user_id, front, back):
             "tokens": back_tokens_difficulty,  # Store just the back tokens
             "created_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         }
+
+        sentence_score = calculate_sentence_score(back_tokens_difficulty)
+        # Add sentence score to flashcard_data
+        flashcard_data['sentence_score'] = sentence_score
+
         flashcard_result = client.table("flashcards").insert(flashcard_data).execute()
 
 
@@ -156,6 +193,10 @@ def answer_flashcard(client, review_schedule_id, correct, known_tokens, unknown_
     
         # Update the back tokens with the known and unknown feedback from the user
         updated_tokens_back = update_token_difficulties(flashcard_tokens_back, known_tokens, unknown_tokens)
+
+        updated_sentence_score = calculate_sentence_score(updated_tokens_back)
+        # Update the flashcard with the new sentence score
+        client.table("flashcards").update({"sentence_score": updated_sentence_score}).eq("id", card_id).execute()
     
         # Save updated back tokens to the database
         update_flashcard = client.table("flashcards").update({"tokens": updated_tokens_back}).eq("id", card_id).execute()
@@ -182,10 +223,32 @@ def answer_flashcard(client, review_schedule_id, correct, known_tokens, unknown_
 def calculate_card_difficulty(tokens):
     return sum([data['difficulty'] for token, data in tokens.items()]) / len(tokens) if tokens else 0
 
+
+def select_next_card(cards):
+    # Assuming cards is a list of flashcards with 'sentence_score' and 'token_familiarity'
+    # Sort cards by a combination of their score and token familiarity
+    sorted_cards = sorted(cards, key=lambda x: (x['sentence_score'], x['token_familiarity']), reverse=True)
+    return sorted_cards[0] if sorted_cards else None
+
 def calculate_new_interval(current_interval, correct, tokens):
-    base_interval = current_interval * 2 if correct else max(1, current_interval // 2)
-    card_difficulty = calculate_card_difficulty(tokens)
-    return adjust_interval_by_difficulty(base_interval, card_difficulty)
+
+    if current_interval == 0:  # Assuming 0 means it's a new card
+        base_interval = 1  # Start with 1 day for new cards
+    else:
+        base_interval = current_interval * (2 if correct else 0.5) 
+    # Your existing interval calculation
+    token_familiarity = sum([t['encounters'] for t in tokens.values()]) / len(tokens)
+    sentence_score = calculate_sentence_score(tokens)
+    # Integrate token familiarity and sentence score into interval calculation
+    # Adjust these weights as needed
+    gamma, delta = 0.3, 0.2
+    adjusted_interval = base_interval * (1 + gamma * token_familiarity + delta * sentence_score)
+    return max(1, int(adjusted_interval))
+
+def manage_intra_day_reviews(user_sessions):
+    # Logic to distribute reviews based on user performance and card difficulty
+    # Adjust the review schedule dynamically within the day
+    pass
 
 def adjust_interval_by_difficulty(interval, card_difficulty):
     # For easy cards, extend the interval, and for difficult cards, shorten it.
@@ -240,8 +303,8 @@ def test_get_user_id(client, email):
 def test_add_and_get_flashcards(client, user_id, email):
     print("Testing: Add and Retrieve Flashcards")
     front = "Example sentence"
-    back = "Translation"
-    add_result = add_sentence(client, user_id, front, back)
+    back = "traduccion"
+    add_result = add_sentence(client, user_id, front, back, corpus_stats="hello")
     print("Add Flashcard Result:", add_result)
 
     due_flashcards = get_due_flashcards(client, email)
@@ -282,7 +345,7 @@ def run_all_tests(client):
     card_id = due_flashcards[0]['id']
 
     # Example tokens known or unknown to the user
-    known_tokens = ["translation"]
+    known_tokens = ["traduccion"]
     unknown_tokens = []
 
     # Test answering a flashcard
