@@ -27,7 +27,7 @@ def make_json(idx: int, line: str) -> dict:
 
 
 def main():
-    with open('CREA_original.txt', 'r') as f:
+    with open('CREA_top_5000.txt', 'r') as f:
         lines = f.readlines()[1:]
 
     processed_lines = [make_json(idx, line)
