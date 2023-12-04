@@ -212,48 +212,6 @@ def get_next_card_due_for_user(client, user_id):
     except Exception as e:
         print("Error fetching next card due:", str(e))
         return None
-    
-# #####
-
-# clear_result = clear_all_tables(client)
-# print(clear_result)
-
-# # Example usage
-# new_user_email = "example@example.com"
-# new_user_password_hash = "hashed_password_here"
-# user_add_result = add_user(client, new_user_email, new_user_password_hash)
-
-# # Fetch the user ID for the newly created user
-# user_id = get_user_id_by_email(client, new_user_email)
-
-# if user_id is not None:
-#     print(f"User ID for {new_user_email} is {user_id}")
-#     # Now you can use this user_id for further operations like adding sentences
-#     # ...
-# else:
-#     print("User not found or error occurred.")
-
-    
-# # Example usage
-# front = "Example sentence"
-# back = "Meaning or translation of the sentence"
-
-# add_sentence_result = add_sentence(client, user_id, front, back)
-# print(add_sentence_result)
-
-# # Fetch user ID
-# user_email = "example@example.com"
-# user_id = get_user_id_by_email(client, user_email)
-
-# # Fetch the next card due for review
-# next_card_due_id = get_next_card_due_for_user(client, user_id)
-
-# if next_card_due_id is not None:
-#     print(f"Next card due for user {user_id} is card ID {next_card_due_id}")
-#     # Here you can proceed to show this flashcard to the user for review
-# else:
-#     print("No cards due for review or error occurred.")
-
 
 # -- Test Functions --
 
@@ -334,3 +292,45 @@ def run_all_tests(client):
 
 if __name__ == "__main__":
     run_all_tests(client)
+
+
+# #####
+
+# clear_result = clear_all_tables(client)
+# print(clear_result)
+
+# # Example usage
+# new_user_email = "example@example.com"
+# new_user_password_hash = "hashed_password_here"
+# user_add_result = add_user(client, new_user_email, new_user_password_hash)
+
+# # Fetch the user ID for the newly created user
+# user_id = get_user_id_by_email(client, new_user_email)
+
+# if user_id is not None:
+#     print(f"User ID for {new_user_email} is {user_id}")
+#     # Now you can use this user_id for further operations like adding sentences
+#     # ...
+# else:
+#     print("User not found or error occurred.")
+
+    
+# # Example usage
+# front = "Example sentence"
+# back = "Meaning or translation of the sentence"
+
+# add_sentence_result = add_sentence(client, user_id, front, back)
+# print(add_sentence_result)
+
+# # Fetch user ID
+# user_email = "example@example.com"
+# user_id = get_user_id_by_email(client, user_email)
+
+# # Fetch the next card due for review
+# next_card_due_id = get_next_card_due_for_user(client, user_id)
+
+# if next_card_due_id is not None:
+#     print(f"Next card due for user {user_id} is card ID {next_card_due_id}")
+#     # Here you can proceed to show this flashcard to the user for review
+# else:
+#     print("No cards due for review or error occurred.")
