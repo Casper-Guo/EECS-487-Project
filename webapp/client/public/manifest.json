@@ -1,0 +1,61 @@
+{
+  "name": "Maestro",
+  "description": "Maestro: Language AI",
+  "start_url": "/",
+  "lang": "en-US",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "orientation": "landscape-primary",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico"
+    },
+    {
+      "src": "maestro.svg"
+    },
+    {
+      "src": "maestro192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "maestro512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "mstile-150x150.png",
+      "sizes": "150x105",
+      "type": "image/png"
+    },
+    {
+      "src": "safari-pinned-tab.svg"
+    }
+  ]
+}

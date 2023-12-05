@@ -1,0 +1,20 @@
+version: '3.9'
+name: "Maestro"
+services:
+  server:
+    build: ./server
+    ports:
+    - "8000:8000"
+    volumes:
+    - ./server:/server
+    environment:
+      FLASK_DEBUG: 1
+  client:
+    build: ./client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/client
+      - /client/node_modules
+    depends_on:
+      - server

@@ -3,7 +3,7 @@ from datetime import datetime
 from typing import Tuple, List
 from datetime import datetime, timedelta
 
-from db import client
+from webapp.server.ml.db import client
 import logging
 import re
 from collections import defaultdict
@@ -11,6 +11,9 @@ from datetime import datetime
 from pathlib import Path
 import webvtt
 
+import logging
+# Rest of your script...
+logging.getLogger('requests').setLevel(logging.WARNING)
 
 import spacy
 NEW_CARDS_DAILY_LIMIT = 20
@@ -70,7 +73,7 @@ def initialize_token_difficulties(sentence, corpus_stats):
     for token in tokens:
         stats = corpus_stats.get(token, {})
         token_data[token] = {
-            "difficulty": stats.get("word_importance", 100),
+            "difficulty": stats.get("word_importance", 1),
             "encounters": 0,
             "fails": 0,
             "tfidf": stats.get("tfidf", 0.5),
@@ -169,7 +172,16 @@ def get_user_id_by_email(client, email):
     except Exception as e:
         print("Error fetching user ID:", str(e))
         return None
+    
+def formatted_print(*args):
+    formatted_string = "{:<20} {:<50} {:<20} {:<20}".format(*args)
+    print(formatted_string)
 
+def advance_simulated_day(days=1):
+    global current_simulated_date
+    current_simulated_date += timedelta(days=days)
+    print("\n--- New Day: {} ---\n".format(current_simulated_date.strftime('%Y-%m-%d')))
+    
 def add_sentence(client, user_id, front, back, corpus_stats):
     try:
         # Tokenize and initialize difficulties only for the back of the card
@@ -214,28 +226,31 @@ def add_sentence(client, user_id, front, back, corpus_stats):
         }
         review_result = client.table("review_schedule").insert(review_data).execute()
 
+        formatted_print("New Card", front, "Interval: 1", "First-time view")
+
         return review_result
     except Exception as e:
         return {"error": str(e)}
     
 def update_token_difficulties(tokens, known_tokens, unknown_tokens):
-    known_difficulty_adjustment = -5
-    unknown_difficulty_adjustment = 10
+    known_difficulty_adjustment = -0.10  # 10% decrease
+    unknown_difficulty_adjustment = 0.20  # 20% increase
 
     for token in known_tokens:
         if token in tokens:
-            tokens[token]["difficulty"] += known_difficulty_adjustment
-            tokens[token]["difficulty"] = max(0, tokens[token]["difficulty"])  # Avoid negative difficulty
+            tokens[token]["difficulty"] *= (1 + known_difficulty_adjustment)
+            tokens[token]["difficulty"] = max(0, min(tokens[token]["difficulty"], 1))  # Keep within 0 to 1
             tokens[token]["encounters"] += 1
 
     for token in unknown_tokens:
         if token in tokens:
-            tokens[token]["difficulty"] += unknown_difficulty_adjustment
-            tokens[token]["difficulty"] = max(0, tokens[token]["difficulty"])
+            tokens[token]["difficulty"] *= (1 + unknown_difficulty_adjustment)
+            tokens[token]["difficulty"] = max(0, min(tokens[token]["difficulty"], 1))  # Keep within 0 to 1
             tokens[token]["encounters"] += 1
             tokens[token]["fails"] += 1
 
     return tokens
+
 def answer_flashcard(client, review_schedule_id, known_tokens, unknown_tokens):
     try:
         # Fetch review schedule by the review schedule id
@@ -253,6 +268,9 @@ def answer_flashcard(client, review_schedule_id, known_tokens, unknown_tokens):
 
         flashcard_data = current_flashcard.data[0]
         flashcard_tokens_back = flashcard_data["tokens"]  # Assume tokens are only for the back
+
+        old_difficulty = calculate_card_difficulty(flashcard_tokens_back)
+        logging.warning(f"Before Update - Card ID: {card_id}, Difficulty: {old_difficulty}, Review Count: {review_data['review_count']}")
     
         # Update the back tokens with the known and unknown feedback from the user
         updated_tokens_back = update_token_difficulties(flashcard_tokens_back, known_tokens, unknown_tokens)
@@ -271,6 +289,8 @@ def answer_flashcard(client, review_schedule_id, known_tokens, unknown_tokens):
         # Set the next review date
         next_review_date = current_simulated_date if needs_immediate_review else (current_simulated_date + timedelta(days=new_interval))
 
+        formatted_print("Reviewing Card", "Review Schedule ID: " + str(review_schedule_id), "Known Tokens: " + str(len(known_tokens)), "Next Interval: " + str(new_interval))
+
         # Update the flashcard with new token difficulties
         update_flashcard = client.table("flashcards").update({"tokens": updated_tokens_back}).eq("id", card_id).execute()
 
@@ -286,7 +306,10 @@ def answer_flashcard(client, review_schedule_id, known_tokens, unknown_tokens):
             "review_count": review_data['review_count'] + 1,
             "success_count": review_data['success_count'] + (0 if needs_immediate_review else 1)
         }
-    
+
+        new_difficulty = calculate_card_difficulty(updated_tokens_back)
+        logging.info(f"After Update - Card ID: {card_id}, New Difficulty: {new_difficulty}, New Review Count: {review_data['review_count'] + 1}")
+
         # Update review schedule entry with new data
         result = client.table("review_schedule").update(update_data).eq("id", review_schedule_id).execute()
         return result
@@ -294,19 +317,18 @@ def answer_flashcard(client, review_schedule_id, known_tokens, unknown_tokens):
         return {"error": str(e)}
 
     
-def classify_tokens(tokens_with_metadata, difficulty_threshold=50, encounter_threshold=3):
+def classify_tokens(tokens_with_metadata, encounter_threshold=3):
     known_tokens = []
     unknown_tokens = []
 
     for token, data in tokens_with_metadata.items():
-        if data['difficulty'] <= difficulty_threshold and data['encounters'] >= encounter_threshold:
+#I gotta fix this later
+        if data['encounters'] >= encounter_threshold:
             known_tokens.append(token)
         else:
             unknown_tokens.append(token)
 
     return known_tokens, unknown_tokens
-
-
 
 def calculate_card_difficulty(tokens):
     return sum([data['difficulty'] for token, data in tokens.items()]) / len(tokens) if tokens else 0
@@ -362,6 +384,11 @@ def get_next_card_due_for_user(client, user_id):
 # -- Run Tests --
 
 if __name__ == "__main__":
+
+    logging.getLogger('httpx').setLevel(logging.WARNING)
+    logger = logging.getLogger('httpx')
+    logger.setLevel(logging.WARNING)
+    logger.propagate = False
 
     clear_result = clear_all_tables(client)
 
