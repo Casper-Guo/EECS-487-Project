@@ -8,11 +8,54 @@ import logging
 import re
 from collections import defaultdict
 from datetime import datetime
+from pathlib import Path
+import webvtt
+
 
 import spacy
+NEW_CARDS_DAILY_LIMIT = 20
 
 # Load the Spanish tokenizer
 nlp = spacy.load('es_core_news_sm')
+vtt_file_path = Path('test-corpus/whiplash/Whiplash.es.vtt')
+
+
+import json
+import os
+
+current_simulated_date = datetime.now()
+
+def advance_simulated_day(days=1):
+    global current_simulated_date
+    current_simulated_date += timedelta(days=days)
+
+
+def extract_caption_text(file_path: Path) -> list[str]:
+    """Extract all caption lines from a vtt file."""
+    return [line.text for line in webvtt.read(str(file_path))]
+
+
+def clean_caption(caption: str) -> str:
+    """Clean up peculiarities in vtt files."""
+    caption = caption.replace('\n', ' ').replace('-', '')
+    caption = caption.lower().strip()
+    return caption
+
+
+def load_corpus_stats(json_folder_path):
+    corpus_stats = {}
+    for filename in os.listdir(json_folder_path):
+        if filename.endswith('.json'):
+            file_path = os.path.join(json_folder_path, filename)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                corpus_stats.update(data)
+    return corpus_stats
+
+json_folder_path = 'test-corpus/whiplash'
+corpus_stats = load_corpus_stats(json_folder_path)
+
+#Using Corpus Stats in SRS Logic: Ensure that wherever you initialize token difficulties (like in the add_sentence function), you pass the corpus_stats dictionary to it.
 
 def tokenize_sentence(sentence):
     # Process the sentence using the spaCy model
@@ -23,19 +66,23 @@ def tokenize_sentence(sentence):
 
 def initialize_token_difficulties(sentence, corpus_stats):
     tokens = tokenize_sentence(sentence)
-    initial_difficulty = 100  # Default starter score for token difficulty
     token_data = {}
     for token in tokens:
-        # token_stats = corpus_stats.get(token, {})
+        stats = corpus_stats.get(token, {})
         token_data[token] = {
-            "difficulty": initial_difficulty,
+            "difficulty": stats.get("word_importance", 100),
             "encounters": 0,
             "fails": 0,
-            ##fix these
-            "tfidf": 0.5,
-            "word_importance": 0.5
+            "tfidf": stats.get("tfidf", 0.5),
+            "word_importance": stats.get("word_importance", 0.5)
         }
     return token_data
+
+def generate_tokens_with_metadata(sentence, corpus_stats):
+    tokens = tokenize_sentence(sentence)
+    tokens_with_metadata = initialize_token_difficulties(sentence, corpus_stats)
+    return tokens_with_metadata
+
 
 def calculate_sentence_score(tokens):
     tfidf_scores = [data['tfidf'] for token, data in tokens.items()]
@@ -59,7 +106,7 @@ def add_user(client, email, password_hash):
     data = {
         "email": email,
         "password_hash": password_hash,
-        "created_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        "created_at": current_simulated_date.strftime('%Y-%m-%d %H:%M:%S')
     }
 
     result = client.table("users").insert(data).execute()
@@ -72,7 +119,7 @@ def get_due_flashcards(client, email):
         return {"error": "User not found."}
 
     user_id = user.data[0]['id']
-    today = datetime.now().strftime('%Y-%m-%d')
+    today = current_simulated_date.strftime('%Y-%m-%d')
 
     query = (
         client.table("review_schedule")
@@ -85,7 +132,22 @@ def get_due_flashcards(client, email):
     if 'error' in query:
         return query
 
-    return query.data
+    review_cards = [card for card in query.data if card['last_reviewed'] != None]
+
+
+    # Assuming `query.data` contains the fetched data with the flashcards included
+    new_cards_raw = [card for card in query.data if card['last_reviewed'] == None]
+
+    # Since the flashcards are nested within the query results, we'll need to sort them by 'sentence_score' in a slightly different way.
+    # We'll extract the sentence_score and sort the flashcards accordingly.
+    sorted_new_cards = sorted(new_cards_raw, key=lambda card: card['flashcards']['sentence_score'] if 'flashcards' in card and 'sentence_score' in card['flashcards'] else 0, reverse=True)
+
+    # Apply the daily new card limit after sorting
+    sorted_new_cards = sorted_new_cards[:NEW_CARDS_DAILY_LIMIT]
+
+    # Here, we assume `review_cards` is already defined elsewhere, similar to `new_cards`
+    # Return the sorted new cards along with the review cards
+    return sorted_new_cards + review_cards
 
 def clear_all_tables(client):
     try:
@@ -118,8 +180,10 @@ def add_sentence(client, user_id, front, back, corpus_stats):
             "front": front,
             "back": back,
             "tokens": back_tokens_difficulty,  # Store just the back tokens
-            "created_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            "created_at": current_simulated_date.strftime('%Y-%m-%d %H:%M:%S'),
+            "status": "new"
         }
+
 
         sentence_score = calculate_sentence_score(back_tokens_difficulty)
         # Add sentence score to flashcard_data
@@ -142,7 +206,7 @@ def add_sentence(client, user_id, front, back, corpus_stats):
         review_data = {
             "user_id": user_id,
             "card_id": new_card_id,
-            "next_review": datetime.now().strftime('%Y-%m-%d'),
+            "next_review": current_simulated_date.strftime('%Y-%m-%d'),
             "interval": 1,  # Starting interval, adjust as needed
             "last_reviewed": None,
             "review_count": 0,
@@ -172,14 +236,13 @@ def update_token_difficulties(tokens, known_tokens, unknown_tokens):
             tokens[token]["fails"] += 1
 
     return tokens
-
-def answer_flashcard(client, review_schedule_id, correct, known_tokens, unknown_tokens):
+def answer_flashcard(client, review_schedule_id, known_tokens, unknown_tokens):
     try:
         # Fetch review schedule by the review schedule id
         current_review = client.table("review_schedule").select("*").eq("id", review_schedule_id).execute()
         if not current_review.data:
             return {"error": "Review schedule not found."}
-    
+
         review_data = current_review.data[0]
         card_id = review_data['card_id']  # Use the actual card_id from the review_schedule table
     
@@ -187,37 +250,62 @@ def answer_flashcard(client, review_schedule_id, correct, known_tokens, unknown_
         current_flashcard = client.table("flashcards").select("*").eq("id", card_id).execute()
         if not current_flashcard.data:
             return {"error": "Flashcard not found."}
-    
+
         flashcard_data = current_flashcard.data[0]
         flashcard_tokens_back = flashcard_data["tokens"]  # Assume tokens are only for the back
     
         # Update the back tokens with the known and unknown feedback from the user
         updated_tokens_back = update_token_difficulties(flashcard_tokens_back, known_tokens, unknown_tokens)
 
-        updated_sentence_score = calculate_sentence_score(updated_tokens_back)
-        # Update the flashcard with the new sentence score
-        client.table("flashcards").update({"sentence_score": updated_sentence_score}).eq("id", card_id).execute()
-    
-        # Save updated back tokens to the database
+        # Determine the need for immediate re-review
+        total_tokens = len(updated_tokens_back)
+        unknown_count = len(unknown_tokens)
+        unknown_ratio = unknown_count / total_tokens if total_tokens else 0
+
+        immediate_review_threshold = 0.5  # Threshold for determining immediate re-review
+        needs_immediate_review = unknown_ratio >= immediate_review_threshold
+
+        # Calculate new interval
+        new_interval = calculate_new_interval(review_data['interval'], updated_tokens_back, needs_immediate_review)
+
+        # Set the next review date
+        next_review_date = current_simulated_date if needs_immediate_review else (current_simulated_date + timedelta(days=new_interval))
+
+        # Update the flashcard with new token difficulties
         update_flashcard = client.table("flashcards").update({"tokens": updated_tokens_back}).eq("id", card_id).execute()
+
+        # Change the status from 'new' to 'learning' if applicable
+        if flashcard_data['status'] == 'new':
+            flashcard_data['status'] = 'learning'
+            client.table("flashcards").update({"status": flashcard_data['status']}).eq("id", card_id).execute()
     
-        # Calculate the new interval based on updated back token difficulties
-        new_interval = calculate_new_interval(review_data['interval'], correct, updated_tokens_back)
-        next_review_date = datetime.now() + timedelta(days=new_interval)
-    
-        # Update review count, success count, and next review date
+        # Update review count and next review date in the review schedule
         update_data = {
             "next_review": next_review_date.strftime('%Y-%m-%d'),
             "interval": new_interval,
             "review_count": review_data['review_count'] + 1,
-            "success_count": review_data['success_count'] + (1 if correct else 0)
+            "success_count": review_data['success_count'] + (0 if needs_immediate_review else 1)
         }
     
-        # Update review schedule entry with new interval and counts
+        # Update review schedule entry with new data
         result = client.table("review_schedule").update(update_data).eq("id", review_schedule_id).execute()
         return result
     except Exception as e:
         return {"error": str(e)}
+
+    
+def classify_tokens(tokens_with_metadata, difficulty_threshold=50, encounter_threshold=3):
+    known_tokens = []
+    unknown_tokens = []
+
+    for token, data in tokens_with_metadata.items():
+        if data['difficulty'] <= difficulty_threshold and data['encounters'] >= encounter_threshold:
+            known_tokens.append(token)
+        else:
+            unknown_tokens.append(token)
+
+    return known_tokens, unknown_tokens
+
 
 
 def calculate_card_difficulty(tokens):
@@ -230,17 +318,12 @@ def select_next_card(cards):
     sorted_cards = sorted(cards, key=lambda x: (x['sentence_score'], x['token_familiarity']), reverse=True)
     return sorted_cards[0] if sorted_cards else None
 
-def calculate_new_interval(current_interval, correct, tokens):
-
-    if current_interval == 0:  # Assuming 0 means it's a new card
-        base_interval = 1  # Start with 1 day for new cards
-    else:
-        base_interval = current_interval * (2 if correct else 0.5) 
-    # Your existing interval calculation
+def calculate_new_interval(current_interval, tokens, needs_immediate_review):
+    base_interval = current_interval * (0.5 if needs_immediate_review else 2)
     token_familiarity = sum([t['encounters'] for t in tokens.values()]) / len(tokens)
     sentence_score = calculate_sentence_score(tokens)
-    # Integrate token familiarity and sentence score into interval calculation
-    # Adjust these weights as needed
+
+    # Adjust weights as needed
     gamma, delta = 0.3, 0.2
     adjusted_interval = base_interval * (1 + gamma * token_familiarity + delta * sentence_score)
     return max(1, int(adjusted_interval))
@@ -257,7 +340,7 @@ def adjust_interval_by_difficulty(interval, card_difficulty):
     
 def get_next_card_due_for_user(client, user_id):
     try:
-        today = datetime.now().strftime('%Y-%m-%d')
+        today = current_simulated_date.strftime('%Y-%m-%d')
         next_card_query = (
             client.table("review_schedule")
             .select("card_id")
@@ -276,88 +359,117 @@ def get_next_card_due_for_user(client, user_id):
         print("Error fetching next card due:", str(e))
         return None
 
-# -- Test Functions --
-
-from datetime import datetime
-
-def test_add_user(client):
-    print("Testing: Add User")
-    new_user_email = "newuser@example.com"
-    new_user_password_hash = "hashed_password"
-    result = add_user(client, new_user_email, new_user_password_hash)
-    if 'error' in result:
-        print(f"Error: {result['error']}")
-    else:
-        print("Successfully added new user:", result)
-    return result
-
-def test_get_user_id(client, email):
-    print(f"Testing: Get User ID for {email}")
-    user_id = get_user_id_by_email(client, email)
-    if user_id:
-        print(f"User ID for {email}: {user_id}")
-    else:
-        print(f"User not found for {email}")
-    return user_id
-
-def test_add_and_get_flashcards(client, user_id, email):
-    print("Testing: Add and Retrieve Flashcards")
-    front = "Example sentence"
-    back = "traduccion"
-    add_result = add_sentence(client, user_id, front, back, corpus_stats="hello")
-    print("Add Flashcard Result:", add_result)
-
-    due_flashcards = get_due_flashcards(client, email)
-    print("Due Flashcards:", due_flashcards)
-    return due_flashcards
-
-def test_answer_flashcard(client, user_id, card_id, known_tokens, unknown_tokens):
-    print("Testing: Answer Flashcard")
-    correct = True  # Assume correct for the test scenario
-    result = answer_flashcard(client, card_id, correct, known_tokens, unknown_tokens)
-    print("Answer Flashcard Result:", result)
-
-def run_all_tests(client):
-    # Clear tables before running tests
-    print("Clearing all tables")
-    clear_all_tables(client)
-
-    # Test adding a user
-    user_result = test_add_user(client)
-    if 'error' in user_result:
-        print("Error adding user, skipping further tests.")
-        return
-
-    email = "newuser@example.com"  # Assuming this is the email used in test_add_user
-    user_id = test_get_user_id(client, email)
-
-    # Test adding and retrieving flashcards
-    if not user_id:
-        print("User ID not found, skipping flashcard tests.")
-        return
-
-    due_flashcards = test_add_and_get_flashcards(client, user_id, email)
-    if 'error' in due_flashcards or not due_flashcards[0]:
-        print("No due flashcards found or error, skipping answer flashcard test.")
-        return
-
-    # Assume the first due flashcard is the one to be answered
-    card_id = due_flashcards[0]['id']
-
-    # Example tokens known or unknown to the user
-    known_tokens = ["traduccion"]
-    unknown_tokens = []
-
-    # Test answering a flashcard
-    test_answer_flashcard(client, user_id, card_id, known_tokens, unknown_tokens)
-
 # -- Run Tests --
 
 if __name__ == "__main__":
-    run_all_tests(client)
 
+    clear_result = clear_all_tables(client)
+
+    captions = extract_caption_text(vtt_file_path)
+    cleaned_captions = [clean_caption(caption) for caption in captions]
+
+    dummy_email = "dummy_user@example.com"
+    dummy_password_hash = "hashed_dummy_password"  # In a real scenario, this should be a properly hashed password
+    add_user(client, dummy_email, dummy_password_hash)
+
+    dummy_user_id = get_user_id_by_email(client, dummy_email)
+
+    for i in range(min(50, len(cleaned_captions))):  # This ensures it doesn't go beyond the list length
+        caption = cleaned_captions[i]
+        front = caption  # or some transformation of caption
+        back = caption   # or some transformation of caption
+        add_sentence(client, dummy_user_id, front, back, corpus_stats)
+
+    import random
+
+    for day in range(1, 31):  # Simulate for 30 days, for example
+        due_cards = get_due_flashcards(client, dummy_email)
+        # Example usage within your main loop
+        # Assuming 'front' contains the text for the front of the card and tokens are stored for each card
+        for card in due_cards:
+            front = card['flashcards']['front']
+            tokens = card['flashcards']['tokens']# You would need to align this with your flashcard data structure
+            known_tokens, unknown_tokens = classify_tokens(tokens)
+
+            # Use these lists in your answer_flashcard function call
+            answer_flashcard(client, card['id'], known_tokens, unknown_tokens)
 
 # #####
+
+# -- Test Functions --
+
+# from datetime import datetime
+
+# def test_add_user(client):
+#     print("Testing: Add User")
+#     new_user_email = "newuser@example.com"
+#     new_user_password_hash = "hashed_password"
+#     result = add_user(client, new_user_email, new_user_password_hash)
+#     if 'error' in result:
+#         print(f"Error: {result['error']}")
+#     else:
+#         print("Successfully added new user:", result)
+#     return result
+
+# def test_get_user_id(client, email):
+#     print(f"Testing: Get User ID for {email}")
+#     user_id = get_user_id_by_email(client, email)
+#     if user_id:
+#         print(f"User ID for {email}: {user_id}")
+#     else:
+#         print(f"User not found for {email}")
+#     return user_id
+
+# def test_add_and_get_flashcards(client, user_id, email):
+#     print("Testing: Add and Retrieve Flashcards")
+#     front = "Example sentence"
+#     back = "traduccion"
+#     add_result = add_sentence(client, user_id, front, back, corpus_stats)
+#     print("Add Flashcard Result:", add_result)
+
+#     due_flashcards = get_due_flashcards(client, email)
+#     print("Due Flashcards:", due_flashcards)
+#     return due_flashcards
+
+# def test_answer_flashcard(client, user_id, card_id, known_tokens, unknown_tokens):
+#     print("Testing: Answer Flashcard")
+#     correct = True  # Assume correct for the test scenario
+#     result = answer_flashcard(client, card_id, correct, known_tokens, unknown_tokens)
+#     print("Answer Flashcard Result:", result)
+
+# def run_all_tests(client):
+#     # Clear tables before running tests
+#     print("Clearing all tables")
+#     clear_all_tables(client)
+
+#     # Test adding a user
+#     user_result = test_add_user(client)
+#     if 'error' in user_result:
+#         print("Error adding user, skipping further tests.")
+#         return
+
+#     email = "newuser@example.com"  # Assuming this is the email used in test_add_user
+#     user_id = test_get_user_id(client, email)
+
+#     # Test adding and retrieving flashcards
+#     if not user_id:
+#         print("User ID not found, skipping flashcard tests.")
+#         return
+
+#     due_flashcards = test_add_and_get_flashcards(client, user_id, email)
+#     if 'error' in due_flashcards or not due_flashcards[0]:
+#         print("No due flashcards found or error, skipping answer flashcard test.")
+#         return
+
+#     # Assume the first due flashcard is the one to be answered
+#     card_id = due_flashcards[0]['id']
+
+#     # Example tokens known or unknown to the user
+#     known_tokens = ["traduccion"]
+#     unknown_tokens = []
+
+#     # Test answering a flashcard
+#     test_answer_flashcard(client, user_id, card_id, known_tokens, unknown_tokens)
 
 # clear_result = clear_all_tables(client)
 # print(clear_result)
